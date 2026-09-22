@@ -1,0 +1,125 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3032,        116]
+NotebookOptionsPosition[      2036,         81]
+NotebookOutlinePosition[      2696,        103]
+CellTagsIndexPosition[      2653,        100]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], " ", "===",
+    " ", 
+   SubscriptBox["varX", "varN"]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ FontSize->18],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"n", "=", "6778"}], "\[IndentingNewLine]"}]], "Input"],
+
+Cell[BoxData["6778"], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"theCountOfThisUniverse", "=", " ", "5"}]], "Input"],
+
+Cell[BoxData["5"], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "theCountOfThisUniverse", "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "n", "]"}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"clasicFundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPointx\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], " ", 
+     "*", " ", 
+     SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"]}], 
+    " ", ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "theCountOfThisUniverse"}], "}"}]}], "]"}]}]], "Input",\
+
+ FontSize->36],
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "theCountOfThisUniverse"], 
+  SubsuperscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n", 
+   "2"]}]], "Output",
+ FontSize->36]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input"]
+},
+WindowSize->{1672, 941},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (May 21, 2008)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData[All]]}, WindowSize -> {611, 750}, 
+  WindowMargins -> {{64, Automatic}, {Automatic, 80}}, Visible -> False, 
+  FrontEndVersion -> "6.0 for Microsoft Windows (32-bit) (May 21, 2008)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[568, 21, 238, 7, 91, "Input"],
+Cell[CellGroupData[{
+Cell[831, 32, 88, 2, 52, "Input"],
+Cell[922, 36, 31, 0, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[990, 41, 75, 1, 31, "Input"],
+Cell[1068, 44, 28, 0, 30, "Output"]
+}, Open  ]],
+Cell[1111, 47, 79, 1, 31, "Input"],
+Cell[1193, 50, 58, 1, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1276, 55, 470, 13, 213, "Input"],
+Cell[1749, 70, 223, 6, 120, "Output"]
+}, Open  ]],
+Cell[1987, 79, 45, 0, 52, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

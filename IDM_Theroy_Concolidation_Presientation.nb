@@ -1,0 +1,514 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     13931,        505]
+NotebookOptionsPosition[     11029,        409]
+NotebookOutlinePosition[     11373,        424]
+CellTagsIndexPosition[     11330,        421]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["The Fundimental Element", "Subtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+
+Cell[BoxData[{
+ RowBox[{
+  SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "1"], " ", 
+  "=", "I"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "2"], " ", 
+  "=", "I"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "3"], " ", 
+  "=", "I"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "4"], " ", 
+  "=", "I"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "5"], " ", 
+  "=", "I"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"...", " ", 
+     SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "5"]}], 
+    " ", "=", "I"}], " ", "*)"}]}]}], "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ FontSize->24]
+}, Open  ]],
+
+Cell[BoxData["\[ImaginaryI]"], "Output",
+ FontSize->24],
+
+Cell[BoxData["\[ImaginaryI]"], "Output",
+ FontSize->24],
+
+Cell[BoxData["\[ImaginaryI]"], "Output",
+ FontSize->24],
+
+Cell[BoxData["\[ImaginaryI]"], "Output",
+ FontSize->24],
+
+Cell[BoxData["\[ImaginaryI]"], "Output",
+ FontSize->24],
+
+Cell[CellGroupData[{
+
+Cell["TheFundimental Observable", "Subtitle"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"I", " ", "+", " ", 
+   RowBox[{"Conjugate", "[", "I", "]"}]}], "\[IndentingNewLine]"}]], "Input",
+ FontSize->24],
+
+Cell[BoxData["0"], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+
+The Fundimental Form\
+\>", "Subtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+
+Cell["Clasic (Cartan) Form", "Subsubtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "clasicFundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], " ",
+       "*", " ", 
+      SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"]}], 
+     " ", ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "theReflectionCountOfThisUniverse"}], "}"}]}], 
+    "]"}]}], " ", "\[IndentingNewLine]"}]], "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ FontSize->24]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", "n", "theReflectionCountOfThisUniverse"], 
+  SubsuperscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n", 
+   "2"]}]], "Output",
+ FontSize->24],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "theReflectionCountOfThisUniverse"], 
+  SubsuperscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n", 
+   "2"]}]], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "theReflectionCountOfThisUniverse"], 
+  SubsuperscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n", 
+   "2"]}]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["IDM Form", "Subsubtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], " ", 
+     "*", " ", 
+     RowBox[{"Conjugate", "[", 
+      SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], 
+      "]"}]}], " ", ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "theReflectionCountOfThisUniverse"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.},
+ FontSize->24]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", "n", "theReflectionCountOfThisUniverse"], 
+  RowBox[{
+   RowBox[{"Conjugate", "[", 
+    SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], "]"}],
+    " ", 
+   SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", 
+    "n"]}]}]], "Output",
+ FontSize->24],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "theReflectionCountOfThisUniverse"], 
+  RowBox[{
+   RowBox[{"Conjugate", "[", 
+    SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], "]"}],
+    " ", 
+   SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", 
+    "n"]}]}]], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "theReflectionCountOfThisUniverse"], 
+  RowBox[{
+   RowBox[{"Conjugate", "[", 
+    SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", "n"], "]"}],
+    " ", 
+   SubscriptBox["pointsInNdimensionalEuclideanSpaceNumbersX1Xn", 
+    "n"]}]}]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{"I", " ", "*", " ", 
+     RowBox[{"Conjugate", "[", "I", "]"}]}], " ", ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "2"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{"I", " ", "*", " ", 
+      RowBox[{"Conjugate", "[", "I", "]"}]}], " ", ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "2"}], "}"}]}], "]"}], " ", "//", 
+   "N"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Conjugate", "[", "I", "]"}], " ", "*", " ", "I"}], " ", ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "2"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Conjugate", "[", "I", "]"}], " ", "*", " ", "I"}], " ", ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "2"}], "}"}]}], "]"}], " ", "//", 
+   "N"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{"I", " ", "*", " ", "I"}], " ", ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "2"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{"I", " ", "*", " ", "I"}], " ", ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "2"}], "}"}]}], "]"}], " ", "//", 
+   "N"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{"Sum", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Conjugate", "[", "I", "]"}], " ", "*", " ", 
+     RowBox[{"Conjugate", "[", "I", "]"}]}], " ", ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "2"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\
+\[CapitalPhi]", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Conjugate", "[", "I", "]"}], " ", "*", " ", 
+      RowBox[{"Conjugate", "[", "I", "]"}]}], " ", ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "2"}], "}"}]}], "]"}], " ", "//", "N"}]}]}], "Input",
+ FontSize->24],
+
+Cell[BoxData["2"], "Output"],
+
+Cell[BoxData["2.`"], "Output"],
+
+Cell[BoxData["2"], "Output"],
+
+Cell[BoxData["2.`"], "Output"],
+
+Cell[BoxData[
+ RowBox[{"-", "2"}]], "Output"],
+
+Cell[BoxData[
+ RowBox[{"-", "2.`"}]], "Output"],
+
+Cell[BoxData[
+ RowBox[{"-", "2"}]], "Output"],
+
+Cell[BoxData[
+ RowBox[{"-", "2.`"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"I", "/", "2"}]], "Input"],
+
+Cell[BoxData[
+ FractionBox["\[ImaginaryI]", "2"]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Sqrt", "[", "I", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Sqrt", "[", "I", "]"}], "//", "N"}]}], "Input"],
+
+Cell[BoxData[
+ SuperscriptBox[
+  RowBox[{"(", 
+   RowBox[{"-", "1"}], ")"}], 
+  RowBox[{"1", "/", "4"}]]], "Output"],
+
+Cell[BoxData[
+ RowBox[{"0.7071067811865476`", "\[InvisibleSpace]", "+", 
+  RowBox[{"0.7071067811865475`", " ", "\[ImaginaryI]"}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Sqrt", "[", "2", "]"}], "//", "N"}]], "Input"],
+
+Cell[BoxData["1.4142135623730951`"], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"0.7071067811865476`", " ", "*", " ", "2"}]], "Input"],
+
+Cell[BoxData["1.4142135623730951`"], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"-", "1"}], ")"}], 
+   RowBox[{"1", "/", "4"}]], " ", "+", " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"-", "1"}], ")"}], 
+   RowBox[{"1", "/", "4"}]]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"-", "1"}], ")"}], 
+    RowBox[{"1", "/", "4"}]], " ", "+", " ", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"-", "1"}], ")"}], 
+    RowBox[{"1", "/", "4"}]]}], "//", "N"}]}], "Input"],
+
+Cell[BoxData[
+ RowBox[{"2", " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"-", "1"}], ")"}], 
+   RowBox[{"1", "/", "4"}]]}]], "Output"],
+
+Cell[BoxData[
+ RowBox[{"1.4142135623730951`", "\[InvisibleSpace]", "+", 
+  RowBox[{"1.414213562373095`", " ", "\[ImaginaryI]"}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"I", "/", "2"}], ")"}], "^", "2"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox["1", "4"]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"Conjugate", "[", "I", "]"}], ")"}], " ", "-", " ", 
+  RowBox[{"(", "I", ")"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"Conjugate", "[", "I", "]"}], ")"}], " ", "+", " ", 
+  RowBox[{"(", "I", ")"}]}]}], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "2"}], " ", "\[ImaginaryI]"}]], "Output"],
+
+Cell[BoxData["0"], "Output"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1672, 941},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (February 18, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 96, 1, 74, "Subtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+Cell[666, 25, 894, 23, 324, "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}]
+}, Open  ]],
+Cell[1575, 51, 55, 1, 61, "Output"],
+Cell[1633, 54, 55, 1, 61, "Output"],
+Cell[1691, 57, 55, 1, 61, "Output"],
+Cell[1749, 60, 55, 1, 61, "Output"],
+Cell[1807, 63, 55, 1, 61, "Output"],
+Cell[CellGroupData[{
+Cell[1887, 68, 45, 0, 74, "Subtitle"],
+Cell[CellGroupData[{
+Cell[1957, 72, 147, 4, 116, "Input"],
+Cell[2107, 78, 43, 1, 61, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2187, 84, 102, 4, 117, "Subtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+Cell[2292, 90, 111, 2, 56, "Subsubtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+Cell[2406, 94, 588, 16, 272, "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}]
+}, Open  ]],
+Cell[3009, 113, 209, 5, 188, "Output"],
+Cell[CellGroupData[{
+Cell[3243, 122, 232, 6, 190, "Input"],
+Cell[3478, 130, 233, 6, 188, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3748, 141, 99, 2, 56, "Subsubtitle",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}],
+Cell[3850, 145, 573, 15, 220, "Input",
+ CellGroupingRules->{GroupTogetherGrouping, 10000.}]
+}, Open  ]],
+Cell[4438, 163, 333, 9, 235, "Output"],
+Cell[CellGroupData[{
+Cell[4796, 176, 356, 10, 241, "Input"],
+Cell[5155, 188, 357, 10, 235, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5549, 203, 2720, 72, 844, "Input"],
+Cell[8272, 277, 28, 0, 42, "Output"],
+Cell[8303, 279, 30, 0, 42, "Output"],
+Cell[8336, 281, 28, 0, 42, "Output"],
+Cell[8367, 283, 30, 0, 42, "Output"],
+Cell[8400, 285, 45, 1, 42, "Output"],
+Cell[8448, 288, 47, 1, 42, "Output"],
+Cell[8498, 291, 45, 1, 42, "Output"],
+Cell[8546, 294, 47, 1, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8630, 300, 49, 1, 43, "Input"],
+Cell[8682, 303, 60, 1, 63, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8779, 309, 141, 3, 71, "Input"],
+Cell[8923, 314, 116, 4, 45, "Output"],
+Cell[9042, 320, 142, 2, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9221, 327, 81, 2, 43, "Input"],
+Cell[9305, 331, 46, 0, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9388, 336, 77, 1, 43, "Input"],
+Cell[9468, 339, 46, 0, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9551, 344, 521, 19, 74, "Input"],
+Cell[10075, 365, 142, 5, 45, "Output"],
+Cell[10220, 372, 141, 2, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10398, 379, 96, 3, 43, "Input"],
+Cell[10497, 384, 66, 2, 62, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10600, 391, 287, 8, 71, "Input"],
+Cell[10890, 401, 80, 2, 42, "Output"],
+Cell[10973, 405, 28, 0, 42, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

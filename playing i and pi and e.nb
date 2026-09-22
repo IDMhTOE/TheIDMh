@@ -1,0 +1,704 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     24189,        695]
+NotebookOptionsPosition[     22040,        622]
+NotebookOutlinePosition[     22379,        637]
+CellTagsIndexPosition[     22336,        634]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Sqrt", "[", "I", "]"}], "!"}]], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"-", "1"}], ")"}], 
+   RowBox[{"1", "/", "4"}]], "!"}]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Sqrt", "[", "I", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Sqrt", "[", "I", "]"}], "//", "N"}]}], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ SuperscriptBox[
+  RowBox[{"(", 
+   RowBox[{"-", "1"}], ")"}], 
+  RowBox[{"1", "/", "4"}]]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{"0.7071067811865476`", "\[InvisibleSpace]", "+", 
+  RowBox[{"0.7071067811865475`", " ", "\[ImaginaryI]"}]}]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "I"}]], "Input",
+ FontSize->24],
+
+Cell[BoxData["\[ImaginaryI]"], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\t", 
+  RowBox[{"I", "\[IndentingNewLine]", 
+   RowBox[{"I", "                ", "I"}], "\[IndentingNewLine]", "\t", 
+   "I"}]}]], "Input",
+ FontSize->24],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"1", "\[Rule]", "4"}], ",", 
+    RowBox[{"1", "\[Rule]", "6"}], ",", 
+    RowBox[{"1", "\[Rule]", "8"}], ",", 
+    RowBox[{"2", "\[Rule]", "6"}], ",", 
+    RowBox[{"3", "\[Rule]", "8"}], ",", 
+    RowBox[{"4", "\[Rule]", "5"}], ",", 
+    RowBox[{"7", "\[Rule]", "8"}]}], "}"}], "]"}]], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{1.0116282977781401`, 1.618605276445024}, {0., 
+    0.809302638222512}, {0.809302638222512, 0.809302638222512}, {
+    2.0232565955562802`, 0.809302638222512}, {0.809302638222512, 0.}, {
+    1.618605276445024, 0.}, {0., 0.}, {2.427907914667536, 0.}}, {
+     {RGBColor[0.5, 0., 0.], 
+      LineBox[{{1, 2}, {1, 3}, {1, 4}, {2, 7}, {5, 3}, {6, 4}, {8, 4}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        "1"],
+       Annotation[#, 1, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[2],
+        "4"],
+       Annotation[#, 4, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[3],
+        "6"],
+       Annotation[#, 6, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[4],
+        "8"],
+       Annotation[#, 8, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[5],
+        "2"],
+       Annotation[#, 2, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[6],
+        "3"],
+       Annotation[#, 3, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[7],
+        "5"],
+       Annotation[#, 5, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[8],
+        "7"],
+       Annotation[#, 7, "Tooltip"]& ]}}],
+   Annotation[#, 
+    VertexCoordinateRules -> {{1.0116282977781401`, 1.618605276445024}, {0., 
+     0.809302638222512}, {0.809302638222512, 0.809302638222512}, {
+     2.0232565955562802`, 0.809302638222512}, {0.809302638222512, 0.}, {
+     1.618605276445024, 0.}, {0., 0.}, {2.427907914667536, 0.}}]& ],
+  AspectRatio->0.816496580927726,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{"I", "\[Rule]", "I"}], "}"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{"I", "\[Rule]", 
+    RowBox[{"-", "I"}]}], "}"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"-", "I"}], "\[Rule]", 
+    RowBox[{"-", "I"}]}], "}"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"-", "I"}], "\[Rule]", "I"}], "}"}], "]"}]}], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 
+    0.}, {-0.000012336751904272076`, -0.0007853174182831578}, \
+{-0.0022374235161203137`, -0.014769333569679476`}, {-0.008293860013135161, \
+-0.02756868104478261}, {-0.017695851093552106`, -0.038156706477060466`}, \
+{-0.029689250046877454`, -0.04568412969999519}, {-0.04331204975239314, \
+-0.049547165684063185`}, {-0.05747154660107027, -0.04943595496917929}, \
+{-0.07103198776360471, -0.04535941792062399}, {-0.08290567149596173, \
+-0.03764453921420463}, {-0.09214019320090122, -0.02691013994308546}, \
+{-0.09799483911819976, -0.014017241121879189`}, {-0.1, \
+-1.2246467991473533`*^-17}, {-0.09799483911819976, 
+    0.014017241121879163`}, {-0.09214019320090122, 
+    0.026910139943085436`}, {-0.08290567149596174, 
+    0.03764453921420462}, {-0.07103198776360473, 
+    0.04535941792062398}, {-0.05747154660107028, 
+    0.049435954969179276`}, {-0.04331204975239315, 
+    0.049547165684063185`}, {-0.029689250046877464`, 
+    0.045684129699995184`}, {-0.017695851093552116`, 
+    0.03815670647706046}, {-0.008293860013135167, 
+    0.02756868104478261}, {-0.002237423516120319, 
+    0.014769333569679475`}, {-0.000012336751904272076`, 
+    0.0007853174182831578}}, {
+     {RGBColor[0.5, 0., 0.], 
+      LineBox[{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+        19, 20, 21, 22, 23, 24, 1}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        "\[ImaginaryI]"],
+       Annotation[#, 
+        Complex[0, 1], "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 0.}}]& ],
+  AspectRatio->0.9954613572014053,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 1.}, {0., 0.}}, {
+     {RGBColor[0.5, 0., 0.], LineBox[{{1, 2}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        "\[ImaginaryI]"],
+       Annotation[#, 
+        Complex[0, 1], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[2],
+        RowBox[{"-", "\[ImaginaryI]"}]],
+       Annotation[#, 
+        Complex[0, -1], "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 1.}, {0., 0.}}]& ],
+  AspectRatio->Automatic,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 
+    0.}, {-0.000012336751904272076`, -0.0007853174182831578}, \
+{-0.0022374235161203137`, -0.014769333569679476`}, {-0.008293860013135161, \
+-0.02756868104478261}, {-0.017695851093552106`, -0.038156706477060466`}, \
+{-0.029689250046877454`, -0.04568412969999519}, {-0.04331204975239314, \
+-0.049547165684063185`}, {-0.05747154660107027, -0.04943595496917929}, \
+{-0.07103198776360471, -0.04535941792062399}, {-0.08290567149596173, \
+-0.03764453921420463}, {-0.09214019320090122, -0.02691013994308546}, \
+{-0.09799483911819976, -0.014017241121879189`}, {-0.1, \
+-1.2246467991473533`*^-17}, {-0.09799483911819976, 
+    0.014017241121879163`}, {-0.09214019320090122, 
+    0.026910139943085436`}, {-0.08290567149596174, 
+    0.03764453921420462}, {-0.07103198776360473, 
+    0.04535941792062398}, {-0.05747154660107028, 
+    0.049435954969179276`}, {-0.04331204975239315, 
+    0.049547165684063185`}, {-0.029689250046877464`, 
+    0.045684129699995184`}, {-0.017695851093552116`, 
+    0.03815670647706046}, {-0.008293860013135167, 
+    0.02756868104478261}, {-0.002237423516120319, 
+    0.014769333569679475`}, {-0.000012336751904272076`, 
+    0.0007853174182831578}}, {
+     {RGBColor[0.5, 0., 0.], 
+      LineBox[{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+        19, 20, 21, 22, 23, 24, 1}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        RowBox[{"-", "\[ImaginaryI]"}]],
+       Annotation[#, 
+        Complex[0, -1], "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 0.}}]& ],
+  AspectRatio->0.9954613572014053,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 1.}, {0., 0.}}, {
+     {RGBColor[0.5, 0., 0.], LineBox[{{1, 2}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        RowBox[{"-", "\[ImaginaryI]"}]],
+       Annotation[#, 
+        Complex[0, -1], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[2],
+        "\[ImaginaryI]"],
+       Annotation[#, 
+        Complex[0, 1], "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 1.}, {0., 0.}}]& ],
+  AspectRatio->Automatic,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24,
+ ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJzzTSzJSM1NLMlMTlRwL0osyMhMLlZwyy8CCjEzMjAwZjAwMGxVYACx/wOZ
+UOI/EP3PBBEgkaHN3gymmCva22+DeNMzMi4xbEKReiortR3E+87BsRVNakln
+dO99A4VlCfPnP0KRYmrYX1+/eVRgVGBUYFRgVGBUYFRgVGBUgCoCDMx7Up2n
+g3hYWmsvpcU2g3hYWmse27e/3O/gcAy5tTYYmqDUYjMwAgBnR6b2\
+\>"]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", "\[Rule]", "1"}], "}"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", "\[Rule]", 
+    RowBox[{"-", "1"}]}], "}"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"-", "1"}], "\[Rule]", 
+    RowBox[{"-", "1"}]}], "}"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TreePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"-", "1"}], "\[Rule]", "1"}], "}"}], "]"}]}], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 
+    0.}, {-0.000012336751904272076`, -0.0007853174182831578}, \
+{-0.0022374235161203137`, -0.014769333569679476`}, {-0.008293860013135161, \
+-0.02756868104478261}, {-0.017695851093552106`, -0.038156706477060466`}, \
+{-0.029689250046877454`, -0.04568412969999519}, {-0.04331204975239314, \
+-0.049547165684063185`}, {-0.05747154660107027, -0.04943595496917929}, \
+{-0.07103198776360471, -0.04535941792062399}, {-0.08290567149596173, \
+-0.03764453921420463}, {-0.09214019320090122, -0.02691013994308546}, \
+{-0.09799483911819976, -0.014017241121879189`}, {-0.1, \
+-1.2246467991473533`*^-17}, {-0.09799483911819976, 
+    0.014017241121879163`}, {-0.09214019320090122, 
+    0.026910139943085436`}, {-0.08290567149596174, 
+    0.03764453921420462}, {-0.07103198776360473, 
+    0.04535941792062398}, {-0.05747154660107028, 
+    0.049435954969179276`}, {-0.04331204975239315, 
+    0.049547165684063185`}, {-0.029689250046877464`, 
+    0.045684129699995184`}, {-0.017695851093552116`, 
+    0.03815670647706046}, {-0.008293860013135167, 
+    0.02756868104478261}, {-0.002237423516120319, 
+    0.014769333569679475`}, {-0.000012336751904272076`, 
+    0.0007853174182831578}}, {
+     {RGBColor[0.5, 0., 0.], 
+      LineBox[{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+        19, 20, 21, 22, 23, 24, 1}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        "1"],
+       Annotation[#, 1, "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 0.}}]& ],
+  AspectRatio->0.9954613572014053,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24,
+ ImageCache->GraphicsData["CompressedBitmap", "\<\
+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
+/NtA1tlm0P/p/tM3fv/3v0OffwP3eG4p\
+\>"]],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 1.}, {0., 0.}}, {
+     {RGBColor[0.5, 0., 0.], LineBox[{{1, 2}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        "1"],
+       Annotation[#, 1, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[2],
+        RowBox[{"-", "1"}]],
+       Annotation[#, -1, "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 1.}, {0., 0.}}]& ],
+  AspectRatio->Automatic,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 
+    0.}, {-0.000012336751904272076`, -0.0007853174182831578}, \
+{-0.0022374235161203137`, -0.014769333569679476`}, {-0.008293860013135161, \
+-0.02756868104478261}, {-0.017695851093552106`, -0.038156706477060466`}, \
+{-0.029689250046877454`, -0.04568412969999519}, {-0.04331204975239314, \
+-0.049547165684063185`}, {-0.05747154660107027, -0.04943595496917929}, \
+{-0.07103198776360471, -0.04535941792062399}, {-0.08290567149596173, \
+-0.03764453921420463}, {-0.09214019320090122, -0.02691013994308546}, \
+{-0.09799483911819976, -0.014017241121879189`}, {-0.1, \
+-1.2246467991473533`*^-17}, {-0.09799483911819976, 
+    0.014017241121879163`}, {-0.09214019320090122, 
+    0.026910139943085436`}, {-0.08290567149596174, 
+    0.03764453921420462}, {-0.07103198776360473, 
+    0.04535941792062398}, {-0.05747154660107028, 
+    0.049435954969179276`}, {-0.04331204975239315, 
+    0.049547165684063185`}, {-0.029689250046877464`, 
+    0.045684129699995184`}, {-0.017695851093552116`, 
+    0.03815670647706046}, {-0.008293860013135167, 
+    0.02756868104478261}, {-0.002237423516120319, 
+    0.014769333569679475`}, {-0.000012336751904272076`, 
+    0.0007853174182831578}}, {
+     {RGBColor[0.5, 0., 0.], 
+      LineBox[{{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+        19, 20, 21, 22, 23, 24, 1}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        RowBox[{"-", "1"}]],
+       Annotation[#, -1, "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 0.}}]& ],
+  AspectRatio->0.9954613572014053,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[{{0., 1.}, {0., 0.}}, {
+     {RGBColor[0.5, 0., 0.], LineBox[{{1, 2}}]}, 
+     {RGBColor[0, 0, 0.7], 
+      TagBox[
+       TooltipBox[PointBox[1],
+        RowBox[{"-", "1"}]],
+       Annotation[#, -1, "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[PointBox[2],
+        "1"],
+       Annotation[#, 1, "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> {{0., 1.}, {0., 0.}}]& ],
+  AspectRatio->Automatic,
+  FrameTicks->None,
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Emperical", " ", "reason", " ", "and", " ", "place", " ", "to", " ", 
+    "put", " ", "the", " ", "IDM", " ", 
+    RowBox[{"(", "QM", ")"}], " ", "negitive", " ", "vector", " ", "the", " ",
+     "Away", " ", "Vector", " ", "the", " ", "One", " ", "Vector"}], " ", 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"E", "^", " ", 
+    RowBox[{"(", 
+     RowBox[{"I", " ", "Pi"}], ")"}]}], "\[IndentingNewLine]", 
+   RowBox[{"-", 
+    RowBox[{"E", "^", " ", 
+     RowBox[{"(", 
+      RowBox[{"I", " ", "Pi"}], ")"}]}]}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}]}]], "Input",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{"-", "1"}]], "Output",
+ FontSize->24],
+
+Cell[BoxData["1"], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ FontSize->24],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"2", "/", "Pi"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"2", "/", "Pi"}], " ", "//", "N"}], "\[IndentingNewLine]", 
+ RowBox[{"Pi", "/", "2"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Pi", "/", "2"}], " ", "//", "N"}], "\[IndentingNewLine]"}], "Input",\
+
+ FontSize->24],
+
+Cell[BoxData[
+ FractionBox["2", "\[Pi]"]], "Output",
+ FontSize->24],
+
+Cell[BoxData["0.6366197723675814`"], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ FractionBox["\[Pi]", "2"]], "Output",
+ FontSize->24],
+
+Cell[BoxData["1.5707963267948966`"], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"I", "/", "Pi"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"I", "/", "Pi"}], " ", "//", "N"}], "\[IndentingNewLine]", 
+ RowBox[{"Pi", "/", "I"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Pi", "/", "I"}], " ", "//", "N"}], "\[IndentingNewLine]"}], "Input",\
+
+ FontSize->24],
+
+Cell[BoxData[
+ FractionBox["\[ImaginaryI]", "\[Pi]"]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{"0.`", "\[InvisibleSpace]", "+", 
+  RowBox[{"0.3183098861837907`", " ", "\[ImaginaryI]"}]}]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]"}]], "Output",
+ FontSize->24],
+
+Cell[BoxData[
+ RowBox[{"0.`", "\[InvisibleSpace]", "-", 
+  RowBox[{"3.141592653589793`", " ", "\[ImaginaryI]"}]}]], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"0.6366197723675814", "/", "2"}]], "Input",
+ FontSize->24],
+
+Cell[BoxData["0.3183098861837907`"], "Output",
+ FontSize->24]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1.5707963267948966", " ", "*", " ", "2"}]], "Input",
+ FontSize->24],
+
+Cell[BoxData["3.141592653589793`"], "Output",
+ FontSize->24]
+}, Open  ]]
+},
+WindowSize->{1672, 941},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (May 21, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 90, 3, 42, "Input"],
+Cell[683, 28, 152, 6, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[872, 39, 156, 4, 77, "Input"],
+Cell[1031, 45, 131, 5, 44, "Output"],
+Cell[1165, 52, 157, 3, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1359, 60, 100, 2, 111, "Input"],
+Cell[1462, 64, 55, 1, 42, "Output"]
+}, Open  ]],
+Cell[1532, 68, 224, 5, 179, "Input"],
+Cell[CellGroupData[{
+Cell[1781, 77, 390, 11, 42, "Input"],
+Cell[2174, 90, 1672, 50, 309, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3883, 145, 556, 17, 145, "Input"],
+Cell[4442, 164, 1731, 37, 373, "Output"],
+Cell[6176, 203, 631, 20, 196, "Output"],
+Cell[6810, 225, 1747, 37, 373, "Output"],
+Cell[8560, 264, 925, 26, 196, 616, 19, "CachedBoxData", "BoxData", "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9522, 295, 556, 17, 92, "Input"],
+Cell[10081, 314, 6364, 114, 373, 1683, 35, "CachedBoxData", "BoxData", \
+"Output"],
+Cell[16448, 430, 565, 18, 196, "Output"],
+Cell[17016, 450, 1714, 36, 373, "Output"],
+Cell[18733, 488, 565, 18, 196, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19335, 511, 690, 18, 172, "Input"],
+Cell[20028, 531, 60, 2, 42, "Output"],
+Cell[20091, 535, 43, 1, 35, "Output"]
+}, Open  ]],
+Cell[20149, 539, 95, 2, 111, "Input"],
+Cell[CellGroupData[{
+Cell[20269, 545, 303, 8, 179, "Input"],
+Cell[20575, 555, 67, 2, 62, "Output"],
+Cell[20645, 559, 61, 1, 42, "Output"],
+Cell[20709, 562, 67, 2, 58, "Output"],
+Cell[20779, 566, 61, 1, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20877, 572, 303, 8, 179, "Input"],
+Cell[21183, 582, 79, 2, 63, "Output"],
+Cell[21265, 586, 141, 3, 42, "Output"],
+Cell[21409, 591, 99, 3, 42, "Output"],
+Cell[21511, 596, 140, 3, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21688, 604, 81, 2, 42, "Input"],
+Cell[21772, 608, 61, 1, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21870, 614, 91, 2, 42, "Input"],
+Cell[21964, 618, 60, 1, 42, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
