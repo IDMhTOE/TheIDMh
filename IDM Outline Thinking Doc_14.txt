@@ -1,0 +1,713 @@
+﻿IDM Model Blocks & Math Blocks
+
+
+
+50/50 Existence - NonExistence 
+{Existence, Shaddow-Hole-Wave} Pair 
+Complex Plaines’
+Section 5+ of The Power Of Alpha
+The Theory of Spinor
+Quaternion 
+Octonions
+Grassmannian 
+
+
+
+
+
+
+
+
+Assumption
+Salient one
+Spin is quantified
+At 90’ (180,270,360???)
+Value is I =[I]= complex 0+i
+Granularity is in units i  n * I = purely complex number integer.
+
+Spin quantification
+Breaks down into four volumes - values, planes, layers
+Each at 90’ increments or phase shifts
+Phase matters absolutely
+Two of the phases are degenerate
+Leaving three unique values
+Quaternion math followed
+http://mathworld.wolfram.com/Quaternion.html
+Other HyperComplex number system
+
+Two of the phases are degenerate
+Leaving three unique values
+For the degenerate case 
+Pick either and the other becomes the reflection
+Must appear as a pair
+As each nNeeds reference
+Self is the reference
+Can not see nothing
+Has to see the reference as the minimum
+That is self
+Thus mirror
+Can we map to
+
+Only some relevant
+Maps to
+ 
+How 
+Pic from http://www2.slac.stanford.edu/vvc/theory/fundamental.html 
+Use Electron, Muon, Tau as start to map
+Also their neutrino
+Suspect the 1/3 neutrino rotation is a uncertainty issue
+Probability is ¼ with degenerate case
+But will always see the same mix of types as actual type is seen at observation only and has superposition at for three
+Get the probability distribution
+The Electron is the degenerate case
+Should see some relationship of mass Electron, Muon, Tau
+That maps by some function to the neutrino rotation
+The observed cases of rotation locks in the ratio by definition
+Then backtrack to the mass ratios
+Assuming 4 phases with one degenerate 
+The what kind of stats to use to reflect
+
+
+0 -> 90 vs 270->0 is a spin direction
+270 – 0 – 90
+- or + direction
+Equal probability
+Unknown until observed
+HyperPosition
+Once rotation started not stopped
+One each way as a supper position
+The Cosmos is spinning in both directions simultaneously
+But see as one?
+See both they are additive
+See both they are multipliable
+If one then 1* 1 the 1
+If one and i then 1 * i
+If i then i * i 
+Guess 1 and i
+The 4 spins <dimensions ?>, one of which is degenerate?
+The 2 energy levels that build planks constant
+The way we get 1/3 and 2/3 charge
+Nothing to distienous one rotaton from another all are 90 degrees relative
+Any of the four are equal as starting points
+All valid reference points
+ gage invariant
+Can only define by rotation from the reference
+Expect square loop not circle acutlly
+Can only define rotation by an energy change
+There is no other reference
+That rotation as defind by an energy change is what is quantified as rotation in 90 degree incriments
+It has a direction (+ or –),(1 or I),(Null or I),(? Or ?),….
+270 – 0 – 90
+Same energy different direction
+360 – 0 - 180 
+Same energy different direction
+2 times the 270 – 0 – 90 move
+A rotation of 90 or 270 should equal the mass of the two types of neutrinos 
+Some fraction of planks constant
+Also some between groups
+Missing two Force Carries
+Not force carries
+Just seen from a different perspective
+Three by three rotations
+1st sort by mass
+Have either
+Set and one
+Two and two
+So missing either
+One in one set one in the other
+Two that mach one of the existing four
+There is a scaled relationship in the HyperComplex numbers such that
+As i^2 = -1
+The quaternion’s relationships = -1
+For every real dimention there is a corresponding hyper-dimension such that each I, j, k, l, m, … Infinity ^2 each = -1 = each *  each  
+Revision
+Complex
+Quarternions
+Octinions
+
+Dimentions fill like energy levels
+As they are energy levels
+A dimentional count must be complety full before the next dimention can exist
+All dimentions are possible 
+Summend per the definition of e
+Cut from mathematica website
+Order  is
+i
+1
+i is an energy level
+Also takes quaternions as values
++/-
+2
+90 degrees
+Phase
+Phase can chane with no spasual change
+Time only
+
+
+Complex Space exist in Geometrical Superposition
+ This Superposition has Geometrically Describable Structure
+Path via works of
+Cartan
+Altmann
+Conway & Smith
+Geometrically Describable Structure includes ‘standing wave patterns’
+The Geometrically Describable  ‘standing wave patterns’ project into the Reals and is reflected-projected in the Observed Structure of the Quantum World.
+Assumption
+Salient one
+“Observation” is a rotation of 90’
+Effect is vector at 45’ if true something detected
+Effect is vector at 00’ if false something not detected
+
+
+IDM
+An Einstein condensate (EC) is the same EC WHERE EVER IT IS OBSERVED this as there is only ONE OF IT IN THE UNIVERSE. 
+A given EC should be IDENTICAL ACROSS SOME BASIS OR SUBSET THEREOF.
+AN EVENT ON ONE WILL BE AN EVENT ON ALL, OBSERVABLES TO ALL OBSERVERS SIMULTANEOUSLY – NOW AT ALL OBSERVERS ENTANGLEMENT WITH-IN THAT BASIS OR SUBSET
+Can be tested
+In effect the EC can be used to transmit info. 
+Probably faster then ‘c’ but < infinity
+Possible slower then ‘c’
+Places ‘c’ in the IDM higher Arch
+Can in theory do this with electron but not tunable (probably)
+Can “Tune” the EC
+Do so by matching masses (TOTAL Energy)
+When masses match will be the same EC
+Then can ‘communicate’ 
+Expect to find
+Time deference between ‘formations’ of the two test EC will need to be reflected by an add in mass to the latter starting EC that is proporcial, probably linure or 2Pi  cycluer
+TIME HAS MASS
+Actuallly will depend on the BASIS, not sure how the dimintions work out will depend on the EC candidate used.
+This will derive the funduminat unit of time
+The distance from now to something after now. 
+It probably follows the ‘coastline paradox”
+
+Bell Numbers are probability a key pointer
+Expect to be the pattern followed 1, 1, 2, from the bell matrix, the superfactorial
+Two dimensional case
+Base Conceptional
+Unity
+A variation of a particle in a box
+
+The walls are at distance one
+Infinite distance as viewed up ward from 1/n
+N -> but never gets to infinity
+It’s limit is an irrational number
+E ?
+Probably one of the smaller ones
+Has to be +> ½
+To get
+ 2
+Spin
+Spin 2nd LARGEST THING; PERIOD
+The largest being unity itself
+Spin is directly observable
+Unity is not
+Can only be seen from ‘below’
+1/n
+½ being the ‘fullest’ view
+Can not detect unity as no way to measure it
+No reference to compare it to by definition
+What is the 2nd, 3rd, etc largest
+Expect a Conceptional for each unique ‘particle-force’
+Some expected to be composites
+The same Conceptional projected many times over to a lower dimension
+A globe projected onto a plane is the model
+Note that size goes down as mass goes up
+One is taking a count of a smaller and smaller item many times
+This is the equivalent of the wavelength getting smaller as the mass goes up
+The wavelength can be used to ‘order’ things
+
+Expect it has to be greater then 1
+Best guess now the Golden Ratio
+Golden Rhombus 
+Others
+Continued fraction 1 1 1 1 1
+others
+Maybe => Sqrt 2
+What I expect
+Maybe => E
+Maybe => Pi
+
+“Undetectable” by itself
+Value is some function of planks constant
+Will be less then Planks constant
+ Probability of existence will be “1”
+No: probability of existence is 1.2 
+2 choices
+1 of nonexistence
+1 of existence
+Thus ½ probability existence or null
+Exist as superposition of both
+Give to values
+Null
+Infinity
+1+ aberteray n
+
+Will be seen some place
+The ONLY place to look will be where it will be seen
+There is NO other place to look
+It can be “looked at” many times
+Count property
+
+“Two” Conceptional
+Base Conceptional with spin
+Only way value of two can exist without adding ‘someplace else”
+Spin effectively adds the someplace else
+Torque may add a space dimension
+‘Someplace else” added via Torque
+This may not happen until Conceptional level 3 or four
+Right hand rule adds space dimension on each Pi/4 rotation
+The points where the value becomes “I” 
+Need the probability of the particle in a box being energy 2
+Why the universe expands
+Expect to build up the zero energy mix from this
+Rules
+
+Mapping to The Power of Alpha MacGregor
+A Conceptional has all the properties of each lower Conceptional in the hierarchy
+There is only a SINGLE Conceptional for each position in the hierarchy
+A single Conceptional can be observed an infinitely number of times
+A ‘force’ strength at any ‘point’ is determined by the number of times the Conceptional is observed
+The properties of a Conceptional at hierarchy position ‘an’ will be 
+additive/multiplied/factorialized/?ized as it is compounded in higher order Conceptional 
+1/additive/multiplied/factorialized/?ized as it is compounded in higher order Conceptionals
+Both ?
+May depend on ‘angle/reference/position’ of observation
+The prosperities of Conceptionals are expressed for any observation of the Conceptional
+As there is only one of each Conceptional the effect is expressed against each observation of the Conceptional
+The expression of the property as observed is synced as all observes are observing the same Conceptional
+Process for ‘entanglement’
+All observes see the same now
+It takes minimal energy, that of a Base Conceptional to detect any Conceptional
+The energy can be any other observation of any other Conceptional
+Lowest case is a Base Conceptional observation
+The minimal observable energy is that of 2 times the energy of a Base Conceptional
+The base Conceptional is unobservable directly
+Can only be seen when a second is used to observe
+Actually one half of the Conceptional
+Shows up as spin
+It is THE SAME Conceptional, just viewed from a different reference point
+This will be detected as spin of the Base Conceptional
+The effect is that of reflection
+The base Conceptional effectively sees its reflection
+This ups the energy to two times the Base Conceptional
+The observed energy will be the vector dot or cross product of the two Conceptional observations
+Expect the cross product
+Sqrt 2?
+A factor of ½ ?
+A factor of Pi
+The 1st or 2nd term in the expansion of Pi
+Aka the expansion of ‘e’
+Need to do the math
+Expect a value of ‘I’ in some fashion
+ This is the mass of time
+A base Conceptional is a particle in a box with the box having length of one
+This IS THE SIZE OF THE UNIVERSE
+It is a string of length one with the ends allowed to float
+Neumann boundary conditions ?conditions?
+And its mass
+2.17 x 10 ^ -5 g
+In Plank units
+
+ALL ELSE is multiple observations of same
+The ‘observed’ universe lives in this box
+Maps to the wavelength getting smaller as ‘mass’ gets larger
+Mass in effect a closed loop of tork
+All observers are equal
+Lowest level observer is a base Conceptional ‘seeing’ its reflection
+What is perceived as reality is the sum of ALL observations of the ordered Conceptionals
+It can be viewed as a probability distribution
+The observations are recursive
+
+Implications of rules
+Now is NOW EVERYWHERE
+Seperpositioion existane non-existance
+Two states 50/50 which one will get
+
+
+This as time is a property of a very high level Conceptional 
+One
+Two
+Or Three
+?
+Now is now here and on Alpha Centra
+Key is neg one -1 there is only one -1 and it is the ancor to the Reals
+Quaternions
+Octonoian
+Hypercomplex
+Complex values are scalers
+Field magnitude
+The count in front of the I in 2I 3I 4I
+-1 count is the Real part of 2+2I
+
+Can have an event that occurs at the SAME TIME on both
+Can be initiated on both at the SAME TIME via manipulation of a lower higherarchy Conceptional
+Will take 4 years to see the event reflected via light
+Method to test model
+But need to do without blowing up the Alpha Centra sun
+Then waiting 4 years to see the nova
+This does not change the speed of light or impact most based on it
+Tunneling and entanglement may fall out
+Can current quantum model of tunneling be used for mapping
+Will be different but need the same answer to some level of decimal point
+Wherever one looks one will find something
+2 times a base Conceptional at a minimum
+The
+The paradigm scales
+The underlying structure bleeds through in everything
+Why ‘e’ so ubicouis
+Each ‘force’ is expected to fall out in turn as the Conceptional higherary is built up one Conceptional after another
+Some forces may be just the sums of lower forces viewed as projections onto a higher or lower service
+Sphere projected on to a plane gives t times the value of 2D circle on the plane
+Expect it to be less simple then this as the full sefice are of the sphere will count
+All will be related to the energy of the base conceptionl
+Which will be the absolute energy of the universe
+Which will be some value related to but less then Planks constant
+
+The universe flows down hill by adding dimensions
+The universe is a COMPLEX enity
+The ‘observed universe is PO8 projection from compex to ‘Real’ mapped through the Quarternions.
+
+The addition of each dimensions reduces the energy density
+The is done by taking the vector
+Starting with A->  +  B->  =  AB->
+Working backwoods
+Energy decency drops from 2 to the Sqrt of 2
+2 – Sqrt [2] = ?
+Space
+Mass
+Quantum Barrier
+Then is recursive
+What is the probability of 2
+What is the probability of 1
+What when squared has the value of 1
+1
+I
+-1
+Where was
+Two particles possible
+Observer by definition
+The previous observation
+Has to possible values
+Occupancy defines vector
+Implies Observation requires an Observation
+An Observation requires a reference
+Why times arrow
+-1
+If I was there I am still there
+Conservation of existence
+?
+Source of mass
+Spin
+Vector defined by the observation
+If empty moving toward
+If occupied looking back
+If empty the observation will fill it
+Becomes the next reference
+Will see a spin
+With a vector
+Toward
+Not occupied
+Where I go
+This is where the wave equsion collapses
+Back
+Occupied
+Where I was
+-1
+Value of thee I energy
+Spin Back
+Act of observation
+Occupied
+Made so by Observation
+I
+Value of two-I energy
+Spin Toward
+Delta Spin Back minus Spin Toward = Energy of I
+Time’s error
+Derives planks constant
+?
+Is = Lamb delta
+Source of mass
+I
+Each dim can have independent spin
+1st case will have slop of 45 Deg down hill
+What is the next etc?
+What is the slop of slops
+Derivatives
+
+The value that the square of is the probability of finding a one particle = 1           
+The value that the square of is the probability of finding a one particle = I
+The value that the square of is the probability of finding 2 times one particle = Sqrt [2]          
+The base entity is
+The energy of I
+-1
+Before the wave equation collapses
+As apposed to the limit of where it has
+AS time goes to zero in modern classical par lass 
+AS Time goes to 1 in IDM par lass
+Time is quantities
+At some relation to Planks constant 
+And reduced
+Dictated by the concept of vector
+A time of two is a spin
+It has a vector
+Direction only
+Spin is binary
+Right or left
+Top or bottom
+No spin is equal to unity
+One
+Energy of spin
+Sqrt 2
+The vector sum
+Sqrt [1 + 1]
+The dark matter energy
+Will be seen if an observation is made
+Will take equal energy to observe
+The observation will be the vector of the two energies
+The neg is due to the vector back to I
+Must always be in the back direction viewed from “classic space”
+Why Sqrt –1 = I
+The value is one Plankette
+Which is the base for a derived Planks Constant
+Some relationship
+Plank = Sqrt [ plankette^2 + plankette^2 ]
+Plank = ?
+Some factor of a plankette
+If spin is a raw vector then
+Sqrt 2 plankettes = Plank
+Vector is 45 degrees from each plankette
+SIN & COS .707
+.707 or 1-.707 = absolute mass the other absolute momentum
+Time is the momentum componit
+The energy of time will be one of these two values
+This is the energy of observation - ?
+Observering releases energy
+If observation made then Sqrt 2 plankette energy observed
+But 0.292893218813452475599155637895151 put into observation or 0.707106781186547524400844362104849 put in.
+Spin is Plank with torque
+Plank with vector
+Two out of three
+Pi/2 = fundimental length
+Or is it 1/Pi
+Fits the expansion
+Sqrt[2]/2 * Sqrt[2+Sqrt[2]]/2 … = 2/Pi
+3 = fundimental volume
+3 sqares of sides of length Pi/2
+Count
+1
+2
+3
+Power
+1^2
+2^2
+3^2
+The First vector is ‘away’ and is represented as the negative
+All things follow this vector
+They move away
+They do so with each level one rotational tick
+We see the moving away as gravity
+Provides bais for quatum version of gravity
+Provides bais for quatum version of time
+
+Dimension Order
+I
+Vector
+Spin
+Direction
+Sum Energy of 2 I
+Space 
+Sqrt[
+
+
+
+Value order
+Energy
+Plankette
+The deferral of the probably of I * I energy for the observation = the speed of light constant
+Basic concept
+Still need to expand
+May be a 2nd or third diferral up or down
+Placement open
+
+Partial vs. wave
+Neither
+Both are a mater of perspective
+Mater is expanded time
+The cumulative mass of time
+
+Perspectives
+Line model
+Classic line of site mode
+Plain mode
+When edge of plane ‘detected’
+Collapses to a ‘point’ at 1st detection
+For plane 1st to see takes all
+Is a true 2 dim force
+X, y, but no z 
+Gravity may map
+The universe flows down hill by adding dimensions
+The addition of each dimensions reduces the energy density
+The is done by taking the vector
+Starting with A-> + B->  =  AB->
+Working backwoods
+Energy decency drops from 2 to the Sqrt of 2
+2 – Sqrt [2] = ?
+Space
+Mass
+Quantum Barrier
+Then is recursive
+What is the probability of 2
+What is the probability of 1
+What when squared has the value of 1
+1
+I
+-1
+Where was
+Two particles possible
+Observer by definition
+The previous observation
+Has to possible values
+Occupancy defines vector
+Implies Observation requires an Observation
+An Observation requires a reference
+Why times arrow
+-1
+If I was there I am still there
+Conservation of existence
+?
+Source of mass
+Spin
+Vector defined by the observation
+If empty moving toward
+If occupied looking back
+If empty the observation will fill it
+Becomes the next reference
+Will see a spin
+With a vector
+Toward
+Not occupied
+Where I go
+This is where the wave equsion collapses
+Back
+Occupied
+Where I was
+-1
+Value of thee I energy
+Spin Back
+Act of observation
+Occupied
+Made so by Observation
+I
+Value of two-I energy
+Spin Toward
+Delta Spin Back minus Spin Toward = Energy of I
+Time’s error
+Derives planks constant
+?
+Is = Lamb delta
+Source of mass
+I
+Each dim can have independent spin
+1st case will have slop of 45 Deg down hill
+What is the next etc?
+What is the slop of slops
+Derivatives
+
+The value that the square of is the probability of finding a one particle = 1           
+The value that the square of is the probability of finding a one particle = I
+The value that the square of is the probability of finding 2 times one particle = Sqrt [2]          
+The base entity is
+The energy of I
+-1
+Before the wave equation collapses
+As apposed to the limit of where it has
+AS time goes to zero in modern classical par lass 
+AS Time goes to 1 in IDM par lass
+Time is quantities
+At some relation to Planks constant 
+And reduced
+Dictated by the concept of vector
+A time of two is a spin
+It has a vector
+Direction only
+Spin is binary
+Right or left
+Top or bottom
+No spin is equal to unity
+One
+Energy of spin
+Sqrt 2
+The vector sum
+Sqrt [1 + 1]
+The dark matter energy
+Will be seen if an observation is made
+Will take equal energy to observe
+The observation will be the vector of the two energies
+The neg is due to the vector back to I
+Must always be in the back direction viewed from “classic space”
+Why Sqrt –1 = I
+The value is one Plankette
+Which is the base for a derived Planks Constant
+Some relationship
+Plank = Sqrt [ plankette^2 + plankette^2 ]
+Plank = ?
+Some factor of a plankette
+If spin is a raw vector then
+Sqrt 2 plankettes = Plank
+Vector is 45 degrees from each plankette
+SIN & COS .707
+.707 or 1-.707 = absolute mass the other absolute momentum
+Time is the momentum componit
+The energy of time will be one of these two values
+This is the energy of observation - ?
+Observering releases energy
+If observation made then Sqrt 2 plankette energy observed
+But 0.292893218813452475599155637895151 put into observation or 0.707106781186547524400844362104849 put in.
+Spin is Plank with torque
+Plank with vector
+
+Dimension Order
+I
+Vector
+Spin
+Direction
+Sum Energy of 2 I
+Space 
+Sqrt[
+
+
+
+Value order
+Energy
+Plankette
+The deferral of the probably of I * I energy for the observation = the speed of light constant
+Basic concept
+Still need to expand
+May be a 2nd or third diferral up or down
+Placement open
+
+Partial vs. wave
+Neither
+Both are a mater of perspective
+Mater is expanded time
+The cumulative mass of time
+
+Perspectives
+Line model
+Classic line of site mode
+Plain mode
+When edge of plane ‘detected’
+Collapses to a ‘point’ at 1st detection
+For plane 1st to see takes all
+Is a true 2 dim force
+X, y, but no z 
+Gravity may map
+
+Stumbled on you chasing octonions package for Mathematica; like mindspace
+The universe is a COMPLEX entity
+WhateverComplexAxisn^2 == -1
+Each WhateverComplexAxisn^2 == -1 is an unique orthogonal vector
+The ‘observed physical ‘Real’ universe’ is PO8 projection from complex WhateverComplexAsisn to ‘Real’ mapped through the Quaternions.
+
+

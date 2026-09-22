@@ -1,0 +1,1309 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     86220,       1301]
+NotebookOptionsPosition[     84070,       1260]
+NotebookOutlinePosition[     84471,       1276]
+CellTagsIndexPosition[     84428,       1273]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sendThisTweet", "[", 
+   RowBox[{
+   "thisTwit_", ",", "trollChartOne_", ",", "trollChartTwo_", ",", 
+    "trollChartThree_", ",", "trollChartFour_"}], "]"}], " ", ":=", 
+  RowBox[{"{", "\[IndentingNewLine]", 
+   RowBox[{"ServiceExecute", "[", 
+    RowBox[{"\"\<Twitter\>\"", ",", "\"\<Tweet\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Message\>\"", "\[Rule]", "thisTwit"}], ",", 
+       RowBox[{"\"\<Image\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+         "trollChartOne", ",", "trollChartTwo", ",", "trollChartThree", ",", 
+          "trollChartFour"}], "}"}]}]}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", "}"}]}]], "Input",ExpressionUUID->"5eecad09-b5f4-\
+4eec-bc3a-95cfef0fedfe"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.8795659929321117`*^9},ExpressionUUID->"1150ff19-9cfc-4c79-80f2-\
+7fa6e14cef5f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"ServiceConnect", "[", 
+    RowBox[{"\"\<Twitter\>\"", ",", "\"\<New\>\""}], "]"}], ",", 
+   RowBox[{"ServiceExecute", "[", 
+    RowBox[{"\"\<Twitter\>\"", ",", "\"\<LastTweet\>\""}], "]"}]}], 
+  "}"}]], "Input",
+ CellLabel->"In[8]:=",ExpressionUUID->"be5e8bb8-47a2-403e-baf6-d57f9d68579f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ServiceExecute", "nolink", 
+   "\"The service \\!\\(\\*InterpretationBox[RowBox[{TagBox[\\\"ServiceObject\
+\\\", \\\"SummaryHead\\\"], \\\"[\\\", DynamicModuleBox[{Typeset`open$$ = \
+False, Set[Typeset`embedState$$, \\\"Ready\\\"]}, \
+TemplateBox[List[PaneSelectorBox[List[Rule[False, \
+GridBox[List[List[GraphicsBox[TagBox[RasterBox[NumericArray[List[List[List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 9], \
+List[40, 170, 225, 113], List[40, 170, 225, 207], List[40, 170, 225, 249], \
+List[40, 170, 225, 252], List[40, 170, 225, 217], List[40, 170, 225, 131], \
+List[40, 170, 225, 16], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, \
+225, 1], List[40, 170, 225, 74], List[40, 170, 225, 19]], List[List[0, 0, 0, \
+0], List[40, 170, 225, 62], List[40, 170, 225, 124], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 28], \
+List[40, 170, 225, 210], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 230], List[40, 170, 225, 86], \
+List[40, 170, 225, 130], List[40, 170, 225, 212], List[40, 170, 225, 187], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 158], List[40, \
+170, 225, 255], List[40, 170, 225, 119], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 5], List[40, 170, 225, 207], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 228], List[40, 170, 225, 31], List[40, 170, 225, 33]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 153], List[40, 170, 225, 8], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 102], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 252], \
+List[40, 170, 225, 175], List[40, 170, 225, 206], List[40, 170, 225, 117]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 213], \
+List[40, 170, 225, 61], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 189], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 139], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 153], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 177], List[40, 170, 225, 60], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[40, 170, 225, 221], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 111], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 59], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 217], List[40, 170, 225, 138], List[40, 170, 225, 75], \
+List[40, 170, 225, 26], List[40, 170, 225, 1], List[40, 170, 225, 212], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 16], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 154], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 251], \
+List[40, 170, 225, 252], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 8], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, \
+0, 0], List[40, 170, 225, 170], List[40, 170, 225, 120], List[40, 170, 225, \
+215], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 239], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, \
+0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 177], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 198], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 91], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 140], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 3], List[40, 170, 225, 197], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 67], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, \
+170, 225, 21], List[40, 170, 225, 201], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 226], List[40, 170, 225, 3], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 12], List[40, 170, 225, 104], \
+List[40, 170, 225, 217], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 118], List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 144], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 231], List[40, 170, 225, 11], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[40, 170, 225, 21], List[40, 170, 225, 232], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 89], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 48], List[40, 170, \
+225, 230], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 165], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 16], List[40, 170, \
+225, 131], List[40, 170, 225, 216], List[40, 170, 225, 252], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 201], List[40, 170, 225, 10], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 59], \
+List[40, 170, 225, 215], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 201], List[40, 170, 225, 15], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 8], List[40, 170, 225, 74], List[40, \
+170, 225, 183], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 172], List[40, 170, 225, 11], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[40, 170, \
+225, 81], List[40, 170, 225, 147], List[40, 170, 225, 167], List[40, 170, \
+225, 195], List[40, 170, 225, 248], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 235], List[40, 170, \
+225, 95], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 62], List[40, 170, 225, 179], List[40, 170, 225, 251], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 224], List[40, 170, \
+225, 120], List[40, 170, 225, 12], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 22], List[40, 170, 225, 101], List[40, 170, 225, 156], \
+List[40, 170, 225, 211], List[40, 170, 225, 235], List[40, 170, 225, 253], \
+List[40, 170, 225, 255], List[40, 170, 225, 246], List[40, 170, 225, 224], \
+List[40, 170, 225, 184], List[40, 170, 225, 130], List[40, 170, 225, 60], \
+List[40, 170, 225, 2], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]]], \\\"UnsignedInteger8\\\"], List[List[0, \
+23.`], List[29.`, 0]], List[0, 255], Rule[ColorFunction, RGBColor]], \
+BoxForm`ImageTag[\\\"Byte\\\", Rule[ColorSpace, \\\"RGB\\\"], \
+Rule[Interleaving, True]], Rule[Selectable, False]], Rule[DefaultBaseStyle, \
+\\\"ImageGraphics\\\"], Rule[ImageSizeRaw, List[29.`, 23.`]], Rule[PlotRange, \
+List[List[0, 29.`], List[0, 23.`]]]], \
+GridBox[List[List[TagBox[\\\"\\\\\\\"Twitter\\\\\\\"\\\", \
+\\\"SummaryItem\\\"]], \
+List[TagBox[DynamicBox[ToBoxes[If[TrueQ[ServiceConnections`Private`\
+authenticatedServiceQ[\\\"connection-b270470900df0b13c4570e8eabd585fb\\\"]], \
+\\\"Connected\\\", \\\"Not Connected\\\"], StandardForm]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
+Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
+Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
+1]]]], Rule[True, \
+GridBox[List[List[GraphicsBox[TagBox[RasterBox[NumericArray[List[List[List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 9], \
+List[40, 170, 225, 113], List[40, 170, 225, 207], List[40, 170, 225, 249], \
+List[40, 170, 225, 252], List[40, 170, 225, 217], List[40, 170, 225, 131], \
+List[40, 170, 225, 16], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, \
+225, 1], List[40, 170, 225, 74], List[40, 170, 225, 19]], List[List[0, 0, 0, \
+0], List[40, 170, 225, 62], List[40, 170, 225, 124], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 28], \
+List[40, 170, 225, 210], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 230], List[40, 170, 225, 86], \
+List[40, 170, 225, 130], List[40, 170, 225, 212], List[40, 170, 225, 187], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 158], List[40, \
+170, 225, 255], List[40, 170, 225, 119], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 5], List[40, 170, 225, 207], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 228], List[40, 170, 225, 31], List[40, 170, 225, 33]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 153], List[40, 170, 225, 8], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 102], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 252], \
+List[40, 170, 225, 175], List[40, 170, 225, 206], List[40, 170, 225, 117]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 213], \
+List[40, 170, 225, 61], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 189], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 139], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 153], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 177], List[40, 170, 225, 60], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[40, 170, 225, 221], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 111], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 59], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 217], List[40, 170, 225, 138], List[40, 170, 225, 75], \
+List[40, 170, 225, 26], List[40, 170, 225, 1], List[40, 170, 225, 212], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 16], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 154], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 251], \
+List[40, 170, 225, 252], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 8], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, \
+0, 0], List[40, 170, 225, 170], List[40, 170, 225, 120], List[40, 170, 225, \
+215], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 239], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, \
+0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 177], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 198], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 91], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 140], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 3], List[40, 170, 225, 197], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 67], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, \
+170, 225, 21], List[40, 170, 225, 201], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 226], List[40, 170, 225, 3], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 12], List[40, 170, 225, 104], \
+List[40, 170, 225, 217], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 118], List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 144], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 231], List[40, 170, 225, 11], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[40, 170, 225, 21], List[40, 170, 225, 232], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 89], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 48], List[40, 170, \
+225, 230], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 165], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 16], List[40, 170, \
+225, 131], List[40, 170, 225, 216], List[40, 170, 225, 252], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 201], List[40, 170, 225, 10], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 59], \
+List[40, 170, 225, 215], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 201], List[40, 170, 225, 15], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 8], List[40, 170, 225, 74], List[40, \
+170, 225, 183], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 172], List[40, 170, 225, 11], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[40, 170, \
+225, 81], List[40, 170, 225, 147], List[40, 170, 225, 167], List[40, 170, \
+225, 195], List[40, 170, 225, 248], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 235], List[40, 170, \
+225, 95], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 62], List[40, 170, 225, 179], List[40, 170, 225, 251], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 224], List[40, 170, \
+225, 120], List[40, 170, 225, 12], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 22], List[40, 170, 225, 101], List[40, 170, 225, 156], \
+List[40, 170, 225, 211], List[40, 170, 225, 235], List[40, 170, 225, 253], \
+List[40, 170, 225, 255], List[40, 170, 225, 246], List[40, 170, 225, 224], \
+List[40, 170, 225, 184], List[40, 170, 225, 130], List[40, 170, 225, 60], \
+List[40, 170, 225, 2], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]]], \\\"UnsignedInteger8\\\"], List[List[0, \
+23.`], List[29.`, 0]], List[0, 255], Rule[ColorFunction, RGBColor]], \
+BoxForm`ImageTag[\\\"Byte\\\", Rule[ColorSpace, \\\"RGB\\\"], \
+Rule[Interleaving, True]], Rule[Selectable, False]], Rule[DefaultBaseStyle, \
+\\\"ImageGraphics\\\"], Rule[ImageSizeRaw, List[29.`, 23.`]], Rule[PlotRange, \
+List[List[0, 29.`], List[0, 23.`]]]], \
+GridBox[List[List[TagBox[\\\"\\\\\\\"Twitter\\\\\\\"\\\", \
+\\\"SummaryItem\\\"]], \
+List[TagBox[DynamicBox[ToBoxes[If[TrueQ[ServiceConnections`Private`\
+authenticatedServiceQ[\\\"connection-b270470900df0b13c4570e8eabd585fb\\\"]], \
+\\\"Connected\\\", \\\"Not Connected\\\"], StandardForm]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
+Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
+Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
+1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
+\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
+\\\"]\\\"}], ServiceObject[\\\"Twitter\\\", Rule[\\\"ID\\\", \
+\\\"connection-b270470900df0b13c4570e8eabd585fb\\\"]], Rule[Selectable, \
+False], Rule[Editable, False], Rule[SelectWithContents, True]]\\) is not \
+authenticated. Try using ServiceConnect.\"", 2, 8, 4, 23871312167073919977, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.879566134634096*^9},
+ CellLabel->
+  "During evaluation of \
+In[8]:=",ExpressionUUID->"99bf62a1-844e-4cdd-8cad-87c85dddaf68"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{
+     TagBox["ServiceObject",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              GraphicsBox[
+               TagBox[
+                RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+                 
+                 "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> 
+                 RGBColor], 
+                BoxForm`ImageTag[
+                "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                Selectable -> False], DefaultBaseStyle -> "ImageGraphics", 
+               ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+              GridBox[{{
+                 TagBox["\"Twitter\"", "SummaryItem"]}, {
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    If[
+                    TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-82f9d59ecb1ac4c8da6ceb39516f8f9e"]], 
+                    "Connected", "Not Connected"], StandardForm]], 
+                  "SummaryItem"]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+            AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              GraphicsBox[
+               TagBox[
+                RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+                 
+                 "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> 
+                 RGBColor], 
+                BoxForm`ImageTag[
+                "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                Selectable -> False], DefaultBaseStyle -> "ImageGraphics", 
+               ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+              GridBox[{{
+                 TagBox["\"Twitter\"", "SummaryItem"]}, {
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    If[
+                    TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-82f9d59ecb1ac4c8da6ceb39516f8f9e"]], 
+                    "Connected", "Not Connected"], StandardForm]], 
+                  "SummaryItem"]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+            AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    ServiceObject[
+    "Twitter", "ID" -> "connection-82f9d59ecb1ac4c8da6ceb39516f8f9e"],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False], ",", 
+   RowBox[{"ServiceExecute", "[", 
+    RowBox[{"\<\"Twitter\"\>", ",", "\<\"LastTweet\"\>"}], "]"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.879566134690987*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"512f87f4-43b3-4391-84db-cbff01c4d0c3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ServiceConnect", "[", 
+  RowBox[{"\"\<Twitter\>\"", ",", "\"\<LastTweet\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.87956604169166*^9, 3.879566062429788*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"1a47508a-5829-47ba-a658-cda8a02ec98f"],
+
+Cell[BoxData[
+ RowBox[{"ServiceConnect", "[", 
+  RowBox[{"\<\"Twitter\"\>", ",", "\<\"LastTweet\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{{3.8795660510404053`*^9, 3.8795660672204247`*^9}},
+ CellLabel->"Out[7]=",ExpressionUUID->"6f407e5c-93fa-4d0e-bf5c-c2618b3dde63"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"ServiceExecute", "[", 
+  RowBox[{"\"\<Twitter\>\"", ",", "\"\<New\>\""}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"ServiceExecute", "[", 
+  RowBox[{"\"\<Twitter\>\"", ",", "\"\<LastTweet\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.879565826016253*^9, 3.8795658409410267`*^9}, {
+   3.879565954644898*^9, 3.879565995875902*^9}, 
+   3.879566026606333*^9},ExpressionUUID->"a8e3355c-7a59-46af-8252-\
+aa5772381557"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ServiceExecute", "nolink", 
+   "\"The service \\!\\(\\*InterpretationBox[RowBox[{TagBox[\\\"ServiceObject\
+\\\", \\\"SummaryHead\\\"], \\\"[\\\", DynamicModuleBox[{Typeset`open$$ = \
+False, Set[Typeset`embedState$$, \\\"Ready\\\"]}, \
+TemplateBox[List[PaneSelectorBox[List[Rule[False, \
+GridBox[List[List[GraphicsBox[TagBox[RasterBox[NumericArray[List[List[List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 9], \
+List[40, 170, 225, 113], List[40, 170, 225, 207], List[40, 170, 225, 249], \
+List[40, 170, 225, 252], List[40, 170, 225, 217], List[40, 170, 225, 131], \
+List[40, 170, 225, 16], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, \
+225, 1], List[40, 170, 225, 74], List[40, 170, 225, 19]], List[List[0, 0, 0, \
+0], List[40, 170, 225, 62], List[40, 170, 225, 124], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 28], \
+List[40, 170, 225, 210], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 230], List[40, 170, 225, 86], \
+List[40, 170, 225, 130], List[40, 170, 225, 212], List[40, 170, 225, 187], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 158], List[40, \
+170, 225, 255], List[40, 170, 225, 119], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 5], List[40, 170, 225, 207], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 228], List[40, 170, 225, 31], List[40, 170, 225, 33]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 153], List[40, 170, 225, 8], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 102], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 252], \
+List[40, 170, 225, 175], List[40, 170, 225, 206], List[40, 170, 225, 117]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 213], \
+List[40, 170, 225, 61], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 189], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 139], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 153], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 177], List[40, 170, 225, 60], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[40, 170, 225, 221], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 111], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 59], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 217], List[40, 170, 225, 138], List[40, 170, 225, 75], \
+List[40, 170, 225, 26], List[40, 170, 225, 1], List[40, 170, 225, 212], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 16], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 154], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 251], \
+List[40, 170, 225, 252], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 8], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, \
+0, 0], List[40, 170, 225, 170], List[40, 170, 225, 120], List[40, 170, 225, \
+215], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 239], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, \
+0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 177], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 198], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 91], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 140], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 3], List[40, 170, 225, 197], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 67], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, \
+170, 225, 21], List[40, 170, 225, 201], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 226], List[40, 170, 225, 3], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 12], List[40, 170, 225, 104], \
+List[40, 170, 225, 217], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 118], List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 144], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 231], List[40, 170, 225, 11], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[40, 170, 225, 21], List[40, 170, 225, 232], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 89], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 48], List[40, 170, \
+225, 230], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 165], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 16], List[40, 170, \
+225, 131], List[40, 170, 225, 216], List[40, 170, 225, 252], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 201], List[40, 170, 225, 10], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 59], \
+List[40, 170, 225, 215], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 201], List[40, 170, 225, 15], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 8], List[40, 170, 225, 74], List[40, \
+170, 225, 183], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 172], List[40, 170, 225, 11], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[40, 170, \
+225, 81], List[40, 170, 225, 147], List[40, 170, 225, 167], List[40, 170, \
+225, 195], List[40, 170, 225, 248], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 235], List[40, 170, \
+225, 95], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 62], List[40, 170, 225, 179], List[40, 170, 225, 251], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 224], List[40, 170, \
+225, 120], List[40, 170, 225, 12], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 22], List[40, 170, 225, 101], List[40, 170, 225, 156], \
+List[40, 170, 225, 211], List[40, 170, 225, 235], List[40, 170, 225, 253], \
+List[40, 170, 225, 255], List[40, 170, 225, 246], List[40, 170, 225, 224], \
+List[40, 170, 225, 184], List[40, 170, 225, 130], List[40, 170, 225, 60], \
+List[40, 170, 225, 2], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]]], \\\"UnsignedInteger8\\\"], List[List[0, \
+23.`], List[29.`, 0]], List[0, 255], Rule[ColorFunction, RGBColor]], \
+BoxForm`ImageTag[\\\"Byte\\\", Rule[ColorSpace, \\\"RGB\\\"], \
+Rule[Interleaving, True]], Rule[Selectable, False]], Rule[DefaultBaseStyle, \
+\\\"ImageGraphics\\\"], Rule[ImageSizeRaw, List[29.`, 23.`]], Rule[PlotRange, \
+List[List[0, 29.`], List[0, 23.`]]]], \
+GridBox[List[List[TagBox[\\\"\\\\\\\"Twitter\\\\\\\"\\\", \
+\\\"SummaryItem\\\"]], \
+List[TagBox[DynamicBox[ToBoxes[If[TrueQ[ServiceConnections`Private`\
+authenticatedServiceQ[\\\"connection-02d30e2c021835a1ade189357ce756de\\\"]], \
+\\\"Connected\\\", \\\"Not Connected\\\"], StandardForm]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
+Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
+Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
+1]]]], Rule[True, \
+GridBox[List[List[GraphicsBox[TagBox[RasterBox[NumericArray[List[List[List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 9], \
+List[40, 170, 225, 113], List[40, 170, 225, 207], List[40, 170, 225, 249], \
+List[40, 170, 225, 252], List[40, 170, 225, 217], List[40, 170, 225, 131], \
+List[40, 170, 225, 16], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, \
+225, 1], List[40, 170, 225, 74], List[40, 170, 225, 19]], List[List[0, 0, 0, \
+0], List[40, 170, 225, 62], List[40, 170, 225, 124], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 28], \
+List[40, 170, 225, 210], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 230], List[40, 170, 225, 86], \
+List[40, 170, 225, 130], List[40, 170, 225, 212], List[40, 170, 225, 187], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 158], List[40, \
+170, 225, 255], List[40, 170, 225, 119], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 5], List[40, 170, 225, 207], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 228], List[40, 170, 225, 31], List[40, 170, 225, 33]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 153], List[40, 170, 225, 8], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 102], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 252], \
+List[40, 170, 225, 175], List[40, 170, 225, 206], List[40, 170, 225, 117]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 213], \
+List[40, 170, 225, 61], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 189], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 139], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 153], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 177], List[40, 170, 225, 60], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[40, 170, 225, 221], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 111], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 59], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 217], List[40, 170, 225, 138], List[40, 170, 225, 75], \
+List[40, 170, 225, 26], List[40, 170, 225, 1], List[40, 170, 225, 212], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 16], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 154], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 251], \
+List[40, 170, 225, 252], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 8], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, \
+0, 0], List[40, 170, 225, 170], List[40, 170, 225, 120], List[40, 170, 225, \
+215], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 239], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, \
+0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 177], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 198], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 91], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 140], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 3], List[40, 170, 225, 197], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 67], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, \
+170, 225, 21], List[40, 170, 225, 201], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 226], List[40, 170, 225, 3], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 12], List[40, 170, 225, 104], \
+List[40, 170, 225, 217], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 118], List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 144], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 231], List[40, 170, 225, 11], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[40, 170, 225, 21], List[40, 170, 225, 232], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 89], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 48], List[40, 170, \
+225, 230], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 165], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 16], List[40, 170, \
+225, 131], List[40, 170, 225, 216], List[40, 170, 225, 252], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 201], List[40, 170, 225, 10], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 59], \
+List[40, 170, 225, 215], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 201], List[40, 170, 225, 15], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 8], List[40, 170, 225, 74], List[40, \
+170, 225, 183], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 172], List[40, 170, 225, 11], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[40, 170, \
+225, 81], List[40, 170, 225, 147], List[40, 170, 225, 167], List[40, 170, \
+225, 195], List[40, 170, 225, 248], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 235], List[40, 170, \
+225, 95], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 62], List[40, 170, 225, 179], List[40, 170, 225, 251], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 224], List[40, 170, \
+225, 120], List[40, 170, 225, 12], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 22], List[40, 170, 225, 101], List[40, 170, 225, 156], \
+List[40, 170, 225, 211], List[40, 170, 225, 235], List[40, 170, 225, 253], \
+List[40, 170, 225, 255], List[40, 170, 225, 246], List[40, 170, 225, 224], \
+List[40, 170, 225, 184], List[40, 170, 225, 130], List[40, 170, 225, 60], \
+List[40, 170, 225, 2], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]]], \\\"UnsignedInteger8\\\"], List[List[0, \
+23.`], List[29.`, 0]], List[0, 255], Rule[ColorFunction, RGBColor]], \
+BoxForm`ImageTag[\\\"Byte\\\", Rule[ColorSpace, \\\"RGB\\\"], \
+Rule[Interleaving, True]], Rule[Selectable, False]], Rule[DefaultBaseStyle, \
+\\\"ImageGraphics\\\"], Rule[ImageSizeRaw, List[29.`, 23.`]], Rule[PlotRange, \
+List[List[0, 29.`], List[0, 23.`]]]], \
+GridBox[List[List[TagBox[\\\"\\\\\\\"Twitter\\\\\\\"\\\", \
+\\\"SummaryItem\\\"]], \
+List[TagBox[DynamicBox[ToBoxes[If[TrueQ[ServiceConnections`Private`\
+authenticatedServiceQ[\\\"connection-02d30e2c021835a1ade189357ce756de\\\"]], \
+\\\"Connected\\\", \\\"Not Connected\\\"], StandardForm]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
+Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
+Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
+1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
+\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
+\\\"]\\\"}], ServiceObject[\\\"Twitter\\\", Rule[\\\"ID\\\", \
+\\\"connection-02d30e2c021835a1ade189357ce756de\\\"]], Rule[Selectable, \
+False], Rule[Editable, False], Rule[SelectWithContents, True]]\\) is not \
+authenticated. Try using ServiceConnect.\"", 2, 4, 2, 23871312167073919977, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8795658900028954`*^9, 3.879566001272974*^9},
+ CellLabel->
+  "During evaluation of \
+In[4]:=",ExpressionUUID->"fecefcbc-d011-49dd-b4e1-aba38568848a"],
+
+Cell[BoxData[
+ RowBox[{"ServiceExecute", "[", 
+  RowBox[{"\<\"Twitter\"\>", ",", "\<\"New\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{3.879565889276319*^9, 3.879566001313716*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"6f67c365-5e2d-46b0-b470-440a9395e50f"],
+
+Cell[BoxData[
+ RowBox[{"ServiceConnect", "[", 
+  RowBox[{"\<\"Twitter\"\>", ",", "\<\"LastTweet\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{3.879565889276319*^9, 3.879566001314996*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"13e2b887-842f-4224-b72d-80bf38980e87"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Cell", "[", "\"\<Properties\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.879569981261137*^9, 3.879569986702176*^9}, {
+  3.879570023803937*^9, 3.879570053083953*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"fa425e66-c1a4-4892-a12a-7a6e0186cb19"],
+
+Cell[BoxData[
+ RowBox[{"Cell", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.879570062915835*^9, 
+  3.8795700954999*^9}},ExpressionUUID->"068fda60-2d63-45eb-86bf-cec756fa4f5a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"1.5", " ", "*", " ", "1"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.879576068122323*^9, 3.879576087696817*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"2af5fcc1-a3c5-4d45-9b0e-d53e6ca589bd"],
+
+Cell[BoxData["1.5`"], "Output",
+ CellChangeTimes->{3.879576093327813*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"906ad78c-954a-4a8c-a2ef-5c32c093b8eb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["IDM In Twits", "Chapter",
+ CellChangeTimes->{{3.8795699234855127`*^9, 
+  3.879569962119452*^9}},ExpressionUUID->"b18b733d-e323-4e8f-a580-\
+11e67cecdc75"],
+
+Cell["\<\
+Studied (vs read) N. FUREY\[CloseCurlyQuote]s two 2022 Papers and Theses, \
+find here https://www.furey.space/ 
+
+Furey gets \[OpenCurlyQuote]standard model\[CloseCurlyQuote] from a Division \
+Algieba: Deeper in go deeper find in own mind space.
+
+The work of Malcolm H. MacGregor is also deep in own mind space. MacGregor \
+quantized particle lifetimes and masses with the Alpha Constant. \
+https://www.amazon.com/Power-Alpha-Elementary-Generation-quantized/dp/\
+9812569618
+
+Something can be learned by connecting Furey and MacGregor work via the \
+\[OpenCurlyQuote]particles\[CloseCurlyQuote] from the Division Algieba and \
+the quantized lifetimes and masses from MacGregor. To start with the Alpha \
+Constant should be hidden in Furey\[CloseCurlyQuote]s work.
+
+Connections can also be to MacGregor\[CloseCurlyQuote]s work in chapter five \
+up: The Particle-Hole Pair Mathology. Viewed in Spinor context can map back \
+to Furey.
+
+MacGregor notes mass of spinning particle 1.5 times mass of non-spinning \
+particle. Assumption: If spinning a Hole would have a Mass of 1/2 +/-, both \
+in effect for net of zero, needs validation. 1/2 always interesting.
+
+One pass look found \[OpenCurlyDoubleQuote]ON EIGHT KINDS OF SPINORS\
+\[CloseCurlyDoubleQuote]
+Andrzej Trautman: \
+https://inspirehep.net/files/bf6fb44df637044a770069f057430be8 Only scanned, \
+looks like can be mapped to both Furey and MacGregor.
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.8795734135498133`*^9, 3.879573421668116*^9}, {
+   3.8795735533033648`*^9, 3.879573606083818*^9}, {3.8795736779881287`*^9, 
+   3.879573678451889*^9}, {3.879573753540071*^9, 3.879573935052106*^9}, {
+   3.8795739979297047`*^9, 3.879574305900613*^9}, {3.879574341364685*^9, 
+   3.879574387218342*^9}, 3.879574564933342*^9, {3.8795746554762983`*^9, 
+   3.8795746867890253`*^9}, {3.879574746605112*^9, 3.8795747646692944`*^9}, {
+   3.879574795685549*^9, 3.8795748329332533`*^9}, {3.879574865773457*^9, 
+   3.879574993557596*^9}, {3.879575028765698*^9, 3.8795751924942207`*^9}, {
+   3.8795752758637457`*^9, 3.879575574255241*^9}, {3.879575630207615*^9, 
+   3.879575776208853*^9}, {3.879575810623959*^9, 3.87957603585644*^9}, {
+   3.879576121784966*^9, 3.8795763371052322`*^9}, {3.879577114899143*^9, 
+   3.879577155114717*^9}, {3.8795772110708723`*^9, 3.879577236211255*^9}, {
+   3.8795772859240093`*^9, 3.87957734418839*^9}, {3.879577445244681*^9, 
+   3.879577501020439*^9}, {3.8795784054300423`*^9, 
+   3.879578455925967*^9}},ExpressionUUID->"810d8f21-79c8-45da-9979-\
+85d92c1e5c0c"],
+
+Cell["\<\
+A Twitter thread that will bring one only contempt diregian and vitriol. This \
+will come form both thoses that know the topic and those that don\
+\[CloseCurlyQuote]t. \
+\>", "Text",
+ CellChangeTimes->{{3.883009478959631*^9, 3.88300953725966*^9}, {
+  3.883009576683825*^9, 3.883009717492017*^9}, {3.883010292844901*^9, 
+  3.8830103706851397`*^9}},ExpressionUUID->"81755239-618f-41b8-9e3b-\
+9936779ef5fa"]
+}, Open  ]]
+},
+WindowSize->{1440., 761.25},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"13.0 for Linux x86 (64-bit) (December 2, 2021)",
+StyleDefinitions->"ReverseColor.nb",
+ExpressionUUID->"aafbdcf8-eb06-4f2b-b3bc-2f0aeb0e1819"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 759, 18, 266, "Input",ExpressionUUID->"5eecad09-b5f4-4eec-bc3a-95cfef0fedfe"],
+Cell[1320, 40, 130, 3, 59, "Input",ExpressionUUID->"1150ff19-9cfc-4c79-80f2-7fa6e14cef5f"],
+Cell[CellGroupData[{
+Cell[1475, 47, 341, 8, 86, "Input",ExpressionUUID->"be5e8bb8-47a2-403e-baf6-d57f9d68579f"],
+Cell[1819, 57, 35592, 475, 116, "Message",ExpressionUUID->"99bf62a1-844e-4cdd-8cad-87c85dddaf68"],
+Cell[37414, 534, 5421, 113, 171, "Output",ExpressionUUID->"512f87f4-43b3-4391-84db-cbff01c4d0c3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42872, 652, 263, 4, 86, "Input",ExpressionUUID->"1a47508a-5829-47ba-a658-cda8a02ec98f"],
+Cell[43138, 658, 269, 4, 94, "Output",ExpressionUUID->"6f407e5c-93fa-4d0e-bf5c-c2618b3dde63"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43444, 667, 441, 9, 101, "Input",ExpressionUUID->"a8e3355c-7a59-46af-8252-aa5772381557"],
+Cell[43888, 678, 35616, 475, 116, "Message",ExpressionUUID->"fecefcbc-d011-49dd-b4e1-aba38568848a"],
+Cell[79507, 1155, 257, 4, 94, "Output",ExpressionUUID->"6f67c365-5e2d-46b0-b470-440a9395e50f"],
+Cell[79767, 1161, 263, 4, 94, "Output",ExpressionUUID->"13e2b887-842f-4224-b72d-80bf38980e87"]
+}, Open  ]],
+Cell[80045, 1168, 267, 4, 86, "Input",ExpressionUUID->"fa425e66-c1a4-4892-a12a-7a6e0186cb19"],
+Cell[80315, 1174, 174, 3, 59, "Input",ExpressionUUID->"068fda60-2d63-45eb-86bf-cec756fa4f5a"],
+Cell[CellGroupData[{
+Cell[80514, 1181, 242, 4, 128, "Input",ExpressionUUID->"2af5fcc1-a3c5-4d45-9b0e-d53e6ca589bd"],
+Cell[80759, 1187, 152, 2, 94, "Output",ExpressionUUID->"906ad78c-954a-4a8c-a2ef-5c32c093b8eb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[80948, 1194, 159, 3, 136, "Chapter",ExpressionUUID->"b18b733d-e323-4e8f-a580-11e67cecdc75"],
+Cell[81110, 1199, 2527, 48, 1064, "Text",ExpressionUUID->"810d8f21-79c8-45da-9979-85d92c1e5c0c"],
+Cell[83640, 1249, 414, 8, 104, "Text",ExpressionUUID->"81755239-618f-41b8-9e3b-9936779ef5fa"]
+}, Open  ]]
+}
+]
+*)
+
