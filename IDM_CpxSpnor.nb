@@ -1,0 +1,533 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19683,        525]
+NotebookOptionsPosition[     18562,        496]
+NotebookOutlinePosition[     18921,        512]
+CellTagsIndexPosition[     18878,        509]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"{", 
+   RowBox[{"Blue", ",", 
+    RowBox[{"PointSize", "->", ".1"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Green", ",", 
+        RowBox[{"PointSize", "->", ".1"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"PointSize", "->", ".1"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", 
+           RowBox[{"-", "1"}]}], "}"}], "]"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", 
+        RowBox[{"PointSize", "->", ".06"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Blue", ",", 
+        RowBox[{"PointSize", "->", ".01"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Line", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], "}"}], "]"}], 
+         "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Green", ",", 
+        RowBox[{"PointSize", "->", ".06"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Line", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", 
+              RowBox[{"-", "1"}], ",", "0"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "1", ",", "0"}], "}"}]}], "}"}], "]"}], 
+         "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"PointSize", "->", ".06"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Line", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "}"}], "]"}], 
+         "}"}]}], "\[IndentingNewLine]", "}"}]}], "}"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.720324275126416*^9, 
+  3.720324285750736*^9}},ExpressionUUID->"1ca67947-00ff-442c-97a2-\
+3a7af338600c"],
+
+Cell[BoxData[
+ Graphics3DBox[
+  {RGBColor[0, 0, 1], PointSize[0.1], Point3DBox[{1, 0, 0}], 
+   Point3DBox[{-1, 0, 0}], 
+   {RGBColor[0, 1, 0], PointSize[0.1], Point3DBox[{0, 1, 0}], 
+    Point3DBox[{0, -1, 0}]}, 
+   {RGBColor[1, 1, 0], PointSize[0.1], Point3DBox[{0, 0, 1}], 
+    Point3DBox[{0, 0, -1}]}, 
+   {RGBColor[1, 0, 0], PointSize[0.06], Point3DBox[{0, 0, 0}]}, 
+   {RGBColor[0, 0, 1], PointSize[0.01], Line3DBox[{{-1, 0, 0}, {1, 0, 0}}]}, 
+   {RGBColor[0, 1, 0], PointSize[0.06], Line3DBox[{{0, -1, 0}, {0, 1, 0}}]}, 
+   {RGBColor[1, 1, 0], PointSize[0.06], 
+    Line3DBox[{{0, 0, -1}, {0, 0, 1}}]}}]], "Output",
+ CellChangeTimes->{3.720323820273628*^9, 
+  3.7203250178606853`*^9},ExpressionUUID->"a897878c-a84b-4bb2-9edc-\
+81eaf36db9ba"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{"Black", ",", 
+    RowBox[{"PointSize", "->", ".14"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", 
+         RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"White", ",", 
+      RowBox[{"PointSize", "->", ".14"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"Blue", ",", 
+        RowBox[{"PointSize", "->", ".1"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], "]"}]}], "}"}], 
+        ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"Green", ",", 
+          RowBox[{"PointSize", "->", ".1"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", 
+             RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"Yellow", ",", 
+          RowBox[{"PointSize", "->", ".1"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0", ",", 
+             RowBox[{"-", "1"}]}], "}"}], "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"Red", ",", 
+          RowBox[{"PointSize", "->", ".06"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0", ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"Blue", ",", 
+          RowBox[{"PointSize", "->", ".06"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"Line", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], "}"}], "]"}], 
+           "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"Green", ",", 
+          RowBox[{"PointSize", "->", ".06"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"Line", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"0", ",", 
+                RowBox[{"-", "1"}], ",", "0"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"0", ",", "1", ",", "0"}], "}"}]}], "}"}], "]"}], 
+           "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"Yellow", ",", 
+          RowBox[{"PointSize", "->", ".06"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"Line", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"0", ",", "0", ",", 
+                RowBox[{"-", "1"}]}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "}"}], "]"}], 
+           "}"}]}], "\[IndentingNewLine]", "}"}]}], "}"}]}], "}"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.720323961134817*^9, 3.72032396944693*^9}, 
+   3.7203240221756353`*^9, {3.720324062255698*^9, 3.720324115431459*^9}, 
+   3.72032430874439*^9, {3.7203243387752533`*^9, 3.7203243627826567`*^9}, {
+   3.720324488382122*^9, 3.720324551182662*^9}, {3.7203246308217688`*^9, 
+   3.720324653534301*^9}, 3.720324695012841*^9, {3.720324813973977*^9, 
+   3.720324832702011*^9}, {3.720324870838789*^9, 3.720324943805748*^9}, 
+   3.720325207806428*^9, 3.7203252419329367`*^9, 3.720339851201131*^9, {
+   3.720339902464273*^9, 3.720339938064151*^9}, {3.720339977617058*^9, 
+   3.72033999818404*^9}, {3.720340032223826*^9, 3.7203400650797367`*^9}, {
+   3.7203400980714407`*^9, 3.720340122215575*^9}, {3.720340219286675*^9, 
+   3.7203402281117373`*^9}, {3.720340264872513*^9, 3.7203402730075407`*^9}, {
+   3.720341398189959*^9, 3.7203413992218513`*^9}, {3.720342158207252*^9, 
+   3.7203422211319933`*^9}, {3.720391854104073*^9, 
+   3.720391854956554*^9}},ExpressionUUID->"452f9bf7-7214-4cd2-9189-\
+06543b22b0c0"],
+
+Cell[BoxData[
+ Graphics3DBox[
+  {GrayLevel[0], PointSize[
+   0.14], {Point3DBox[{-1, 0, 0}], Point3DBox[{0, -1, 0}], 
+    Point3DBox[{0, 0, -1}]}, 
+   {GrayLevel[1], PointSize[
+    0.14], {Point3DBox[{1, 0, 0}], Point3DBox[{0, 1, 0}], 
+     Point3DBox[{0, 0, 1}]}, 
+    {RGBColor[0, 0, 1], PointSize[
+     0.1], {Point3DBox[{1, 0, 0}], Point3DBox[{-1, 0, 0}]}, 
+     {RGBColor[0, 1, 0], PointSize[0.1], Point3DBox[{0, 1, 0}], 
+      Point3DBox[{0, -1, 0}]}, 
+     {RGBColor[1, 1, 0], PointSize[0.1], Point3DBox[{0, 0, 1}], 
+      Point3DBox[{0, 0, -1}]}, 
+     {RGBColor[1, 0, 0], PointSize[0.06], Point3DBox[{0, 0, 0}]}, 
+     {RGBColor[0, 0, 1], PointSize[0.06], Line3DBox[{{-1, 0, 0}, {1, 0, 0}}]}, 
+     {RGBColor[0, 1, 0], PointSize[0.06], Line3DBox[{{0, -1, 0}, {0, 1, 0}}]}, 
+     {RGBColor[1, 1, 0], PointSize[0.06], 
+      Line3DBox[{{0, 0, -1}, {0, 0, 1}}]}}}},
+  ImageSize->{359.1348129250729, 352.25224820506054`},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{1.560472233818483, 2.5282278355321304`, 1.6195648857400151`},
+  ViewVertical->{0.9639100434474834, 
+   0.25169694031167666`, -0.08675297331395043}]], "Output",
+ CellChangeTimes->{
+  3.720342227509996*^9},ExpressionUUID->"8db664e7-f449-4eaf-bbcd-\
+c356234fbf82"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Polygon", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "1", ",", "1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.720744112171051*^9},ExpressionUUID->"04b2baee-3b50-46f6-bed1-\
+5b2be1e8e4b9"],
+
+Cell[BoxData[
+ RowBox[{"Polygon", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "1", ",", "1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.720743296216745*^9},ExpressionUUID->"a4c2b3d1-2af9-426e-892a-\
+47fe1aaa15be"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"{", "\[IndentingNewLine]", 
+   RowBox[{"Black", ",", 
+    RowBox[{"PointSize", "->", ".14"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", 
+         RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", "White", ",", 
+    RowBox[{"PointSize", "->", ".14"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", "Blue", ",", 
+    RowBox[{"PointSize", "->", ".1"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], "]"}]}], "}"}], ",",
+     "\[IndentingNewLine]", "Green", ",", 
+    RowBox[{"PointSize", "->", ".1"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "1", ",", "0"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", 
+         RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", "Yellow", ",", 
+    RowBox[{"PointSize", "->", ".1"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "1"}], "}"}], "]"}], ",", 
+      RowBox[{"Point", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", "Red", ",", 
+    RowBox[{"PointSize", "->", ".06"}], ",", 
+    RowBox[{"Point", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0"}], "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", "Blue", ",", 
+    RowBox[{"PointSize", "->", ".06"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], "}"}], "]"}], "}"}], ",",
+     "\[IndentingNewLine]", "Green", ",", 
+    RowBox[{"PointSize", "->", ".06"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{"-", "1"}], ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1", ",", "0"}], "}"}]}], "}"}], "]"}], "}"}], ",",
+     "\[IndentingNewLine]", "Yellow", ",", 
+    RowBox[{"PointSize", "->", ".06"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0", ",", 
+          RowBox[{"-", "1"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "}"}], "]"}], "}"}], ",",
+     "\[IndentingNewLine]", "Yellow", ",", 
+    RowBox[{"Polygon", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", 
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "1", ",", 
+         RowBox[{"-", "1"}]}], "}"}]}], "}"}], "]"}]}], "\[IndentingNewLine]",
+    "}"}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.720743981470519*^9, 3.720744026622224*^9, {3.720744058356944*^9, 
+   3.720744085717018*^9}, {3.720744187892826*^9, 3.720744211058578*^9}, 
+   3.720744469883441*^9, 3.720744500050057*^9, 3.720744840929111*^9, 
+   3.720744901209786*^9, {3.720744970208494*^9, 3.7207449766568193`*^9}, 
+   3.720745042081417*^9, {3.7207450744095697`*^9, 3.7207451436242037`*^9}, 
+   3.720745213152893*^9, 3.720748260050982*^9, 3.7207484148979073`*^9, {
+   3.7207493089618177`*^9, 3.7207494062705517`*^9}, 3.7207494390464077`*^9, {
+   3.720834372317059*^9, 3.72083451749338*^9}, 3.7208345507412786`*^9, {
+   3.7208358744254103`*^9, 3.720835928001343*^9}, {3.720836306311549*^9, 
+   3.720836335989995*^9}, 3.720836382143179*^9, {3.720836421694759*^9, 
+   3.720836427237612*^9}, 3.720836475902368*^9, {3.720836508150581*^9, 
+   3.7208365481169643`*^9}, {3.7208365802937107`*^9, 3.720836606589678*^9}, {
+   3.7208366426376266`*^9, 3.7208367505728903`*^9}, {3.720836788213072*^9, 
+   3.720836803827512*^9}, {3.720836842637918*^9, 
+   3.72083689911652*^9}},ExpressionUUID->"a54a6751-0683-4dab-ab4d-\
+ba200564fb8e"],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   {GrayLevel[0], PointSize[0.14], Point3DBox[{-1, 0, 0}], 
+    Point3DBox[{0, -1, 0}], Point3DBox[{0, 0, -1}]}, 
+   {GrayLevel[1], PointSize[0.14], Point3DBox[{1, 0, 0}], 
+    Point3DBox[{0, 1, 0}], Point3DBox[{0, 0, 1}]}, 
+   {RGBColor[0, 0, 1], PointSize[0.1], Point3DBox[{1, 0, 0}], 
+    Point3DBox[{-1, 0, 0}]}, 
+   {RGBColor[0, 1, 0], PointSize[0.1], Point3DBox[{0, 1, 0}], 
+    Point3DBox[{0, -1, 0}]}, 
+   {RGBColor[1, 1, 0], PointSize[0.1], Point3DBox[{0, 0, 1}], 
+    Point3DBox[{0, 0, -1}]}, 
+   {RGBColor[1, 0, 0], PointSize[0.06], Point3DBox[{0, 0, 0}]}, 
+   {RGBColor[0, 0, 1], PointSize[0.06], Line3DBox[{{-1, 0, 0}, {1, 0, 0}}]}, 
+   {RGBColor[0, 1, 0], PointSize[0.06], Line3DBox[{{0, -1, 0}, {0, 1, 0}}]}, 
+   {RGBColor[1, 1, 0], PointSize[0.06], Line3DBox[{{0, 0, -1}, {0, 0, 1}}], 
+    {RGBColor[1, 1, 0], 
+     Polygon3DBox[{{-1, -1, -1}, {1, -1, -1}, {1, 1, -1}, {-1, 1, -1}}]}}},
+  ImageSize->{365.2159950892178, 388.8300491066592},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{-1.964153154795008, 1.9652538947059108`, 1.9312895986495826`},
+  ViewVertical->{-0.0113442984878602, 0.9999142570670946, 
+   0.006541055402509738}]], "Output",
+ CellChangeTimes->{{3.720836695040779*^9, 3.720836753469873*^9}, 
+   3.72083680688183*^9, 3.720836866529303*^9, 3.720836901334095*^9, 
+   3.720836983566989*^9},ExpressionUUID->"eb6aecf6-d1b5-4f0e-bf4b-\
+7cb96b90baa5"]
+}, Open  ]]
+},
+WindowSize->{1920, 1023},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+Magnification->1.5,
+FrontEndVersion->"11.2 for Linux x86 (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3060, 86, 286, "Input",ExpressionUUID->"1ca67947-00ff-442c-97a2-3a7af338600c"],
+Cell[3643, 110, 747, 15, 612, "Output",ExpressionUUID->"a897878c-a84b-4bb2-9edc-81eaf36db9ba"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4427, 130, 5274, 131, 388, "Input",ExpressionUUID->"452f9bf7-7214-4cd2-9189-06543b22b0c0"],
+Cell[9704, 263, 1229, 26, 554, "Output",ExpressionUUID->"8db664e7-f449-4eaf-bbcd-c356234fbf82"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10970, 294, 402, 12, 47, "Input",ExpressionUUID->"04b2baee-3b50-46f6-bed1-5b2be1e8e4b9"],
+Cell[11375, 308, 403, 12, 53, "Output",ExpressionUUID->"a4c2b3d1-2af9-426e-892a-47fe1aaa15be"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11815, 325, 5323, 140, 422, "Input",ExpressionUUID->"a54a6751-0683-4dab-ab4d-ba200564fb8e"],
+Cell[17141, 467, 1405, 26, 642, "Output",ExpressionUUID->"eb6aecf6-d1b5-4f0e-bf4b-7cb96b90baa5"]
+}, Open  ]]
+}
+]
+*)
+
