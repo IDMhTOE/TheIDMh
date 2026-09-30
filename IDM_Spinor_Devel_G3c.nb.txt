@@ -1,0 +1,1484 @@
+
+TrigToExp[RotationMatrix[180 Degree]]//MatrixForm
+
+
+(-1	0
+0	-1
+
+)
+
+
+TrigToExp[RotationMatrix[89Degree]]
+TrigToExp[RotationMatrix[178Degree]]
+TrigToExp[RotationMatrix[269Degree]]
+TrigToExp[RotationMatrix[359Degree]]
+
+TrigToExp[RotationMatrix[88Degree]]
+TrigToExp[RotationMatrix[178Degree]]
+TrigToExp[RotationMatrix[269Degree]]
+TrigToExp[RotationMatrix[359Degree]]
+
+RotationMatrix[88Degree]//N
+RotationMatrix[178Degree]//N
+RotationMatrix[269Degree]//N
+RotationMatrix[359Degree]//N
+
+RotationMatrix[90Degree]//N
+RotationMatrix[180Degree]//N
+RotationMatrix[270Degree]//N
+RotationMatrix[360Degree]//N
+{{1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree]),-(1/2) E^(-I \[Degree])-E^(I \[Degree])/2},{E^(-I \[Degree])/2+E^(I \[Degree])/2,1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree])}}
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+{{-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree]),E^(-I \[Degree])/2+E^(I \[Degree])/2},{-(1/2) E^(-I \[Degree])-E^(I \[Degree])/2,-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree])}}
+{{E^(-I \[Degree])/2+E^(I \[Degree])/2,1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree])},{-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree]),E^(-I \[Degree])/2+E^(I \[Degree])/2}}
+{{Sin[2 \[Degree]],-Cos[2 \[Degree]]},{Cos[2 \[Degree]],Sin[2 \[Degree]]}}
+{{-Cos[2 \[Degree]],-Sin[2 \[Degree]]},{Sin[2 \[Degree]],-Cos[2 \[Degree]]}}
+{{-Sin[\[Degree]],Cos[\[Degree]]},{-Cos[\[Degree]],-Sin[\[Degree]]}}
+{{Cos[\[Degree]],Sin[\[Degree]]},{-Sin[\[Degree]],Cos[\[Degree]]}}
+{{0.0348995,-0.999391},{0.999391,0.0348995}}
+{{-0.999391,-0.0348995},{0.0348995,-0.999391}}
+{{-0.0174524,0.999848},{-0.999848,-0.0174524}}
+{{0.999848,0.0174524},{-0.0174524,0.999848}}
+{{0.,-1.},{1.,0.}}
+{{-1.,0.},{0.,-1.}}
+{{0.,1.},{-1.,0.}}
+{{1.,0.},{0.,1.}}
+RotationMatrix[90Degree]//MatrixForm
+RotationMatrix[180Degree]//MatrixForm
+RotationMatrix[270Degree]//MatrixForm
+RotationMatrix[360Degree]//MatrixForm
+(0	-1
+1	0
+
+)
+(-1	0
+0	-1
+
+)
+(0	1
+-1	0
+
+)
+(1	0
+0	1
+
+)
+RotationMatrix[-90Degree]//MatrixForm
+RotationMatrix[-180Degree]//MatrixForm
+RotationMatrix[-270Degree]//MatrixForm
+RotationMatrix[-360Degree]//MatrixForm
+(0	1
+-1	0
+
+)
+(-1	0
+0	-1
+
+)
+(0	-1
+1	0
+
+)
+(1	0
+0	1
+
+)
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+E^0
+1
+I^0 //N
+1.
+
+{I,Conjugate[I]}{{-1,0},{0,-1}}
+{{-I,0},{0,I}}
+Dot[{I,Conjugate[I]}{{-1,0},{0,-1}}]
+Cross[{I,Conjugate[I]} ,{{-1,0},{0,-1}}]
+{{-I,0},{0,I}}
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{I,-I}\[Cross]{{-1,0},{0,-1}}
+Cross[{I,Conjugate[I]} ,{Conjugate[I],I}]
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{I,-I}\[Cross]{-I,I}
+Cross[{I,Conjugate[I]}]
+{I,I}
+Cross[{Conjugate[I],I}]
+{-I,-I}
+{{I},{Conjugate[I]}}{{-1,0},{0,-1}}
+Thread::tdlen: Objects of unequal length in {I} {-1,0} cannot be combined.
+Thread::tdlen: Objects of unequal length in {-I} {0,-1} cannot be combined.
+{{I} {-1,0},{-I} {0,-1}}
+RotationMatrix[30Degree]
+
+x1
+x1=1
+x2=2
+x2^2
+x2^2//N
+
+{{Sqrt[3]/2,-(1/2)},{1/2,Sqrt[3]/2}}
+x1
+1
+2
+4
+4.
+Clear[x1,x2,x2,epsolonP,epsolonH]
+x1^2+x2^2+x3^2==0
+x1^2+x2^2+x3^2==0
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x1==-epsolonH^2+epsolonP^2
+x2==I (epsolonH^2+epsolonP^2)
+x3 == -2  epsolonP^2 epsolonH^2
+x3==-2 epsolonH^2 epsolonP^2
+Clear[x1,x2,x2,epsolonP,epsolonH]
+
+epsolonP= I
+epsolonH= Conjugate[epsolonP]
+I
+-I
+
+
+x1^2+x2^2+x3^2==0
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+
+
+
+
+
+
+x1^2+x2^2+x3^2==0
+x1==0
+x2==-2 I
+x3==-2
+
+
+x1^2+x2^2+x3^2==0
+
+
+
+epsolonP= -2 I
+epsolonH= Conjugate[-2 I]
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+
+x1^2+x2^2+x3^2==0
+-2 I
+2 I
+x1==0
+x2==-8 I
+x3==-32
+x1^2+x2^2+x3^2==0
+
+
+
+epsolonP= -8 I
+epsolonH= Conjugate[-8 I]
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+x1^2+x2^2+x3^2==0
+-8 I
+8 I
+x1==0
+x2==-128 I
+x3==-8192
+
+
+Dot[I ,  Conjugate[I]] //N
+Cross[I ,  Conjugate[I]]//N
+(0. +1. I).(0. -1. I)
+(0. +1. I)\[Cross](0. -1. I)
+I   Conjugate[I]
+1
+Conjugate[I] I   
+1
+RotationMatrix
+RotationMatrix
+ReflectionMatrix[{-1}]
+{{-1}}
+ReflectionMatrix[{I}]
+{{-1}}
+{ {I},{I}. ReflectionMatrix[{I}]}
+{{I},{-I}}
+{-I}
+ReflectionMatrix[{I,-I}]
+{{0,1},{1,0}}
+ReflectionMatrix[{{I,-I},{I,-I}}]
+ReflectionMatrix::inpv: {{I,-I},{I,-I}} is not a vector.
+ReflectionMatrix[{I,-I,I,-I}]
+{{1/2,1/2,-(1/2),1/2},{1/2,1/2,1/2,-(1/2)},{-(1/2),1/2,1/2,1/2},{1/2,-(1/2),1/2,1/2}}
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I}]
+{{3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4},{1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4},{1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4},{1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4},{1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4}}
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}]
+{{7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8}}
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}]
+{{15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16}}
+{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}.ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}]
+{-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I}
+
+ReflectionMatrix[{-I}]
+ReflectionMatrix[{1}]
+ReflectionMatrix[{I}]
+
+ReflectionMatrix[{I,-I}]
+ReflectionMatrix[{I,-I,I,-I}]
+
+ReflectionMatrix[{{I,-I}. {I,-I}}]
+ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}}]
+FullSimplify[ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}}]]
+ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}}]
+FullSimplify[ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}}]]
+ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}. {I,-I}}]
+FullSimplify[ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}. {I,-I}}]]
+
+ReflectionMatrix[{I,I,I}]
+ReflectionMatrix[{I,I,I,I}]
+ReflectionMatrix[{I,I,I,I,I}]
+ReflectionMatrix[{I,I,I,I,I,I}]
+
+ReflectionMatrix[{I,-I,I,-I,I,-I}]
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I}]
+{{-1}}
+{{-1}}
+{{-1}}
+{{0,1},{1,0}}
+{{1/2,1/2,-(1/2),1/2},{1/2,1/2,1/2,-(1/2)},{-(1/2),1/2,1/2,1/2},{1/2,-(1/2),1/2,1/2}}
+{{-1}}
+{{1-(2 Conjugate[(-2).{I,-I}] (-2).{I,-I})/Abs[(-2).{I,-I}]^2}}
+{{-1}}
+{{1-(2 Conjugate[(-2).(-2)] (-2).(-2))/Abs[(-2).(-2)]^2}}
+{{-1}}
+{{1-(2 Conjugate[(-2).(-2).{I,-I}] (-2).(-2).{I,-I})/Abs[(-2).(-2).{I,-I}]^2}}
+{{-1}}
+{{1/3,-(2/3),-(2/3)},{-(2/3),1/3,-(2/3)},{-(2/3),-(2/3),1/3}}
+{{1/2,-(1/2),-(1/2),-(1/2)},{-(1/2),1/2,-(1/2),-(1/2)},{-(1/2),-(1/2),1/2,-(1/2)},{-(1/2),-(1/2),-(1/2),1/2}}
+{{3/5,-(2/5),-(2/5),-(2/5),-(2/5)},{-(2/5),3/5,-(2/5),-(2/5),-(2/5)},{-(2/5),-(2/5),3/5,-(2/5),-(2/5)},{-(2/5),-(2/5),-(2/5),3/5,-(2/5)},{-(2/5),-(2/5),-(2/5),-(2/5),3/5}}
+{{2/3,-(1/3),-(1/3),-(1/3),-(1/3),-(1/3)},{-(1/3),2/3,-(1/3),-(1/3),-(1/3),-(1/3)},{-(1/3),-(1/3),2/3,-(1/3),-(1/3),-(1/3)},{-(1/3),-(1/3),-(1/3),2/3,-(1/3),-(1/3)},{-(1/3),-(1/3),-(1/3),-(1/3),2/3,-(1/3)},{-(1/3),-(1/3),-(1/3),-(1/3),-(1/3),2/3}}
+{{2/3,1/3,-(1/3),1/3,-(1/3),1/3},{1/3,2/3,1/3,-(1/3),1/3,-(1/3)},{-(1/3),1/3,2/3,1/3,-(1/3),1/3},{1/3,-(1/3),1/3,2/3,1/3,-(1/3)},{-(1/3),1/3,-(1/3),1/3,2/3,1/3},{1/3,-(1/3),1/3,-(1/3),1/3,2/3}}
+{{3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4},{1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4},{1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4},{1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4},{1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4}}
+FullSimplify[2 Conjugate[(-2).(-2).{I,-I}] (-2).(-2).{I,-I}]
+2 Abs[(-2).(-2).{I,-I}]^2
+2 Abs[(-2).(-2).{I,-I}]^2 /Abs[(-2).(-2).{I,-I}]^2
+2
+FullSimplify[2 Abs[(-2).(-2).{I,-I}]^2] //N
+2. Abs[(-2.).(-2.).{0. +1. I,0. -1. I}]^2
+Abs[(-2).(-2).{I,-I}]^2
+Abs[(-2).(-2).{I,-I}]^2
+2.` Abs[(-2.`).(-2.`).{0.` +1.` I,0.` -1.` I}]^2\[AliasDelimiter]
+2. \[AliasDelimiter] Abs[(-2.).(-2.).{0. +1. I,0. -1. I}]^2
+ReflectionMatrix[{I,-I}]//MatrixForm
+ReflectionMatrix[{-I,I}]//MatrixForm
+ReflectionMatrix[{I,I}]//MatrixForm
+ReflectionMatrix[{-I,-I}]//MatrixForm
+(0	1
+1	0
+
+)
+(0	1
+1	0
+
+)
+(0	-1
+-1	0
+
+)
+(0	-1
+-1	0
+
+)
+
+Dot[{I,Conjugate[I]}, {I,Conjugate[I]}]
+Cross[{I,Conjugate[I]}, {I,Conjugate[I]}]
+Inner[{I,Conjugate[I]}, {I,Conjugate[I]}]
+Outer[{I,Conjugate[I]}, {I,Conjugate[I]}]
+
+
+
+-2
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{I,-I}\[Cross]{I,-I}
+Inner::argb: Inner called with 2 arguments; between 3 and 5 arguments are expected.
+Inner[{I,-I},{I,-I}]
+{{I,-I}[I],{I,-I}[-I]}
+Reverse[{{I,-I}[I],{I,-I}[-I]}]
+{{I,-I}[-I],{I,-I}[I]}
+Outer[{I,Conjugate[I]}, {I,Conjugate[I]}]
+
+{{I,-I}[I],{I,-I}[-I]}
+Outer[%]
+Outer::argmu: Outer called with 1 argument; 2 or more arguments are expected.
+Outer[{{I,-I}[I],{I,-I}[-I]}]
+ Dot[{I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}]
+FullSimplify[Dot[{I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}]]//N
+(-2).(-2)
+(-2.).(-2.)
+(-2.`).(-2.`)
+(-2.).(-2.)
+Spinor
+
+Using Cartans nomenclature \[Zeta]0, \[Zeta]1, x1, x2, x3
+Clear[\[Zeta]0,\[Zeta]1,x1, X2,x3]
+
+Single inserted value thus single assumtion: \[Zeta]0 = I a Complex Enity that is not NULL
+\[Zeta]0 =I
+I
+Take Conjugate \[Zeta]0 as 'Hole' in or 'Shaddow' on the NULL Plane by existence of \[Zeta]0
+Genitive value reflecting lack of: \[Zeta]0 + Conjugate[\[Zeta]0] must sum to NULL 
+Core of symmetry 
+Mathematically a Reflection thus a Rotation.
+
+\[Zeta]1=Conjugate[\[Zeta]0] 
+\[Zeta]0 + \[Zeta]1
+-I
+0
+
+x1 defines the NULL Plane
+x1 = \[Zeta]0^2 - \[Zeta]1^2 
+\[Zeta]0^2
+\[Zeta]1^2
+x1
+0
+-1
+-1
+0
+x2 = I(\[Zeta]0^2 + \[Zeta]1^2)
+\[Zeta]0^2
+\[Zeta]1^2
+x2
+
+-2 I
+-1
+-1
+-2 I
+x3 = -2\[Zeta]0^2\[Zeta]1^2
+\[Zeta]0^2
+\[Zeta]1^2
+x3
+-2
+-1
+-1
+-2
+x1^2 + x2^2 + x3^2 
+x1
+x1^2
+x2
+x2^2
+x3
+x3^2
+0
+0
+0
+-2 I
+-4
+-2
+4
+Clear[\[Zeta]0,\[Zeta]1,x1, X2,x3]
+\[Zeta]0 =I
+I
+\[Zeta]1=Conjugate[I] 
+-I
+x1 = \[Zeta]0^2 - \[Zeta]1^2 
+\[Zeta]0^2
+\[Zeta]1^2
+x1
+\[Zeta]0
+\[Zeta]1
+0
+-1
+-1
+0
+I
+-I
+x2 = I(\[Zeta]0^2 + \[Zeta]1^2)
+\[Zeta]0^2
+\[Zeta]1^2
+x2
+\[Zeta]0
+\[Zeta]1
+-2 I
+-1
+-1
+-2 I
+I
+-I
+x3 = -2\[Zeta]0^2\[Zeta]1^2
+\[Zeta]0^2
+\[Zeta]1^2
+x3
+\[Zeta]0
+\[Zeta]1
+-2
+-1
+-1
+-2
+I
+-I
+x1^2 + x2^2 + x3^2 
+x1
+x1^2
+x2
+x2^2
+x3
+x3^2
+\[Zeta]0
+\[Zeta]1
+0
+0
+0
+-2 I
+-4
+-2
+4
+I
+-I
+\[Zeta]0
+\[Zeta]1
+I
+-I
+\[Zeta]0/\[Zeta]1
+\[Zeta]0
+\[Zeta]1
+-1
+I
+-I
+
+Plot of Spinor values so far.
+Graphics3D[{Gray,PointSize->.04,{Point[{0,0,0}]},
+{Red,PointSize->.08,Point[{1,0,0}],Point[{0,-2,0}]},
+{Pink,PointSize->.08,Point[{-1,0,0}]},
+{Brown,PointSize->.06,Point[{0,-2,0}]},
+{Pink,PointSize->.08,Point[{0,-2,-2}]},
+{LightBlue,PointSize->.06,Point[{0,-2,-2}]},
+{Gray,PointSize->.04,Point[{0,-2,-1}]},}]
+
+Show[%9,ViewPoint->{-\[Infinity],0,0}]
+Show::gcomb: Could not combine the graphics objects in Show[{{-Cos[2 \[Degree]],-Sin[2 \[Degree]]},{Sin[2 \[Degree]],-Cos[2 \[Degree]]}},ViewPoint->{-\[Infinity],0,0}].
+Show[{{-Cos[2 \[Degree]],-Sin[2 \[Degree]]},{Sin[2 \[Degree]],-Cos[2 \[Degree]]}},ViewPoint->{-\[Infinity],0,0}]
+Graphics3D[{Gray,PointSize->.04,{Point[{0,0,0}]},{Pink,PointSize->.08,Point[{1,0,0}],Point[{0,-2,0}]},{LightPink,PointSize->.08,Point[{-1,0,0}]},{Brown,PointSize->.06,Point[{0,-2,0}]}}]
+
+Graphics3D[{Gray,PointSize->.04,{Point[{0,0,0}]},{Pink,PointSize->.08,Point[{1,0,0}],Point[{0,-2,0}]},{LightPink,PointSize->.08,Point[{-1,0,0}]},{Brown,PointSize->.06,Point[{0,-2,0}]}}]
+
+Graphics3D[{Black,PointSize->.1,{Point[{0,0,0}]},{Purple,PointSize->.08,Point[{1,0,0}],Point[{-1,0,0}],Point[{0,-2,0}]},{Red,PointSize->.06,Point[{0,0,-2}]}}]
+
+Graphics3D[{Blue,PointSize->.1,{Point[{1,0,0}],Point[{-1,0,0}],Point[{0,1,0}],Point[{0,-1,0}],Point[{0,0,1}],Point[{0,0,-1}],{Red,PointSize->.06,Point[{0,0,0}]},{Blue,PointSize->.01,{Line[{{-1,0,0},{1,0,0}}],Line[{{0,-1,0},{0,1,0}}],Line[{{0,0,-1},{0,0,1}}]}
+}}}]
+
+
+Single inserted value thus single assumption: \[Zeta]0 = I a Complex Unity that is not NULL
+1st calculated value from single assumption in terms of I from x2 = -2I taking '-' to be the Conjugate of I --- fails as X^2  not = zero
+Clear[\[Zeta]0,\[Zeta]1,x1,x2,x3]
+\[Zeta]0 =Conjugate[I]
+-I
+\[Zeta]1=Conjugate[\[Zeta]0] 
+I
+x1 = \[Zeta]0^2 - \[Zeta]1^2 
+\[Zeta]0^2
+\[Zeta]1^2
+x1
+\[Zeta]0
+\[Zeta]1
+0
+-1
+-1
+0
+-I
+I
+x2 = I(\[Zeta]0^2 + \[Zeta]1^2)
+\[Zeta]0^2
+\[Zeta]1^2
+x2
+\[Zeta]0
+\[Zeta]1
+-2 I
+-1
+-1
+-2 I
+-I
+I
+x3 = -2\[Zeta]0^2\[Zeta]1^2
+\[Zeta]0^2
+\[Zeta]1^2
+x3
+\[Zeta]0
+\[Zeta]1
+-2
+-1
+-1
+-2
+-I
+I
+x1^2 + x2^2 + x3^2 
+x1
+x1^2
+x2
+x2^2
+x3
+x3^2
+\[Zeta]0
+\[Zeta]1
+0
+0
+0
+-2 I
+-4
+-2
+4
+-I
+I
+\[Zeta]0
+\[Zeta]1
+-I
+I
+\[Zeta]0/\[Zeta]1
+\[Zeta]0
+\[Zeta]1
+-1
+-I
+I
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+Array[a,{1,2,4,8}]
+{{{{a[1,1,1,1],a[1,1,1,2],a[1,1,1,3],a[1,1,1,4],a[1,1,1,5],a[1,1,1,6],a[1,1,1,7],a[1,1,1,8]},{a[1,1,2,1],a[1,1,2,2],a[1,1,2,3],a[1,1,2,4],a[1,1,2,5],a[1,1,2,6],a[1,1,2,7],a[1,1,2,8]},{a[1,1,3,1],a[1,1,3,2],a[1,1,3,3],a[1,1,3,4],a[1,1,3,5],a[1,1,3,6],a[1,1,3,7],a[1,1,3,8]},{a[1,1,4,1],a[1,1,4,2],a[1,1,4,3],a[1,1,4,4],a[1,1,4,5],a[1,1,4,6],a[1,1,4,7],a[1,1,4,8]}},{{a[1,2,1,1],a[1,2,1,2],a[1,2,1,3],a[1,2,1,4],a[1,2,1,5],a[1,2,1,6],a[1,2,1,7],a[1,2,1,8]},{a[1,2,2,1],a[1,2,2,2],a[1,2,2,3],a[1,2,2,4],a[1,2,2,5],a[1,2,2,6],a[1,2,2,7],a[1,2,2,8]},{a[1,2,3,1],a[1,2,3,2],a[1,2,3,3],a[1,2,3,4],a[1,2,3,5],a[1,2,3,6],a[1,2,3,7],a[1,2,3,8]},{a[1,2,4,1],a[1,2,4,2],a[1,2,4,3],a[1,2,4,4],a[1,2,4,5],a[1,2,4,6],a[1,2,4,7],a[1,2,4,8]}}}}
+Array[count,{1,2,4,8}]//MatrixForm
+((count[1,1,1,1]	count[1,1,1,2]	count[1,1,1,3]	count[1,1,1,4]	count[1,1,1,5]	count[1,1,1,6]	count[1,1,1,7]	count[1,1,1,8]
+count[1,1,2,1]	count[1,1,2,2]	count[1,1,2,3]	count[1,1,2,4]	count[1,1,2,5]	count[1,1,2,6]	count[1,1,2,7]	count[1,1,2,8]
+count[1,1,3,1]	count[1,1,3,2]	count[1,1,3,3]	count[1,1,3,4]	count[1,1,3,5]	count[1,1,3,6]	count[1,1,3,7]	count[1,1,3,8]
+count[1,1,4,1]	count[1,1,4,2]	count[1,1,4,3]	count[1,1,4,4]	count[1,1,4,5]	count[1,1,4,6]	count[1,1,4,7]	count[1,1,4,8]
+
+)	(count[1,2,1,1]	count[1,2,1,2]	count[1,2,1,3]	count[1,2,1,4]	count[1,2,1,5]	count[1,2,1,6]	count[1,2,1,7]	count[1,2,1,8]
+count[1,2,2,1]	count[1,2,2,2]	count[1,2,2,3]	count[1,2,2,4]	count[1,2,2,5]	count[1,2,2,6]	count[1,2,2,7]	count[1,2,2,8]
+count[1,2,3,1]	count[1,2,3,2]	count[1,2,3,3]	count[1,2,3,4]	count[1,2,3,5]	count[1,2,3,6]	count[1,2,3,7]	count[1,2,3,8]
+count[1,2,4,1]	count[1,2,4,2]	count[1,2,4,3]	count[1,2,4,4]	count[1,2,4,5]	count[1,2,4,6]	count[1,2,4,7]	count[1,2,4,8]
+
+))
+Transpose[ Array[count,{1,2,4,8}]]//MatrixForm
+((count[1,1,1,1]	count[1,1,1,2]	count[1,1,1,3]	count[1,1,1,4]	count[1,1,1,5]	count[1,1,1,6]	count[1,1,1,7]	count[1,1,1,8]
+count[1,1,2,1]	count[1,1,2,2]	count[1,1,2,3]	count[1,1,2,4]	count[1,1,2,5]	count[1,1,2,6]	count[1,1,2,7]	count[1,1,2,8]
+count[1,1,3,1]	count[1,1,3,2]	count[1,1,3,3]	count[1,1,3,4]	count[1,1,3,5]	count[1,1,3,6]	count[1,1,3,7]	count[1,1,3,8]
+count[1,1,4,1]	count[1,1,4,2]	count[1,1,4,3]	count[1,1,4,4]	count[1,1,4,5]	count[1,1,4,6]	count[1,1,4,7]	count[1,1,4,8]
+
+)
+(count[1,2,1,1]	count[1,2,1,2]	count[1,2,1,3]	count[1,2,1,4]	count[1,2,1,5]	count[1,2,1,6]	count[1,2,1,7]	count[1,2,1,8]
+count[1,2,2,1]	count[1,2,2,2]	count[1,2,2,3]	count[1,2,2,4]	count[1,2,2,5]	count[1,2,2,6]	count[1,2,2,7]	count[1,2,2,8]
+count[1,2,3,1]	count[1,2,3,2]	count[1,2,3,3]	count[1,2,3,4]	count[1,2,3,5]	count[1,2,3,6]	count[1,2,3,7]	count[1,2,3,8]
+count[1,2,4,1]	count[1,2,4,2]	count[1,2,4,3]	count[1,2,4,4]	count[1,2,4,5]	count[1,2,4,6]	count[1,2,4,7]	count[1,2,4,8]
+
+)
+
+)
+-
+{a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}}//MatrixForm
+(a
+{b,Congruent[b]}
+{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}
+
+)
+{a,{b,Congruent[b]},{{b,Congruent[b],{b,Congruent[b]},{b,Congruent[b]},{b,Congruent[b]}}}}//MatrixForm
+(a
+{b,Congruent[b]}
+{{b,Congruent[b],{b,Congruent[b]},{b,Congruent[b]},{b,Congruent[b]}}}
+
+)
+Transpose[ {a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}}]//MatrixForm
+Transpose::nmtx: The first two levels of {a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}} cannot be transposed.
+Transpose[{a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}}]
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Re[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Re[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Re[x1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Re[x2],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Re[-I],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Re[I],0}]}
+},PlotLabel->Real]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Arrow[{{0,0,0},{0,Im[\[Zeta]0],0}}]}(*{RGBColor[0.5,0,0],PointSize->.08,Arrow[{Im[\[Zeta]1],0}]}
+{RGBColor[0,1,0],PointSize->.08,Arrow[{Im[x1],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]0]}]},
+{RGBColor[0.5,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]0]}]}
+*)
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},{RGBColor[0,0.5,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0,0,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0,1,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0.5,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,1,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0.5,1,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.25,0.5,0.25],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0.5,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+
+
+
+
+
+
+
+
+
+{{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]}}
+{{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]}}
+{{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]}}//MatrixForm
+(I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+
+)
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+
+{Gray,PointSize->.10,Point[{0,0,1}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{0,Im[\[Zeta]0],1}]},{RGBColor[0,0.5,0],PointSize->.08,Point[{0,Im[\[Zeta]1],1}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{2,0,0}]},
+{RGBColor[0,0,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{3,0,0}]},
+{RGBColor[0,1,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0.5,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{4,0,0}]},
+{RGBColor[1,1,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{5,0,0}]},
+{RGBColor[0.5,1,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.25,0.5,0.25],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{6,0,0}]},
+{RGBColor[1,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{7,0,0}]},
+{RGBColor[1,0.5,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+
+
+
+
+
+
+
+
+
+Spinor To Isotropic Vector (Time Vector)
+
+
+
+
+
+
+Vectors
+Vectors
+{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}
+{{I},{-I}}
+reflectionCount=5
+5
+theSomething[All]
+theSomething[All]
+theSomething[6]
+{{I},{-I}}
+theSomething[reflectionCount]
+theSomething[7]
+{{I},{-I}}[7]
+{{I}, {-I}}[5]
+{{I},{-I}}[5]
+[7]
+Syntax::tsntxi: "[7]" is incomplete; more input is needed.
+{{I},{-I}}.{{I},{-I}}
+Dot::dotsh: Tensors {{I},{-I}} and {{I},{-I}} have incompatible shapes.
+{{I},{-I}}.{{I},{-I}}
+Cross[{{I},{-I}},{{I},{-I}}]
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{{I},{-I}}^2
+{{-1},{-1}}
+Modulus[4]
+fundimentalComplexStringDevA= {fundimentalComplexString[[n]] . fundimentalComplexString[[n+4]],Modulus->4, {n,1,256,4}}
+Part::pkspec1: The expression n cannot be used as a part specification.
+Part::pkspec1: The expression 4+n cannot be used as a part specification.
+{{{{1},{{{I},{-I}}}},{{2},{{{I},{-I}}}},{{3},{{{I},{-I}}}}, \[CenterEllipsis]506\[CenterEllipsis] ,{{510},{{{I},{-I}}}},{{511},{{{I},{-I}}}},{{512},{{{I},{-I}}}}}[[n]].{ \[CenterEllipsis]1\[CenterEllipsis] }[[4+n]],Modulus->4,{n,1,256,4}}
+large output	show less	show more	show all	set size limit...
+
+
+Flatten[fundimentalComplexString[[5,2]]]
+
+Flatten[fundimentalComplexString[[1,2]]].Flatten[fundimentalComplexString[[5,2]]]
+-2
+Flatten[fundimentalComplexString[[5,2]],1]//MatrixForm
+(I
+-I
+
+)
+((I),	(-I))//MatrixForm
+
+Syntax::sntxb: Expression cannot begin with "((I),	(-I))//MatrixForm".
+{{{I},{-I}}}//MatrixForm
+((I)	(-I))
+fundimentalComplexString[[1,2]]//MatrixForm
+((I)	(-I))
+{{I},{-I}}//MatrixForm
+(I
+-I
+
+)
+({{I},{-I}})//MatrixForm
+((I)	(-I))
+fundimentalComplexString //MatrixForm
+((1)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(2)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(3)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(4)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(5)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(6)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(7)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(8)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(9)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(10)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(11)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(12)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(13)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(14)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(15)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(16)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(17)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(18)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(19)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(20)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(21)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(22)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(23)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(24)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(25)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(26)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(27)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(28)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(29)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(30)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(31)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(32)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(33)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(34)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(35)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(36)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(37)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(38)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(39)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(40)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(41)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(42)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(43)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(44)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(45)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(46)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(47)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(48)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(49)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(50)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(51)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(52)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(53)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(54)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(55)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(56)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(57)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(58)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(59)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(60)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(61)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(62)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(63)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(64)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(65)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(66)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(67)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(68)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(69)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(70)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(71)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(72)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(73)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(74)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(75)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(76)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(77)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(78)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(79)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(80)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(81)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(82)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(83)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(84)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(85)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(86)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(87)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(88)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(89)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(90)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(91)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(92)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(93)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(94)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(95)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(96)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(97)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(98)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(99)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(100)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(101)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(102)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(103)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(104)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(105)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(106)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(107)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(108)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(109)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(110)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(111)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(112)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(113)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(114)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(115)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(116)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(117)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(118)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(119)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(120)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(121)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(122)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(123)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(124)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(125)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(126)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(127)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(128)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(129)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(130)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(131)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(132)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(133)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(134)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(135)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(136)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(137)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(138)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(139)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(140)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(141)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(142)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(143)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(144)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(145)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(146)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(147)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(148)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(149)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(150)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(151)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(152)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(153)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(154)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(155)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(156)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(157)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(158)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(159)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(160)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(161)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(162)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(163)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(164)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(165)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(166)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(167)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(168)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(169)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(170)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(171)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(172)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(173)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(174)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(175)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(176)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(177)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(178)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(179)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(180)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(181)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(182)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(183)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(184)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(185)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(186)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(187)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(188)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(189)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(190)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(191)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(192)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(193)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(194)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(195)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(196)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(197)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(198)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(199)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(200)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(201)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(202)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(203)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(204)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(205)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(206)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(207)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(208)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(209)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(210)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(211)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(212)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(213)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(214)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(215)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(216)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(217)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(218)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(219)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(220)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(221)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(222)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(223)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(224)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(225)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(226)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(227)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(228)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(229)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(230)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(231)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(232)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(233)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(234)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(235)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(236)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(237)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(238)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(239)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(240)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(241)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(242)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(243)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(244)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(245)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(246)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(247)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(248)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(249)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(250)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(251)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(252)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(253)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(254)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(255)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(256)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(257)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(258)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(259)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(260)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(261)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(262)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(263)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(264)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(265)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(266)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(267)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(268)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(269)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(270)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(271)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(272)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(273)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(274)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(275)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(276)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(277)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(278)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(279)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(280)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(281)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(282)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(283)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(284)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(285)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(286)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(287)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(288)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(289)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(290)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(291)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(292)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(293)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(294)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(295)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(296)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(297)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(298)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(299)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(300)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(301)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(302)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(303)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(304)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(305)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(306)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(307)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(308)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(309)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(310)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(311)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(312)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(313)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(314)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(315)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(316)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(317)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(318)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(319)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(320)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(321)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(322)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(323)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(324)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(325)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(326)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(327)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(328)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(329)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(330)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(331)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(332)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(333)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(334)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(335)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(336)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(337)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(338)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(339)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(340)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(341)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(342)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(343)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(344)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(345)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(346)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(347)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(348)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(349)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(350)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(351)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(352)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(353)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(354)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(355)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(356)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(357)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(358)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(359)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(360)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(361)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(362)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(363)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(364)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(365)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(366)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(367)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(368)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(369)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(370)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(371)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(372)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(373)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(374)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(375)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(376)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(377)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(378)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(379)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(380)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(381)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(382)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(383)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(384)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(385)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(386)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(387)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(388)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(389)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(390)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(391)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(392)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(393)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(394)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(395)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(396)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(397)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(398)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(399)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(400)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(401)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(402)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(403)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(404)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(405)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(406)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(407)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(408)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(409)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(410)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(411)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(412)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(413)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(414)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(415)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(416)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(417)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(418)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(419)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(420)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(421)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(422)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(423)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(424)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(425)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(426)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(427)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(428)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(429)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(430)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(431)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(432)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(433)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(434)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(435)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(436)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(437)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(438)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(439)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(440)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(441)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(442)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(443)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(444)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(445)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(446)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(447)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(448)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(449)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(450)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(451)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(452)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(453)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(454)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(455)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(456)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(457)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(458)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(459)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(460)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(461)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(462)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(463)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(464)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(465)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(466)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(467)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(468)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(469)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(470)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(471)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(472)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(473)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(474)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(475)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(476)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(477)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(478)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(479)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(480)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(481)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(482)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(483)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(484)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(485)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(486)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(487)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(488)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(489)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(490)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(491)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(492)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(493)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(494)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(495)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(496)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(497)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(498)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(499)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(500)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(501)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(502)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(503)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(504)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(505)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(506)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(507)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(508)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(509)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(510)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(511)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+(512)	({{I},{-I}})	(fundimentalComplexSpinorVector)
+
+)
+fundimentalComplexString
+{{{1},{{{I},{-I}}}},{{2},{{{I},{-I}}}},{{3},{{{I},{-I}}}},{{4},{{{I},{-I}}}},{{5},{{{I},{-I}}}},{{6},{{{I},{-I}}}},{{7},{{{I},{-I}}}},{{8},{{{I},{-I}}}},{{9},{{{I},{-I}}}},{{10},{{{I},{-I}}}},{{11},{{{I},{-I}}}},{{12},{{{I},{-I}}}},{{13},{{{I},{-I}}}},{{14},{{{I},{-I}}}},{{15},{{{I},{-I}}}},{{16},{{{I},{-I}}}},{{17},{{{I},{-I}}}},{{18},{{{I},{-I}}}},{{19},{{{I},{-I}}}},{{20},{{{I},{-I}}}},{{21},{{{I},{-I}}}},{{22},{{{I},{-I}}}},{{23},{{{I},{-I}}}},{{24},{{{I},{-I}}}},{{25},{{{I},{-I}}}},{{26},{{{I},{-I}}}},{{27},{{{I},{-I}}}},{{28},{{{I},{-I}}}},{{29},{{{I},{-I}}}},{{30},{{{I},{-I}}}},{{31},{{{I},{-I}}}},{{32},{{{I},{-I}}}},{{33},{{{I},{-I}}}},{{34},{{{I},{-I}}}},{{35},{{{I},{-I}}}},{{36},{{{I},{-I}}}},{{37},{{{I},{-I}}}},{{38},{{{I},{-I}}}},{{39},{{{I},{-I}}}},{{40},{{{I},{-I}}}},{{41},{{{I},{-I}}}},{{42},{{{I},{-I}}}},{{43},{{{I},{-I}}}},{{44},{{{I},{-I}}}},{{45},{{{I},{-I}}}},{{46},{{{I},{-I}}}},{{47},{{{I},{-I}}}},{{48},{{{I},{-I}}}},{{49},{{{I},{-I}}}},{{50},{{{I},{-I}}}},{{51},{{{I},{-I}}}},{{52},{{{I},{-I}}}},{{53},{{{I},{-I}}}},{{54},{{{I},{-I}}}},{{55},{{{I},{-I}}}},{{56},{{{I},{-I}}}},{{57},{{{I},{-I}}}},{{58},{{{I},{-I}}}},{{59},{{{I},{-I}}}},{{60},{{{I},{-I}}}},{{61},{{{I},{-I}}}},{{62},{{{I},{-I}}}},{{63},{{{I},{-I}}}},{{64},{{{I},{-I}}}},{{65},{{{I},{-I}}}},{{66},{{{I},{-I}}}},{{67},{{{I},{-I}}}},{{68},{{{I},{-I}}}},{{69},{{{I},{-I}}}},{{70},{{{I},{-I}}}},{{71},{{{I},{-I}}}},{{72},{{{I},{-I}}}},{{73},{{{I},{-I}}}},{{74},{{{I},{-I}}}},{{75},{{{I},{-I}}}},{{76},{{{I},{-I}}}},{{77},{{{I},{-I}}}},{{78},{{{I},{-I}}}},{{79},{{{I},{-I}}}},{{80},{{{I},{-I}}}},{{81},{{{I},{-I}}}},{{82},{{{I},{-I}}}},{{83},{{{I},{-I}}}},{{84},{{{I},{-I}}}},{{85},{{{I},{-I}}}},{{86},{{{I},{-I}}}},{{87},{{{I},{-I}}}},{{88},{{{I},{-I}}}},{{89},{{{I},{-I}}}},{{90},{{{I},{-I}}}},{{91},{{{I},{-I}}}},{{92},{{{I},{-I}}}},{{93},{{{I},{-I}}}},{{94},{{{I},{-I}}}},{{95},{{{I},{-I}}}},{{96},{{{I},{-I}}}},{{97},{{{I},{-I}}}},{{98},{{{I},{-I}}}},{{99},{{{I},{-I}}}},{{100},{{{I},{-I}}}},{{101},{{{I},{-I}}}},{{102},{{{I},{-I}}}},{{103},{{{I},{-I}}}},{{104},{{{I},{-I}}}},{{105},{{{I},{-I}}}},{{106},{{{I},{-I}}}},{{107},{{{I},{-I}}}},{{108},{{{I},{-I}}}},{{109},{{{I},{-I}}}},{{110},{{{I},{-I}}}},{{111},{{{I},{-I}}}},{{112},{{{I},{-I}}}},{{113},{{{I},{-I}}}},{{114},{{{I},{-I}}}},{{115},{{{I},{-I}}}},{{116},{{{I},{-I}}}},{{117},{{{I},{-I}}}},{{118},{{{I},{-I}}}},{{119},{{{I},{-I}}}},{{120},{{{I},{-I}}}},{{121},{{{I},{-I}}}},{{122},{{{I},{-I}}}},{{123},{{{I},{-I}}}},{{124},{{{I},{-I}}}},{{125},{{{I},{-I}}}},{{126},{{{I},{-I}}}},{{127},{{{I},{-I}}}},{{128},{{{I},{-I}}}},{{129},{{{I},{-I}}}},{{130},{{{I},{-I}}}},{{131},{{{I},{-I}}}},{{132},{{{I},{-I}}}},{{133},{{{I},{-I}}}},{{134},{{{I},{-I}}}},{{135},{{{I},{-I}}}},{{136},{{{I},{-I}}}},{{137},{{{I},{-I}}}},{{138},{{{I},{-I}}}},{{139},{{{I},{-I}}}},{{140},{{{I},{-I}}}},{{141},{{{I},{-I}}}},{{142},{{{I},{-I}}}},{{143},{{{I},{-I}}}},{{144},{{{I},{-I}}}},{{145},{{{I},{-I}}}},{{146},{{{I},{-I}}}},{{147},{{{I},{-I}}}},{{148},{{{I},{-I}}}},{{149},{{{I},{-I}}}},{{150},{{{I},{-I}}}},{{151},{{{I},{-I}}}},{{152},{{{I},{-I}}}},{{153},{{{I},{-I}}}},{{154},{{{I},{-I}}}},{{155},{{{I},{-I}}}},{{156},{{{I},{-I}}}},{{157},{{{I},{-I}}}},{{158},{{{I},{-I}}}},{{159},{{{I},{-I}}}},{{160},{{{I},{-I}}}},{{161},{{{I},{-I}}}},{{162},{{{I},{-I}}}},{{163},{{{I},{-I}}}},{{164},{{{I},{-I}}}},{{165},{{{I},{-I}}}},{{166},{{{I},{-I}}}},{{167},{{{I},{-I}}}},{{168},{{{I},{-I}}}},{{169},{{{I},{-I}}}},{{170},{{{I},{-I}}}},{{171},{{{I},{-I}}}},{{172},{{{I},{-I}}}},{{173},{{{I},{-I}}}},{{174},{{{I},{-I}}}},{{175},{{{I},{-I}}}},{{176},{{{I},{-I}}}},{{177},{{{I},{-I}}}},{{178},{{{I},{-I}}}},{{179},{{{I},{-I}}}},{{180},{{{I},{-I}}}},{{181},{{{I},{-I}}}},{{182},{{{I},{-I}}}},{{183},{{{I},{-I}}}},{{184},{{{I},{-I}}}},{{185},{{{I},{-I}}}},{{186},{{{I},{-I}}}},{{187},{{{I},{-I}}}},{{188},{{{I},{-I}}}},{{189},{{{I},{-I}}}},{{190},{{{I},{-I}}}},{{191},{{{I},{-I}}}},{{192},{{{I},{-I}}}},{{193},{{{I},{-I}}}},{{194},{{{I},{-I}}}},{{195},{{{I},{-I}}}},{{196},{{{I},{-I}}}},{{197},{{{I},{-I}}}},{{198},{{{I},{-I}}}},{{199},{{{I},{-I}}}},{{200},{{{I},{-I}}}},{{201},{{{I},{-I}}}},{{202},{{{I},{-I}}}},{{203},{{{I},{-I}}}},{{204},{{{I},{-I}}}},{{205},{{{I},{-I}}}},{{206},{{{I},{-I}}}},{{207},{{{I},{-I}}}},{{208},{{{I},{-I}}}},{{209},{{{I},{-I}}}},{{210},{{{I},{-I}}}},{{211},{{{I},{-I}}}},{{212},{{{I},{-I}}}},{{213},{{{I},{-I}}}},{{214},{{{I},{-I}}}},{{215},{{{I},{-I}}}},{{216},{{{I},{-I}}}},{{217},{{{I},{-I}}}},{{218},{{{I},{-I}}}},{{219},{{{I},{-I}}}},{{220},{{{I},{-I}}}},{{221},{{{I},{-I}}}},{{222},{{{I},{-I}}}},{{223},{{{I},{-I}}}},{{224},{{{I},{-I}}}},{{225},{{{I},{-I}}}},{{226},{{{I},{-I}}}},{{227},{{{I},{-I}}}},{{228},{{{I},{-I}}}},{{229},{{{I},{-I}}}},{{230},{{{I},{-I}}}},{{231},{{{I},{-I}}}},{{232},{{{I},{-I}}}},{{233},{{{I},{-I}}}},{{234},{{{I},{-I}}}},{{235},{{{I},{-I}}}},{{236},{{{I},{-I}}}},{{237},{{{I},{-I}}}},{{238},{{{I},{-I}}}},{{239},{{{I},{-I}}}},{{240},{{{I},{-I}}}},{{241},{{{I},{-I}}}},{{242},{{{I},{-I}}}},{{243},{{{I},{-I}}}},{{244},{{{I},{-I}}}},{{245},{{{I},{-I}}}},{{246},{{{I},{-I}}}},{{247},{{{I},{-I}}}},{{248},{{{I},{-I}}}},{{249},{{{I},{-I}}}},{{250},{{{I},{-I}}}},{{251},{{{I},{-I}}}},{{252},{{{I},{-I}}}},{{253},{{{I},{-I}}}},{{254},{{{I},{-I}}}},{{255},{{{I},{-I}}}},{{256},{{{I},{-I}}}},{{257},{{{I},{-I}}}},{{258},{{{I},{-I}}}},{{259},{{{I},{-I}}}},{{260},{{{I},{-I}}}},{{261},{{{I},{-I}}}},{{262},{{{I},{-I}}}},{{263},{{{I},{-I}}}},{{264},{{{I},{-I}}}},{{265},{{{I},{-I}}}},{{266},{{{I},{-I}}}},{{267},{{{I},{-I}}}},{{268},{{{I},{-I}}}},{{269},{{{I},{-I}}}},{{270},{{{I},{-I}}}},{{271},{{{I},{-I}}}},{{272},{{{I},{-I}}}},{{273},{{{I},{-I}}}},{{274},{{{I},{-I}}}},{{275},{{{I},{-I}}}},{{276},{{{I},{-I}}}},{{277},{{{I},{-I}}}},{{278},{{{I},{-I}}}},{{279},{{{I},{-I}}}},{{280},{{{I},{-I}}}},{{281},{{{I},{-I}}}},{{282},{{{I},{-I}}}},{{283},{{{I},{-I}}}},{{284},{{{I},{-I}}}},{{285},{{{I},{-I}}}},{{286},{{{I},{-I}}}},{{287},{{{I},{-I}}}},{{288},{{{I},{-I}}}},{{289},{{{I},{-I}}}},{{290},{{{I},{-I}}}},{{291},{{{I},{-I}}}},{{292},{{{I},{-I}}}},{{293},{{{I},{-I}}}},{{294},{{{I},{-I}}}},{{295},{{{I},{-I}}}},{{296},{{{I},{-I}}}},{{297},{{{I},{-I}}}},{{298},{{{I},{-I}}}},{{299},{{{I},{-I}}}},{{300},{{{I},{-I}}}},{{301},{{{I},{-I}}}},{{302},{{{I},{-I}}}},{{303},{{{I},{-I}}}},{{304},{{{I},{-I}}}},{{305},{{{I},{-I}}}},{{306},{{{I},{-I}}}},{{307},{{{I},{-I}}}},{{308},{{{I},{-I}}}},{{309},{{{I},{-I}}}},{{310},{{{I},{-I}}}},{{311},{{{I},{-I}}}},{{312},{{{I},{-I}}}},{{313},{{{I},{-I}}}},{{314},{{{I},{-I}}}},{{315},{{{I},{-I}}}},{{316},{{{I},{-I}}}},{{317},{{{I},{-I}}}},{{318},{{{I},{-I}}}},{{319},{{{I},{-I}}}},{{320},{{{I},{-I}}}},{{321},{{{I},{-I}}}},{{322},{{{I},{-I}}}},{{323},{{{I},{-I}}}},{{324},{{{I},{-I}}}},{{325},{{{I},{-I}}}},{{326},{{{I},{-I}}}},{{327},{{{I},{-I}}}},{{328},{{{I},{-I}}}},{{329},{{{I},{-I}}}},{{330},{{{I},{-I}}}},{{331},{{{I},{-I}}}},{{332},{{{I},{-I}}}},{{333},{{{I},{-I}}}},{{334},{{{I},{-I}}}},{{335},{{{I},{-I}}}},{{336},{{{I},{-I}}}},{{337},{{{I},{-I}}}},{{338},{{{I},{-I}}}},{{339},{{{I},{-I}}}},{{340},{{{I},{-I}}}},{{341},{{{I},{-I}}}},{{342},{{{I},{-I}}}},{{343},{{{I},{-I}}}},{{344},{{{I},{-I}}}},{{345},{{{I},{-I}}}},{{346},{{{I},{-I}}}},{{347},{{{I},{-I}}}},{{348},{{{I},{-I}}}},{{349},{{{I},{-I}}}},{{350},{{{I},{-I}}}},{{351},{{{I},{-I}}}},{{352},{{{I},{-I}}}},{{353},{{{I},{-I}}}},{{354},{{{I},{-I}}}},{{355},{{{I},{-I}}}},{{356},{{{I},{-I}}}},{{357},{{{I},{-I}}}},{{358},{{{I},{-I}}}},{{359},{{{I},{-I}}}},{{360},{{{I},{-I}}}},{{361},{{{I},{-I}}}},{{362},{{{I},{-I}}}},{{363},{{{I},{-I}}}},{{364},{{{I},{-I}}}},{{365},{{{I},{-I}}}},{{366},{{{I},{-I}}}},{{367},{{{I},{-I}}}},{{368},{{{I},{-I}}}},{{369},{{{I},{-I}}}},{{370},{{{I},{-I}}}},{{371},{{{I},{-I}}}},{{372},{{{I},{-I}}}},{{373},{{{I},{-I}}}},{{374},{{{I},{-I}}}},{{375},{{{I},{-I}}}},{{376},{{{I},{-I}}}},{{377},{{{I},{-I}}}},{{378},{{{I},{-I}}}},{{379},{{{I},{-I}}}},{{380},{{{I},{-I}}}},{{381},{{{I},{-I}}}},{{382},{{{I},{-I}}}},{{383},{{{I},{-I}}}},{{384},{{{I},{-I}}}},{{385},{{{I},{-I}}}},{{386},{{{I},{-I}}}},{{387},{{{I},{-I}}}},{{388},{{{I},{-I}}}},{{389},{{{I},{-I}}}},{{390},{{{I},{-I}}}},{{391},{{{I},{-I}}}},{{392},{{{I},{-I}}}},{{393},{{{I},{-I}}}},{{394},{{{I},{-I}}}},{{395},{{{I},{-I}}}},{{396},{{{I},{-I}}}},{{397},{{{I},{-I}}}},{{398},{{{I},{-I}}}},{{399},{{{I},{-I}}}},{{400},{{{I},{-I}}}},{{401},{{{I},{-I}}}},{{402},{{{I},{-I}}}},{{403},{{{I},{-I}}}},{{404},{{{I},{-I}}}},{{405},{{{I},{-I}}}},{{406},{{{I},{-I}}}},{{407},{{{I},{-I}}}},{{408},{{{I},{-I}}}},{{409},{{{I},{-I}}}},{{410},{{{I},{-I}}}},{{411},{{{I},{-I}}}},{{412},{{{I},{-I}}}},{{413},{{{I},{-I}}}},{{414},{{{I},{-I}}}},{{415},{{{I},{-I}}}},{{416},{{{I},{-I}}}},{{417},{{{I},{-I}}}},{{418},{{{I},{-I}}}},{{419},{{{I},{-I}}}},{{420},{{{I},{-I}}}},{{421},{{{I},{-I}}}},{{422},{{{I},{-I}}}},{{423},{{{I},{-I}}}},{{424},{{{I},{-I}}}},{{425},{{{I},{-I}}}},{{426},{{{I},{-I}}}},{{427},{{{I},{-I}}}},{{428},{{{I},{-I}}}},{{429},{{{I},{-I}}}},{{430},{{{I},{-I}}}},{{431},{{{I},{-I}}}},{{432},{{{I},{-I}}}},{{433},{{{I},{-I}}}},{{434},{{{I},{-I}}}},{{435},{{{I},{-I}}}},{{436},{{{I},{-I}}}},{{437},{{{I},{-I}}}},{{438},{{{I},{-I}}}},{{439},{{{I},{-I}}}},{{440},{{{I},{-I}}}},{{441},{{{I},{-I}}}},{{442},{{{I},{-I}}}},{{443},{{{I},{-I}}}},{{444},{{{I},{-I}}}},{{445},{{{I},{-I}}}},{{446},{{{I},{-I}}}},{{447},{{{I},{-I}}}},{{448},{{{I},{-I}}}},{{449},{{{I},{-I}}}},{{450},{{{I},{-I}}}},{{451},{{{I},{-I}}}},{{452},{{{I},{-I}}}},{{453},{{{I},{-I}}}},{{454},{{{I},{-I}}}},{{455},{{{I},{-I}}}},{{456},{{{I},{-I}}}},{{457},{{{I},{-I}}}},{{458},{{{I},{-I}}}},{{459},{{{I},{-I}}}},{{460},{{{I},{-I}}}},{{461},{{{I},{-I}}}},{{462},{{{I},{-I}}}},{{463},{{{I},{-I}}}},{{464},{{{I},{-I}}}},{{465},{{{I},{-I}}}},{{466},{{{I},{-I}}}},{{467},{{{I},{-I}}}},{{468},{{{I},{-I}}}},{{469},{{{I},{-I}}}},{{470},{{{I},{-I}}}},{{471},{{{I},{-I}}}},{{472},{{{I},{-I}}}},{{473},{{{I},{-I}}}},{{474},{{{I},{-I}}}},{{475},{{{I},{-I}}}},{{476},{{{I},{-I}}}},{{477},{{{I},{-I}}}},{{478},{{{I},{-I}}}},{{479},{{{I},{-I}}}},{{480},{{{I},{-I}}}},{{481},{{{I},{-I}}}},{{482},{{{I},{-I}}}},{{483},{{{I},{-I}}}},{{484},{{{I},{-I}}}},{{485},{{{I},{-I}}}},{{486},{{{I},{-I}}}},{{487},{{{I},{-I}}}},{{488},{{{I},{-I}}}},{{489},{{{I},{-I}}}},{{490},{{{I},{-I}}}},{{491},{{{I},{-I}}}},{{492},{{{I},{-I}}}},{{493},{{{I},{-I}}}},{{494},{{{I},{-I}}}},{{495},{{{I},{-I}}}},{{496},{{{I},{-I}}}},{{497},{{{I},{-I}}}},{{498},{{{I},{-I}}}},{{499},{{{I},{-I}}}},{{500},{{{I},{-I}}}},{{501},{{{I},{-I}}}},{{502},{{{I},{-I}}}},{{503},{{{I},{-I}}}},{{504},{{{I},{-I}}}},{{505},{{{I},{-I}}}},{{506},{{{I},{-I}}}},{{507},{{{I},{-I}}}},{{508},{{{I},{-I}}}},{{509},{{{I},{-I}}}},{{510},{{{I},{-I}}}},{{511},{{{I},{-I}}}},{{512},{{{I},{-I}}}}}
+fundimentalComplexString =Table[Flatten[Drop[Reap[Parallelize[
+
+
+
+Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount =1;
+(*
+Pair Production Symertry: Required > assumtion: basies for symitry, the symery norm way to get from nothing {Null} to 'fundimentalComplexSomthingPair'; {Null}==={fundimentalComplexSomthingPair} if and only if pair are 'something' and the refkection of 'something'; requirment null === somethingpair; pair of what open: unityPair works; 
+
+
+
+*)
+fundimentalComplexSomthingPair={{I},{I}. ReflectionMatrix[{I}]};
+
+Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount =1;
+Sow[fundimentalComplexSomthingPair,"fundimentalComplexSomthing"];
+keyFundimentalComplexSomthing=2;
+(*-
+
+Taken modulo 1; classic Cartan spinor; zero lenghjt; propertery: chages direction on opservation;each cahnge a reflection; has two value: {-,+} 
+
+Zero lenght vector. has only direction {away,toward}, 2 states, properity: each observation will change parity: BREAKS PARITY on Observation. 
+
+Forces definition of an obsrvation as a Reflection or Rotation trough 180 degrees. 
+
+A Rotation through 180 degrees defines an observation it forms the BASIS for Observation. 
+
+Simplist case should be obsrvable, what does this, why no magnitic monipoles?
+
+--*)
+
+Sow[({I}^2)-({-I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[I(({I}^2)+({-I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2(I)(-I),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+keyspinorRealZeroLengthChangeVectorOneTwoThree=3;
+
+Sow[({-I}^2)-({I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-I(({-I}^2)+({I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2(-I)(I),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+
+
+
+]],1],1],
+{reflectionCount,1,512}]
+
+
+
+fundimentalComplexString=Table[Flatten[Drop[Reap[Parallelize[Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount=1;
+(*Pair Production Symertry:Required>assumtion:basies for symitry,the symery norm way to get from nothing {Null} to'fundimentalComplexSomthingPair';{Null}==={fundimentalComplexSomthingPair} if and only if pair are'something' and the refkection of'something';requirment null===somethingpair;pair of what open:unityPair works;*)fundimentalComplexSomthingPair={{I},{I}.ReflectionMatrix[{I}]};
+Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount=1;
+Sow[fundimentalComplexSomthingPair,"fundimentalComplexSomthing"];
+keyFundimentalComplexSomthing=2;
+(*-Taken modulo 1;classic Cartan spinor;zero lenghjt;
+propertery:chages direction on opservation;
+each cahnge a reflection;has two value:{-,+} Zero lenght vector.has only direction {away,toward},2 states,properity:each observation will change parity:BREAKS PARITY on Observation.Forces definition of an obsrvation as a Reflection or Rotation trough 180 degrees.A Rotation through 180 degrees defines an observation it forms the BASIS for Observation.Simplist case should be obsrvable,what does this,why no magnitic monipoles?--*)Sow[({I}^2)-({-I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[I (({I}^2)+({-I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2 (I) (-I),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+keyspinorRealZeroLengthChangeVectorOneTwoThree=3;
+Sow[({-I}^2)-({I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-I (({-I}^2)+({I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2 (-I) (I),"spinorRealZeroLengthChangeVectorOneTwoThree"];]],1],1],{reflectionCount,1,512}]
+
+
+
+{{{1,1},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}, \[CenterEllipsis]510\[CenterEllipsis] ,{{512,512},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}}
+large output	show less	show more	show all	set size limit...
+
+
+{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}
+ReflectionMatrix[{I,-I}]
+ReflectionMatrix[{I,-I}]//MatrixForm
+{{0,1},{1,0}}
+(0	1
+1	0
+
+)
+{{I},{-I}}//MatrixForm
+(I
+-I
+
+)
+{{{I},{-I}},{{I},{-I}}}//MatrixForm
+((I)	(-I)
+(I)	(-I)
+
+)
+{I,-I,I}//MatrixForm
+(I
+-I
+I
+
+)
+Sum[I,-I,I]
+Sum::vloc: The variable -I cannot be localized so that it can be assigned to numerical values.
+Underscript[\[Sum], -I]Underscript[\[Sum], I]I
+keySpinorRealZeroLengthChangeVector
+3
+(*Protect[fundimentalComplexSpinor]*)
+{fundimentalComplexSpinor}
+For[reflectionCount=1,reflectionCount<=256,reflectionCount++,theSomething[reflectionCount]={
+ {I},
+{I}. ReflectionMatrix[{I}]
+}[reflectionCount]]
+theSomething[reflectionCount]={
+ {I},
+{I}. ReflectionMatrix[{I}]
+}[reflectionCount]
+{{I},{-I}}[5]
+{{I},{-I}}
+{
+ {I},
+{I}. Conjugate[{I}]
+}
+{{I},1}
+ReflectionMatrix[{{I},{-I}}]
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+ReflectionMatrix[{{I},{-I}}]
+ReflectionMatrix[{
+ {I},
+({I}. ReflectionMatrix[{I}])
+}]
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+ReflectionMatrix[{{I},{-I}}]
+{
+ {
+ {I},
+{I}. ReflectionMatrix[{I}]
+},
+{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}. ReflectionMatrix[{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}]
+}
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+{{{I},{-I}},{{I},{-I}}.ReflectionMatrix[{{I},{-I}}]}
+phase is reflection phase change 2 reflections(?) one reflection phase change(?) Both(?)
+ ReflectionMatrix[{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}]
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+ReflectionMatrix[{{I},{-I}}]
+{
+{ {I},{I}. ReflectionMatrix[{I}]},
+{ {I},{I}. ReflectionMatrix[{I}]}. ReflectionMatrix[{ {I},{I}. ReflectionMatrix[{I}]}]
+}
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+{{{I},{-I}},{{I},{-I}}.ReflectionMatrix[{{I},{-I}}]}
+{{{ {I},{I}. ReflectionMatrix[{I}]},{ {I},{I}. ReflectionMatrix[{I}]}},{{ {I},{I}. ReflectionMatrix[{I}]},{ {I},{I}. ReflectionMatrix[{I}]}}}
+{{{{I},{-I}},{{I},{-I}}},{{{I},{-I}},{{I},{-I}}}}

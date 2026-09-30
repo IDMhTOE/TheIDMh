@@ -1,0 +1,686 @@
+In[16]:= Table[PauliMatrix[k]//MatrixForm,{k,0,4}]
+In[17]:= Table[PauliMatrix[n].PauliMatrix[n]//MatrixForm,{n,3}]
+In[18]:= PauliMatrix[1].PauliMatrix[2]==I PauliMatrix[3]
+In[19]:= PauliMatrix[1].PauliMatrix[2]
+In[20]:= Dot[PauliMatrix[1],PauliMatrix[2]]
+	
+Build a unitary matrix representing the rotation of the spinor around the z axis through angle \[Phi]:
+In[21]:= 
+Rotation by 360\[Degree] changes spinor's direction:
+In[22]:= %/.\[Phi]->2Pi
+In[23]:= MatrixExp[I \[Phi]/2 PauliMatrix[2]]
+In[24]:= %/.\[Phi]->2Pi
+In[25]:= 2
+In[26]:= a0=TrigToExp[MatrixExp[I \[Phi]/2 PauliMatrix[0]]]
+a0/.\[Phi]->1Pi
+In[28]:= Series[]
+In[29]:= Null + -Null
+Null  -Null
+Null / -Null
+Null - -Null
+Null - -Null
+Null  -Null
+-Null / Null
+2 Null
+2 Null //N
+
+
+
+
+In[38]:= Null + Not[Null]
+Null  Not[Null]
+Null / Not[Null]
+Null - Not[Null]
+Null - Not[Null]
+Null  Not[Null]
+Not[Null] / Null
+2 Null
+2 Null //N
+In[47]:= Null + Not[Null]//N
+Null  Not[Null]//N
+Null / Not[Null]//N
+Null - Not[Null]//N
+Null - Not[Null]//N
+Null  Not[Null]//N
+Not[Null] / Null//N
+2 Null
+2 Null //N
+In[56]:= Null === Null
+0 === 0
+Nothing=== Nothing
+Null === Nothing
+Null === 0
+Nothing === 0
+
+
+In[62]:= Null === -Null 
+0 === -0
+Nothing=== -Nothing
+
+In[65]:= Null === -Null + Null
+0 === -0 + 0
+Nothing=== -Nothing+ Nothing
+In[68]:= Null === Null + Null
+0 === 0 + 0
+Nothing=== Nothing+ Nothing
+In[71]:= Null === Null Null
+0 === 0 0
+Nothing=== Nothing Nothing
+In[74]:= Null === Null x Null
+0 === 0x 0
+Nothing=== Nothing x Nothing
+In[77]:= a0=TrigToExp[MatrixExp[I \[Phi]/2 PauliMatrix[0]]]
+a0/.\[Phi]->-1Pi
+a0/.\[Phi]->1Pi
+In[80]:= a1=TrigToExp[MatrixExp[I \[Phi]/2 PauliMatrix[1]]]
+a1/.\[Phi]->1Pi
+In[82]:= a2=TrigToExp[MatrixExp[I \[Phi]/2 PauliMatrix[2]]]
+a2/.\[Phi]->1Pi
+In[84]:= a3=TrigToExp[MatrixExp[I \[Phi]/2 PauliMatrix[3]]]
+a3/.\[Phi]->1Pi
+In[86]:= a4=TrigToExp[MatrixExp[I \[Phi]/2 PauliMatrix[4]]]
+a4/.\[Phi]->1Pi
+In[88]:= {{E^((I \[Phi])/2),0},{0,E^((I \[Phi])/2)}}
+In[89]:= 1,1/1!,1/2!,1/3!,1/4!
+In[89]:= 1,1/n!,1/n!,1/n!,1/n!
+In[89]:= 1,1/n!,1/n!,1/n!,1/n!
+In[89]:= \[Phi]=1
+In[90]:= \[Phi]=Sqrt[2]/2
+{{1^((I \[Phi])/2),0},{0,1^((I \[Phi])/2)}}
+In[92]:= \[Phi]=Sqrt[2+Sqrt[2]]/2
+{{(1+1/1!)^((I \[Phi])/2),0},{0,(1+1/1!)^((I \[Phi])/2)}}
+In[94]:= \[Phi]=Sqrt[2+Sqrt[2+Sqrt[2]]]/2
+{{(1+1/1!+1/2!)^((I \[Phi])/2),0},{0,(1+1/1!+1/2!)^((I \[Phi])/2)}}
+In[96]:= \[Phi]=Sqrt[2+Sqrt[2+Sqrt[2+Sqrt[2]]]]/2
+{{(1+1/1!+1/2!+1/3!)^((I \[Phi])/2),0},{0,(1+1/1!+1/2!+1/3!)^((I \[Phi])/2)}}
+In[98]:= 
+I*I
+I*-I
+-I*I
+-I*-I
+In[102]:= cycleCase={-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I}
+In[103]:= Take[cycleCase,{1}]
+Take[cycleCase,{2}]
+Take[cycleCase,{3}]
+
+
+In[106]:= {-I}
+In[107]:= Table[Take[cycleCase,{n-1}]*Take[cycleCase,{n}],{n,2,8}]
+In[108]:= Table[Take[cycleCase,{n-2}]*Take[cycleCase,{n}],{n,3,9}]
+In[109]:= Table[Take[cycleCase,{n-1}]*Take[cycleCase,{n}],{n,2,8}]
+Table[Take[cycleCase,{n-2}]*Take[cycleCase,{n}],{n,3,9}]
+
+
+In[111]:= Table[Take[cycleCase,{n-1}]*Take[cycleCase,{n}],{n,2,8}]
+Table[Take[cycleCase,{n-2}]*Take[cycleCase,{n}],{n,3,9}]
+
+
+In[113]:= Table[{Take[cycleCase,{n-1}]*Take[cycleCase,{n}]},{n,2,8}]
+Table[Take[cycleCase,{n-2}]*Take[cycleCase,{n}],{n,3,9}]
+
+In[115]:= Table[PauliMatrix[k]//MatrixForm,{k,0,4}]
+In[116]:= twotwo[0,_]
+In[117]:= FullForm[twotwo]
+In[118]:= naxtrixNum=0
+{
+twotwo[naxtrixNum,1]={{0,I},{-I,0}},
+twotwo[naxtrixNum,2]=twotwo[naxtrixNum,1]//MatrixForm,
+twotwo[naxtrixNum,3]=Tr[twotwo[naxtrixNum,1]],
+twotwo[naxtrixNum,4]=Eigenvalues[twotwo[naxtrixNum,1]],
+twotwo[naxtrixNum,5]=Det[twotwo[naxtrixNum,1]],
+
+Transpose[twotwo[naxtrixNum,1]],
+ConjugateTranspose[twotwo[naxtrixNum,1]],
+Conjugate[twotwo[naxtrixNum,1]],
+Inverse[twotwo[naxtrixNum,1]],
+
+
+AntihermitianMatrixQ[twotwo[naxtrixNum,1]],
+SymmetricMatrixQ[twotwo[naxtrixNum,1]],
+HermitianMatrixQ[twotwo[naxtrixNum,1]],
+AntisymmetricMatrixQ[twotwo[naxtrixNum,1]],
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixNum,1]],
+PositiveDefiniteMatrixQ[twotwo[naxtrixNum,1]],
+NegativeDefiniteMatrixQ[twotwo[naxtrixNum,1]],
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixNum,1]],
+
+
+
+
+}
+
+
+In[120]:= twotwo[naxtrixNum,2]
+In[121]:= twotwo[1]={{I,0},{0,0}}
+twotwo[1]//MatrixForm
+Tr[twotwo[1]]
+Eigenvalues[twotwo[1]]
+
+
+
+
+
+In[125]:= twotwo[2]={{0,I},{0,0}}
+twotwo[2]//MatrixForm
+Tr[twotwo[2]]
+Eigenvalues[twotwo[2]]
+
+
+
+
+In[129]:= twotwo[3]={{0,0},{I,0}}
+twotwo[3]//MatrixForm
+Tr[twotwo[3]]
+Eigenvalues[twotwo[3]]
+
+
+
+In[133]:= twotwo[4]={{0,0},{0,I}}
+twotwo[4]//MatrixForm
+Tr[twotwo[4]]
+Eigenvalues[twotwo[4]]
+
+
+
+
+In[137]:= twotwo[5]={{I,I},{0,0}}
+twotwo[5]//MatrixForm
+Tr[twotwo[5]] 
+Eigenvalues[twotwo[5]]
+
+
+
+In[141]:= twotwo[6]={{I,0},{I,0}}
+twotwo[6]//MatrixForm
+Tr[twotwo[6]]
+Eigenvalues[twotwo[6]]
+
+
+
+In[145]:= twotwo[7]={{I,0},{0,I}}
+twotwo[7]//MatrixForm
+Tr[twotwo[7]]
+Eigenvalues[twotwo[7]]
+
+
+
+In[149]:= Inverse[{{0,0},{0,0}}]
+In[150]:= Singular
+In[151]:= 1
+\[Xi] D
+SomePlaying
+In[153]:= nullNotnullPair={{0},{-I}}
+nullNotnullPair//MatrixForm
+In[155]:= {{0},{-I}}
+In[156]:= nullNotnullPair
+In[157]:= {{0},{-I}}
+In[158]:= IdentityMatrix[2]
+In[159]:= IdentityMatrix[3]
+In[160]:= IdentityMatrix[1]
+In[161]:= IdentityMatrix[1]//MatrixForm
+In[162]:= nullNotnullPair . IdentityMatrix[2]
+In[163]:= {{0},{-1}}.{{1,0},{0,1}}
+In[164]:= -
+In[164]:= {{-I,0},{0,-I}}. nullNotnullPair
+In[165]:= {{1,0},{0,1}}. nullNotnullPair
+In[166]:= {{-1,0},{0,-1}}. nullNotnullPair
+In[167]:= {{I,0},{0,I}}. nullNotnullPair
+In[168]:= {{0,0},{0,0}}. nullNotnullPair
+In[169]:= 
+In[170]:= {{null},{-}}
+In[170]:= {{0},{-}}
+In[170]:= {{-I,0},{0,-I}}.{{null},{-(1)}}
+In[171]:= 
+
+
+In[172]:= nullNotnullPair={{0},{-I}}
+nullNotnullPair//MatrixForm
+In[174]:= naxtrixDiagNum=0
+{
+twotwo[naxtrixDiagNum,1]={{0,0},{0,0}},
+twotwo[naxtrixDiagNum,2]=twotwo[naxtrixDiagNum,1]//MatrixForm,
+twotwo[naxtrixDiagNum,3]=Tr[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,4]=Eigenvalues[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,5]=Det[twotwo[naxtrixDiagNum,1]],
+
+Transpose[twotwo[naxtrixDiagNum,1]],
+ConjugateTranspose[twotwo[naxtrixDiagNum,1]],
+Conjugate[twotwo[naxtrixDiagNum,1]],
+Inverse[twotwo[naxtrixDiagNum,1]],
+
+
+AntihermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+SymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+HermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+AntisymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+
+twotwo[naxtrixDiagNum,1]. nullNotnullPair
+
+
+}
+
+In[176]:= naxtrixDiagNum=1
+{
+twotwo[naxtrixDiagNum,1]={{-I,0},{0,-I}},
+twotwo[naxtrixDiagNum,2]=twotwo[naxtrixDiagNum,1]//MatrixForm,
+twotwo[naxtrixDiagNum,3]=Tr[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,4]=Eigenvalues[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,5]=Det[twotwo[naxtrixDiagNum,1]],
+
+Transpose[twotwo[naxtrixDiagNum,1]],
+ConjugateTranspose[twotwo[naxtrixDiagNum,1]],
+Conjugate[twotwo[naxtrixDiagNum,1]],
+Inverse[twotwo[naxtrixDiagNum,1]],
+
+
+AntihermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+SymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+HermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+AntisymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+
+twotwo[naxtrixDiagNum,1]. nullNotnullPair
+
+
+
+}
+
+In[178]:=  nullNotnullPair. nullNotnullPair
+In[179]:= {{0},{-I}}{{0},{0}}
+In[180]:= {{0},{-b}}{{0},{-b}}
+In[181]:= {{0},{-b}}{{0},{-b}}{{0},{-b}}
+In[182]:= {{0},{-b}}{{0},{-b}}{{0},{-b}}{{0},{-b}}
+In[183]:= {{0},{-b}}{{0},{-b}}{{0},{-b}}{{0},{-b}}{{0},{-b}}
+In[184]:= {{0},{-I}}{{0},{-I}}
+In[185]:= {{0},{-I}}{{0},{-I}}{{0},{-I}}
+In[186]:= {{0},{-I}}{{0},{-I}}{{0},{-I}}{{0},{-I}}
+In[187]:= {{0},{-I}}{{0},{-I}}{{0},{-I}}{{0},{-I}}{{0},{-I}}
+In[188]:= {{0},{-I}}{{0},{-I}}{{0},{-I}}{{0},{-I}}{{0},{-I}}//Cross
+In[189]:= {{0},{-I}}+{{0},{-I}}+{{0},{-I}}+{{0},{-I}}+{{0},{-I}}
+In[190]:= unitZero =ConstantArray[0,{3,3}]
+unitNegOne =ConstantArray[-1,{3,3}]
+unitOne =ConstantArray[1,{3,3}]
+unitZero//MatrixForm
+unitNegOne//MatrixForm
+unitOne//MatrixForm
+In[196]:= unitNegOne  unitOne
+unitOne unitNegOne
+In[198]:= unitZero unitNegOne
+In[199]:= unitNegOne unitZero
+In[200]:= {{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}
+In[201]:= ConstantArray[{1},{1,0}]
+In[202]:= unitZero33=ConstantArray[{unitZero,unitZero,unitZero},{3,3,3,3,3}]
+unitZero33//MatrixForm
+In[204]:= ConstantArray[{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{3,3}]
+ConstantArray[{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{3,3}]//MatrixForm
+In[206]:= ConstantArray[{{{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}}},{{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}}},{{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}}}},{3,3}]
+ConstantArray[{{{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}}},{{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}}},{{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}},{{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}},{{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}},{{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}}}}},{3,3}]//MatrixForm
+In[208]:= naxtrixDiagNum=2
+{
+twotwo[naxtrixDiagNum,1]={{I,0},{0,I}},
+twotwo[naxtrixDiagNum,2]=twotwo[naxtrixDiagNum,1]//MatrixForm,
+twotwo[naxtrixDiagNum,3]=Tr[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,4]=Eigenvalues[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,5]=Det[twotwo[naxtrixDiagNum,1]],
+
+Transpose[twotwo[naxtrixDiagNum,1]],
+ConjugateTranspose[twotwo[naxtrixDiagNum,1]],
+Conjugate[twotwo[naxtrixDiagNum,1]],
+Inverse[twotwo[naxtrixDiagNum,1]],
+
+
+AntihermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+SymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+HermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+AntisymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+
+twotwo[naxtrixDiagNum,1]. nullNotnullPair
+
+
+
+}
+
+In[210]:= naxtrixDiagNum=3
+{
+twotwo[naxtrixDiagNum,1]={{1,0},{0,1}},
+twotwo[naxtrixDiagNum,2]=twotwo[naxtrixDiagNum,1]//MatrixForm,
+twotwo[naxtrixDiagNum,3]=Tr[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,4]=Eigenvalues[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,5]=Det[twotwo[naxtrixDiagNum,1]],
+
+Transpose[twotwo[naxtrixDiagNum,1]],
+ConjugateTranspose[twotwo[naxtrixDiagNum,1]],
+Conjugate[twotwo[naxtrixDiagNum,1]],
+Inverse[twotwo[naxtrixDiagNum,1]],
+
+
+AntihermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+SymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+HermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+AntisymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+
+twotwo[naxtrixDiagNum,1]. nullNotnullPair
+
+
+
+}
+
+In[212]:= naxtrixDiagNum=4
+{
+twotwo[naxtrixDiagNum,1]={{-1,0},{0,-1}},
+twotwo[naxtrixDiagNum,2]=twotwo[naxtrixDiagNum,1]//MatrixForm,
+twotwo[naxtrixDiagNum,3]=Tr[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,4]=Eigenvalues[twotwo[naxtrixDiagNum,1]],
+twotwo[naxtrixDiagNum,5]=Det[twotwo[naxtrixDiagNum,1]],
+
+Transpose[twotwo[naxtrixDiagNum,1]],
+ConjugateTranspose[twotwo[naxtrixDiagNum,1]],
+Conjugate[twotwo[naxtrixDiagNum,1]],
+Inverse[twotwo[naxtrixDiagNum,1]],
+
+
+AntihermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+SymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+HermitianMatrixQ[twotwo[naxtrixDiagNum,1]],
+AntisymmetricMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+PositiveDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]],
+
+twotwo[naxtrixDiagNum,1]. nullNotnullPair
+
+
+
+}
+
+In[214]:= {{-1,0,0},{0,-1,0},{0,0,-1}}
+In[215]:= {{-1,0,0,0},{0,-1,0,0},{0,0,-1,0},{0,0,0,-1}} //MatrixForm
+In[216]:= {{{-1,0},{0,-1}},{{-1,0},{0,-1}},{{-1,0},{0,-1}}}
+In[217]:= {{{-1,0},{0,-1}},{{-1,0},{0,-1}},{{-1,0},{0,-1}}}//MatrixForm
+In[218]:= 
+In[219]:= GraphPlot3D[{{-1,0,0},{0,-1,0},{0,0,-1}}]
+In[220]:= GraphPlot3D[{{-1,1,1},{-1,-1,1},{1,1,-1}}]
+In[221]:= setReportProprites_naxtrixDiagNum[10,{{0,0},{0,0}}]
+In[222]:= twotwo[naxtrixDiagNum,1]
+In[223]:= In[18]:=
+In[223]:= setReportProprites_naxtrixDiagNum[10,{{0,0},{0,0}}]
+In[224]:= twotwo
+In[225]:= twotwo={}
+In[226]:= Clear[twotwo]
+In[227]:= twotwo[10,1]
+In[228]:= setReportProprites_naxtrixDiagNum[0, {{0,0},{0,0}}]
+In[229]:= setReportProprites_naxtrixDiagNum[1,{{0,0},{0,0}}]
+In[230]:= twotwo[_,_]
+In[231]:= 
+In[232]:= twotwo
+In[233]:= 
+setReportProprites_naxtrixDiagNum[naxtrixDiagNum_,thetwotwo_]:= 
+{
+
+Print[naxtrixDiagNum,thetwotwo];
+twotwo[naxtrixDiagNum,1]=thetwotwo;
+twotwo[naxtrixDiagNum,2]=twotwo[naxtrixDiagNum,1];
+twotwo[naxtrixDiagNum,3]=Tr[twotwo[naxtrixDiagNum,1]];
+twotwo[naxtrixDiagNum,4]=Eigenvalues[twotwo[naxtrixDiagNum,1]];
+twotwo[naxtrixDiagNum,5]=Det[twotwo[naxtrixDiagNum,1]];
+
+Transpose[twotwo[naxtrixDiagNum,1]];
+ConjugateTranspose[twotwo[naxtrixDiagNum,1]];
+Conjugate[twotwo[naxtrixDiagNum,1]];
+Inverse[twotwo[naxtrixDiagNum,1]];
+
+
+AntihermitianMatrixQ[twotwo[naxtrixDiagNum,1]];
+SymmetricMatrixQ[twotwo[naxtrixDiagNum,1]];
+HermitianMatrixQ[twotwo[naxtrixDiagNum,1]];
+AntisymmetricMatrixQ[twotwo[naxtrixDiagNum,1]];
+PositiveSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]];
+PositiveDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]];
+NegativeDefiniteMatrixQ[twotwo[naxtrixDiagNum,1]];
+NegativeSemidefiniteMatrixQ[twotwo[naxtrixDiagNum,1]];
+
+twotwo[naxtrixDiagNum,1]. nullNotnullPair;
+
+Return[twotwo]
+}
+
+In[234]:= setReportPropritesnaxtrixDiagNum[{{-I,0},{0,-I}}]
+In[235]:= 
+setReportPropritesnaxtrixDiagNum[thetwotwo_]:= 
+{
+
+Print[naxtrixDiagNum,thetwotwo];
+twotwo[1]=thetwotwo;
+twotwo[2]=twotwo[naxtrixDiagNum,1];
+twotwo[3]=Tr[twotwo[naxtrixDiagNum,1]];
+twotwo[4]=Eigenvalues[twotwo[naxtrixDiagNum,1]];
+twotwo[5]=Det[twotwo[naxtrixDiagNum,1]];
+
+Transpose[twotwo[1,1]];
+ConjugateTranspose[twotwo[1,1]];
+Conjugate[twotwo[1,1]];
+Inverse[twotwo[1,1]];
+
+
+AntihermitianMatrixQ[twotwo[1,1]];
+SymmetricMatrixQ[twotwo[1,1]];
+HermitianMatrixQ[twotwo[1,1]];
+AntisymmetricMatrixQ[twotwo[1,1]];
+PositiveSemidefiniteMatrixQ[twotwo[1,1]];
+PositiveDefiniteMatrixQ[twotwo[1,1]];
+NegativeDefiniteMatrixQ[twotwo[1,1]];
+NegativeSemidefiniteMatrixQ[twotwo[1,1]];
+
+twotwo[1,1]. nullNotnullPair;
+
+Return[twotwo[1]]
+}
+
+In[236]:= ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,0,2Pi}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,0,Pi}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,-Pi,0}]
+
+In[239]:= ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,Pi,0}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]),Sin[a/2]},{a,-Pi,0}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,Pi,0},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,Pi,0},{r,-1,1}]
+
+In[243]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,Pi,0},{r,0,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,Pi},{r,0,-1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,0},{r,0,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,-Pi},{r,0,1}]
+
+
+
+
+In[247]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,Pi,0},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,0},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,-Pi},{r,-1,1}]
+
+In[251]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,Pi,0},{r,-1,1}]
+
+In[252]:= TrigToExp[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]}]
+In[253]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+
+
+In[256]:= r=-1
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi}]
+r=0
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi}]
+r=1
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi}]
+
+
+In[262]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,0,2Pi}]
+Plot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+List[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+
+
+
+In[266]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,0,Pi}]
+
+In[374]:= r=-1
+s=0
+t=1
+ParametricPlot3D[{{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}
+}],
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+r=1
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+In[271]:= ff1=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+r=-1
+ff2=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+r=0
+ff3=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+r=1
+ff4=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+
+In[278]:= ff1=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},{r,-1,1}]
+r=-1
+ff2=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi}]
+r=0
+ff3=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi}]
+r=1
+ff4=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi}]
+
+In[285]:= ff4
+In[286]:= 
+Show[{ff2,(*ff3,*)ff4}]
+In[287]:= 
+In[288]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,0,1}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,0}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,0,2Pi}]
+r=1
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+r=-1
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+r=0
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi}]
+r=1
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,0}]
+r=1;ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,0}]
+
+
+
+In[301]:= TrigToExp[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]}]
+
+
+
+In[302]:= TrigToExp[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]}]
+In[303]:= TrigToExp[ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},{r,-2Pi,2Pi}]]
+In[305]:= ParametricPlot3D[{(r Cos[a]),(r Cos[a]), r Sin[a]},{a,0,1},{r,0,1}]
+In[306]:= TrigToExp[Plot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},{r,-2Pi,2Pi}]]
+In[307]:= TrigToExp[ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-4Pi,4Pi},{r,-4Pi,4Pi}]]
+In[308]:= TrigToExp[Plot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-4Pi,4Pi},{r,-4Pi,4Pi}]]
+In[309]:= TrigToExp[ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-16Pi,16Pi},{r,-16Pi,16Pi}]]
+In[310]:= TrigToExp[Plot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-16Pi,16Pi},{r,-16Pi,16Pi}]]
+In[311]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/4]),Sin[a] (1+r/2Cos[a/4]), r/2Sin[a/4]},{a,-4Pi,4Pi},{r,-4,4}]
+
+In[312]:= Plot3D[{Cos[a] (1+r/2Cos[a/4]),Sin[a] (1+r/2Cos[a/4]), r/2Sin[a/4]},{a,-4Pi,4Pi},{r,-4,4}]
+
+In[313]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,0,2Pi},{r,-1,1}]
+In[314]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/4]),Sin[a] (1+r/2Cos[a/4]), r/2Sin[a/4]},{a,-4Pi,4Pi},{r,-4,4}]
+In[315]:= ParametricPlot3D[{Cos[a] ((*1+*)r/2Cos[a/1]),Sin[a] ((*1+*)r/1Cos[a/1]), r/2Sin[a/1]},{a,0,1},{r,0,-1}]
+In[317]:= TrigToExp[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]}]
+In[318]:= ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi},{r,-1,1}]
+ComplexPlot[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi},{r,-1,1}]
+ParametricPlot3D[{Cos[a] (1+Cos[a/2]),Sin[a] (1+Cos[a/2]), Sin[a/2]},{a,-Pi,Pi}]
+ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi}]
+r=-1
+negOne=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi}]
+r=1
+plusOne=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi}]
+Show[{negOne,plusOne}]
+r=-1
+negOne=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,0}]
+r=1
+plusOne=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,Pi,0}]
+Show[{negOne,plusOne}]
+
+
+In[332]:= ComplexPlot[{Cos[a] (1+1/2 r Cos[a/2]),Sin[a] (1+1/2 r Cos[a/2]),1/2 r Sin[a/2]},{a,-\[Pi],\[Pi]},{r,-1,1}]
+In[333]:= r=-1
+negOne=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},PlotStyle->{Red}]
+negOneb=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-4Pi,4Pi},PlotStyle->{Orange}]
+negOnec=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},PlotStyle->{Yellow}]
+r=1
+plusOne=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},PlotStyle->{Green}]
+r=0
+theZero=ParametricPlot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-2Pi,2Pi},PlotStyle->{White}]
+Show[{plusOne,negOne,theZero}]
+In[342]:= Full[Show[{,}]]
+In[343]:= Show[{negOne,plusOne}]
+In[344]:= 
+In[345]:= r=-1
+negOne=Plot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi},PlotStyle->{Red}]
+r=1
+plusOne=Plot3D[{Cos[a] (1+r/2Cos[a/2]),Sin[a] (1+r/2Cos[a/2]), r/2Sin[a/2]},{a,-Pi,Pi},PlotStyle->{Green}]
+Show[{plusOne,negOne}]
+In[350]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,0,2Pi},{t,0,2Pi},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[351]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,-Pi,Pi},{t,-Pi,Pi},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[352]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,-1,1},{t,-1,1},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[353]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,-1,1},{t,0,2Pi},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[354]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,0,Pi},{t,0,2Pi},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[355]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,0,-Pi},{t,0,-Pi},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[356]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,-Pi,0},{t,-Pi,0},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[357]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,Pi,0},{t,Pi,0},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[358]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,0,1},{t,0,1},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[359]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,0,2},{t,0,2},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[360]:= ParametricPlot3D[{Cos[t](3+r Cos[t/2]),Sin[t](3+r Cos[t/2]),r Sin[t/2]},{r,0,Pi},{t,0,Pi},Mesh->{5,10},PlotStyle->FaceForm[Red,Green]]
+In[361]:= ParametricPlot3D[{Cos[u](3+Cos[u/2]Sin[v]-Sin[u/2]Sin[2v]),Sin[u](3+Cos[u/2]Sin[v]-Sin[u/2]Sin[2v]),Sin[u/2]Sin[v]+Cos[u/2]Sin[2v]},{u,0,2Pi},{v,0,2Pi},PlotStyle->FaceForm[Red,Yellow]]
+In[362]:= ParametricPlot3D[{1.16^v Cos[v](1+Cos[u]),-1.16^v Sin[v](1+Cos[u]),-2 1.16^v(1+Sin[u])},{u,0,2Pi},{v,-15,6},Mesh->{{5}},MeshFunctions->{#1^2+#2^2&},MeshShading->{Opacity[0.4,Yellow],Red},Axes->False,PlotRange->All,MaxRecursion->4]
+In[363]:= c = ParametricPlot3D[{Cos[u],Sin[u],u},{u,0,2Pi}, PlotStyle->Thick,BoxRatios->{1,1,1}]
+In[364]:= Show[{s,c}, Axes->False]
+In[365]:= Show[{s,c}, Axes->False]
+	
+The Lorenz equations [more info]:
+In[373]:= s=NDSolve[{(x^\[Prime])[t]==-3 (x[t]-y[t]),(y^\[Prime])[t]==-x[t] z[t]+26.5 x[t]-y[t],(z^\[Prime])[t]==x[t] y[t]-z[t],x[0]==z[0]==0,y[0]==1},{x,y,z},{t,0,200},MaxSteps->\[Infinity]]
+During evaluation of In[373]:= NDSolve::dsvar: 1 cannot be used as a variable.
+Out[373]= NDSolve[{(x^\[Prime])[1]==-3 (x[1]-y[1]),(y^\[Prime])[1]==26.5 x[1]-y[1]-x[1] z[1],(z^\[Prime])[1]==x[1] y[1]-z[1],x[0]==z[0]==0,y[0]==1},{x,y,z},{1,0,200},MaxSteps->\[Infinity]]
+In[367]:= ParametricPlot3D[Evaluate[{x[t],y[t],z[t]}/.s],{t,0,200},PlotPoints->100,ColorFunction->(Hue[#4]&)]
+	
+Compute a parametric curve from curvature and torsion [more info]:
+In[368]:= intrinsicCurve3D[ {\[Kappa]_,\[Tau]_},{s_,smin_,smax_},{s0_,x0_,t0_,n0_}] :=
+Module[ {x, t, n, b},
+x/. First @ 
+NDSolve[
+{
+x'[s] == t[s],                               x[s0]==x0,
+t'[s] == \[Kappa] n[s],                           t[s0]==t0,
+n'[s] == \[Tau] b[s]- \[Kappa] t[s],         n[s0]==n0,
+b'[s] == -\[Tau] n[s],                          b[s0]==t0\[Cross]n0
+},
+{x, t, n, b}, 
+{s, smin, smax}
+]
+];
+In[369]:= intrinsicCurve3D[ {\[Kappa]_,\[Tau]_},{s_,smin_,smax_}]:= 
+intrinsicCurve3D[{\[Kappa],\[Tau]},{s,smin,smax},{0,{0,0,0},{1,0,0},{0,1,0}}];
+Plot the resulting space curves:
+In[370]:= ParametricPlot3D[Evaluate@intrinsicCurve3D[{Abs[s],0.3},{s,-10,10}][s],{s,-10,10}]
+In[371]:= ParametricPlot3D[Evaluate@intrinsicCurve3D[ {1.3,0.5 Sin[s]},{s,0,4\[Pi]}][s],{s,0,4Pi}]
+	
+Show Enneper's minimal surface:
+In[372]:= ParametricPlot3D[{u-u^3/3+u v^2,-v-u^2v+v^3/3,u^2-v^2},{u,-2,2},{v,-2,2}]

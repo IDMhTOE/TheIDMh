@@ -1,0 +1,1647 @@
+
+<<Quaternions`
+(* I is UNITY, It can notStates should make ow be observed dirctly. It is the sum of the sums. Each dimention exist as a propertie and the Congigent of that propertie. The Congigent is a vector with two degrees of freedom. The lowest level  takes the value of 'direction' *)
+
+(* I is istropic it has two values Congigent True and Congigent False  *)
+I
+I
+-I^2
++I^2
+
+(-I)^2
+(+I)^2
+
+(-I)^2
++(I)^2
+
+(Conjugate[I])^2
+(I)^2
+
+(-I)^2 + (+I)^2
+Sqrt[(-I)^2 + (+I)^2]
+
+(Conjugate[I])^2 + (I)^2
+Sqrt[(Conjugate[I])^2 + (I)^2]
+
+Sqrt[(-I)^2 + (+I)^2] //N
+
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-2
+I Sqrt[2]
+-2
+I Sqrt[2]
+0.+1.41421 I
+(Conjugate[2I])^2 + (2I)^2
+Sqrt[(Conjugate[2I])^2 + (2I)^2]
+
+-8
+2 I Sqrt[2]
+(Conjugate[I])^2 + (3I)^2
+Sqrt[(Conjugate[3I])^2 + (3I)^2]
+(Conjugate[I])^2 + (3I)^2
+Sqrt[(Conjugate[4I])^2 + (4I)^2]
+(Conjugate[5I])^2 + (5I)^2
+Sqrt[(Conjugate[3I])^2 + (3I)^2]
+(Conjugate[I])^2 + (3I)^2
+Sqrt[(Conjugate[3I])^2 + (3I)^2]
+
+-10
+3 I Sqrt[2]
+-10
+4 I Sqrt[2]
+-50
+3 I Sqrt[2]
+-10
+3 I Sqrt[2]
+Slope
+Slope
+Plot[D[(Conjugate[n I])^2 + (n I)^2],{n,1,100}]
+Plot[(Conjugate[n I])^2 + (n I)^2,{n,1,100}]
+Plot[Sqrt[(Conjugate[n I])^2 + (n I)^2],{n,1,100}]
+
+
+
+Monday's
+s Monday^\[Prime]
+(* Congigent = minimum vector count the 2 dimitional case *)
+(* I = SuperPosition [Conjugate,i,j,k] ? *)
+theReflectionCountOfThisUniverse= 2
+2
+n=theReflectionCountOfThisUniverse
+2
+4
+4
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 1] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 2] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 3] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 4] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 5] =I
+
+I
+I
+I
+I
+I
+(* I is not obserable directly, it must be viewed in pairs. Either member of the pair can have either Conjugate thus there are 4 posible pair combinations two of which are degenerate but must be treated independently the IDM model does not support the concept of degenerity.  *)
+
+I  I
+I (-I)
+(-I) I
+(-I) (-I)
+-1
+1
+1
+-1
+(* (-I) is I Conjugate - Conjugate[I] *)
+(* Clear[theReflectionCountOfThisUniverse] *)
+(* Clear[n] *)
+clasicFundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] * Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] ,{n,theReflectionCountOfThisUniverse}]
+-2
+clasicFundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi]
+-2
+
+
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] * Conjugate[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n]],{n,theReflectionCountOfThisUniverse}]//N
+2.
+
+Sqrt[-4^2 +4^2]
+0
+(-4)^2
+16
+-(4^2)
+-16
+
+-4 * -4
+16
+4^2
+16
+4 * 4
+16
+Conjugate[I] 
+Conjugate[-I] 
+Conjugate[1] 
+Conjugate[-1] 
+
+-I
+I
+1
+-1
+Sqrt[I]
+Sqrt[I]//N
+(-1)^(1/4)
+0.707107+0.707107 I
+0.7071067811865476`* 0.7071067811865475` I
+0.5 I
+Sqrt[((-1)^(1/4) )]
+(-1)^(1/8)
+(-1)^(1/2)
+I
+Sqrt[((-1)^(1/2) )]
+Sqrt[((-1)^(1/2) )]//N
+(-1)^(1/4)
+0.707107+0.707107 I
+Sqrt[((-1)^(1/8) )]
+Sqrt[((-1)^(1/8) )]//N
+(-1)^(1/16)
+0.980785+0.19509 I
+Limit[(-1)^(1/n),{n->Infinity}]
+Limit[(-1)^(1/n),{n->Infinity}]//N
+General::ivar: 2 is not a valid variable. >>
+{Limit[I,2->\[Infinity]]}
+General::ivar: 2 is not a valid variable. >>
+General::ivar: 2.` is not a valid variable. >>
+{Limit[0.+1. I,2.->\[Infinity]]}
+Limit[(-1)^(1/n),{n->8}]
+Limit[(-1)^(1/n),{n->8}]//N
+General::ivar: 2 is not a valid variable. >>
+{Limit[I,2->8]}
+General::ivar: 2 is not a valid variable. >>
+General::ivar: 2.` is not a valid variable. >>
+{Limit[0.+1. I,2.->8.]}
+Plot[
+Im[(-1)^(1/n)],{n,1,4}]
+
+Plot[Re[(-1)^(1/n)],{n,1,4}]
+
+Plot[{Im[(-1)^(1/n)],Re[(-1)^(1/n)]},{n,-2,2}]
+
+Plot[{Conjugate[Im[(-1)^(1/n)]],Re[(-1)^(1/n)]},{n,-2,2}]
+
+Plot[{Conjugate[Im[(-1)^(1/n)]],Conjugate[Re[(-1)^(1/n)]]},{n,-2,2}]
+
+Plot[{Im[(-1)^(1/n)],Re[(-1)^(1/n)]},{n,-1,1}]
+
+Plot[{Conjugate[Im[(-1)^(1/n)]],Conjugate[Re[(-1)^(1/n)]]},{n,-200,200}]
+Plot[{Im[(-1)^(1/n)],Re[(-1)^(1/n)]},{n,-1,1}]
+
+
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[theReflectionCountOfThisUniverse* Conjugate[I],{n,theReflectionCountOfThisUniverse}]//N
+0.-4. I
+Sqrt[-I^2 + +I^2]
+0
+
+
+
+1/0.0072973525
+
+137.036
+1/137.505
+
+0.00727246
+PoissonDistribution[
+Mean[{1}]
+1
+Mean[{1/1}]
+Mean[{1/2}]
+Mean[{1/3}]
+Mean[{1/4}]
+Mean[{1/5}]
+Mean[{1/6}]
+
+Mean[{1/7}]
+Mean[{1/I}]
+
+
+
+
+
+1
+1/2
+1/3
+1/4
+1/5
+1/6
+1/7
+-I
+PoissonDistribution[Mean[{1/1}]] 
+PoissonDistribution[Mean[{1/2}]]
+PoissonDistribution[Mean[{1/3}]]
+PoissonDistribution[Mean[{1/4}]]
+PoissonDistribution[Mean[{1/5}]]
+PoissonDistribution[Mean[{1/6}]]
+PoissonDistribution[Mean[{1/7}]]
+PoissonDistribution[Mean[{1/I}]]
+
+PoissonDistribution[1]
+PoissonDistribution[1/2]
+PoissonDistribution[1/3]
+PoissonDistribution[1/4]
+PoissonDistribution[1/5]
+PoissonDistribution[1/6]
+PoissonDistribution[1/7]
+PoissonDistribution[-I]
+ListPlot[Table[{k,Log[PDF[PoissonDistribution[1/k],k]]},{k,1,9}],Filling->Axis]
+ListPlot[Table[{k,Log[PDF[PoissonDistribution[1/k],k]]},{k,1,9}],Filling->Axis,PlotRange->All]
+
+
+
+Table[{k,PDF[PoissonDistribution[1/k],k]},{k,1,9}]
+Table[{k,Log[PDF[PoissonDistribution[1/k],k]]},{k,1,9}] //N
+{{1,1/E},{2,1/(8 Sqrt[E])},{3,1/(162 E^(1/3))},{4,1/(6144 E^(1/4))},{5,1/(375000 E^(1/5))},{6,1/(33592320 E^(1/6))},{7,1/(4150656720 E^(1/7))},{8,1/(676457349120 E^(1/8))},{9,1/(140587147048320 E^(1/9))}}
+{{1.,-1.},{2.,-2.57944},{3.,-5.42093},{4.,-8.97323},{5.,-13.0347},{6.,-17.4965},{7.,-22.2894},{8.,-27.3651},{9.,-32.688}}
+k
+
+k
+Ln[]
+Ln[]
+PoissonDistribution[
+Mean[{1}]
+1
+Mean[{1}]
+Mean[{2}]
+Mean[{3}]
+Mean[{4}]
+Mean[{5}]
+Mean[{6}]
+Mean[{7}]
+Mean[{I}]
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+I
+PoissonDistribution[Mean[{1}]] 
+PoissonDistribution[Mean[{2}]]
+PoissonDistribution[Mean[{3}]]
+PoissonDistribution[Mean[{4}]]
+PoissonDistribution[Mean[{5}]]
+PoissonDistribution[Mean[{6}]]
+PoissonDistribution[Mean[{7}]]
+PoissonDistribution[Mean[{I}]]
+
+PoissonDistribution[1]
+PoissonDistribution[2]
+PoissonDistribution[3]
+PoissonDistribution[4]
+PoissonDistribution[5]
+PoissonDistribution[6]
+PoissonDistribution[7]
+PoissonDistribution[I]
+ListPlot[Table[{k,PDF[PoissonDistribution[10],k]},{k,0,30}],Filling->Axis]
+
+CellularAutomaton[rule,init,steps]
+CellularAutomaton::nspecnl: Since rule specification rule is not a List, it must be an integer or a pure boolean function. >>
+CellularAutomaton[rule,init,steps]
+CellularAutomaton[Conjugate[I],I]
+
+
+CellularAutomaton::nspecnl: Since rule specification -I is not a List, it must be an integer or a pure boolean function. >>
+CellularAutomaton[-I,I]
+CellularAutomaton[1,1]
+CellularAutomaton::initn: The initial condition specification 1 should be of the form aspec, {aspec, bspec}, or {{{aspec1, off1},{aspec2, off2},... {aspecn, offn}}, bspec} (n > 0). Each aspec must be a non-empty rank 1 array whose elements at level 1 are integers i in the range 0 <= i <= 1. >>
+CellularAutomaton[1,1]
+ArrayPlot[CellularAutomaton[1,{-1},5]]
+CellularAutomaton::initn: The initial condition specification {-1} should be of the form aspec, {aspec, bspec}, or {{{aspec1, off1},{aspec2, off2},... {aspecn, offn}}, bspec} (n > 0). Each aspec must be a non-empty rank 1 array whose elements at level 1 are integers i in the range 0 <= i <= 1. >>
+ArrayPlot::mat: Argument CellularAutomaton[1,{-1},5] at position 1 is not a list of lists. >>
+ArrayPlot[CellularAutomaton[1,{-1},5]]
+ArrayPlot[CellularAutomaton[1,{0},7]]
+
+CellularAutomaton[1,{0},5]
+{{0},{1},{0},{1},{0},{1}}
+Sqrt[1]
+Sqrt[1+1]
+Sqrt[1+1+ Sqrt[1+1]]
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]]
+
+
+
+
+Sqrt[1] //N
+Sqrt[1+1] //N
+Sqrt[1+1+ Sqrt[1+1]] //N
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]] //N
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]] //N
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]] //N
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]]//N
+
+
+1
+Sqrt[2]
+Sqrt[2+Sqrt[2]]
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]]
+\[Sqrt](2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]])
+1.
+1.41421
+1.84776
+2.2939
+2.74879
+3.21009
+3.67624
+theLineDim
+theLineDim
+theLineDim = {Sqrt[1],
+Sqrt[1+1],
+Sqrt[1+1+ Sqrt[1+1]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]+
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]]}
+{1,Sqrt[2],Sqrt[2+Sqrt[2]],Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]],Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]],Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]],\[Sqrt](2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]])}
+ListPlot[{Sqrt[1],
+Sqrt[1+1],
+Sqrt[1+1+ Sqrt[1+1]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]+
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]]}]
+
+
+ListPlot[theLineDim]
+
+N[ListPlot]
+ListPlot
+theLineDim2 = {Sqrt[1]//N,
+Sqrt[1+1]//N,
+Sqrt[1+1+ Sqrt[1+1]]//N,
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]//N,
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]//N,
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]//N,
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]+
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]]//N}
+{1.,1.41421,1.84776,2.2939,2.74879,3.21009,3.67624}
+ListPlot[theLineDim2]
+
+1.8477590650225735`-1.4142135623730951`
+0.433546
+3.210088192852139`-2.748794577360765`
+
+0.461294
+3.676241885232914`-3.210088192852139`
+0.466154
++
+theLineDim = {Sqrt[1],
+Sqrt[Sqrt[1]+Sqrt[1]],
+Sqrt[1+1+ Sqrt[1+1]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]],
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]+
+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]+Sqrt[1+1+ Sqrt[1+1]+Sqrt[1+1+ Sqrt[1+1]]]]]]}
+{1,Sqrt[2],Sqrt[2+Sqrt[2]],Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]],Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]],Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]],\[Sqrt](2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]])}
+Sqrt[2]-1
+Sqrt[2+Sqrt[2]]-Sqrt[2]
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]-Sqrt[2+Sqrt[2]]
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]-Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]
+-1+Sqrt[2]
+-Sqrt[2]+Sqrt[2+Sqrt[2]]
+-Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]-Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]
+Sqrt[2]-1 //N
+Sqrt[2+Sqrt[2]]-Sqrt[2]//N
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]-Sqrt[2+Sqrt[2]]//N
+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]+Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]]-Sqrt[2+Sqrt[2]+Sqrt[2+Sqrt[2]]]//N
+0.414214
+0.433546
+0.44614
+0.454896
+theLineDim = Sqrt[(I)^2 + (Conjugate[I])^2 ]
+I Sqrt[2]
+theLineDim = Sqrt[(I Sqrt[2])^2 + (Conjugate[I Sqrt[2]])^2 ]
+2 I
+theLineDim = Sqrt[(2 I)^2 + (Conjugate[2 I])^2 ]
+2 I Sqrt[2]
+theLineDim = Sqrt[(2 I Sqrt[2])^2 + (Conjugate[2 I Sqrt[2]])^2]
+4 I
+theLineDim = Sqrt[(4 I)^2 + (Conjugate[4 I])^2]
+4 I Sqrt[2]
+Sqrt[1]
+Sqrt[1]//N
+1
+1.
+Sqrt[1 + Sqrt[1]]
+Sqrt[1 + Sqrt[1]]//N
+Sqrt[2]
+1.41421
+Sqrt[1 + Sqrt[1+ Sqrt[1]]]
+Sqrt[1 + Sqrt[1+ Sqrt[1]]]//N
+Sqrt[1+Sqrt[2]]
+1.55377
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1]]]]
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1]]]]//N
+Sqrt[1+Sqrt[1+Sqrt[2]]]
+1.59805
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1]]]]]
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1]]]]]//N
+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]
+1.61185
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]//N
+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]
+1.61612
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]]
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]]//N
+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]]
+1.61744
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]]]
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]]]//N
+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]]]
+1.61785
+Sqrt[I]
+Sqrt[I]//N
+(-1)^(1/4)
+0.707107+0.707107 I
+Sqrt[I + Sqrt[I]]
+Sqrt[I + Sqrt[I]]//N
+Sqrt[I+(-1)^(1/4)]
+1.13024+0.755199 I
+Sqrt[I + Sqrt[I+ Sqrt[I]]]
+Sqrt[I + Sqrt[I+ Sqrt[I]]]//N
+Sqrt[I+Sqrt[I+(-1)^(1/4)]]
+1.26844+0.691876 I
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I]]]]
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I]]]]//N
+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]
+1.30058+0.650433 I
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I]]]]]
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I]]]]]//N
+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]]
+1.3042+0.632738 I
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]//N
+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]]]
+1.30267+0.626691 I
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]]
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]]//N
+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]]]]
+1.30128+0.625034 I
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]]]
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]]]//N
+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]]]]]
+1.3006+0.624724 I
+\[AliasDelimiter]
+\[AliasDelimiter]
+Sqrt[-1]
+Sqrt[-1]//N
+I
+0.+1. I
+Sqrt[-1 - Sqrt[-1]]
+Sqrt[-1 - Sqrt[-1]]//N
+Sqrt[-1-I]
+0.45509-1.09868 I
+Sqrt[-1 - Sqrt[-1- Sqrt[-1]]]
+Sqrt[-1 - Sqrt[-1- Sqrt[-1]]]//N
+Sqrt[-1-Sqrt[-1-I]]
+0.42907+1.28031 I
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1]]]]
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1]]]]//N
+Sqrt[-1-Sqrt[-1-Sqrt[-1-I]]]
+0.494791-1.29379 I
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1]]]]]
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1]]]]]//N
+Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-I]]]]
+0.490993+1.31752 I
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1- Sqrt[-1]]]]]]
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1- Sqrt[-1]]]]]]//N
+Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-I]]]]]
+0.499355-1.31922 I
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1- Sqrt[-1- Sqrt[-1]]]]]]]
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1- Sqrt[-1- Sqrt[-1]]]]]]]//N
+Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-I]]]]]]
+0.498872+1.32221 I
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1- Sqrt[-1- Sqrt[-1- Sqrt[-1]]]]]]]]
+Sqrt[-1 - Sqrt[-1- Sqrt[-1-Sqrt[-1- Sqrt[-1- Sqrt[-1- Sqrt[-1- Sqrt[-1]]]]]]]]//N
+Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-Sqrt[-1-I]]]]]]]
+0.49992-1.32242 I
+oneDimTestCase=-I
+-I
+Sqrt[oneDimTestCase]
+Sqrt[oneDimTestCase]//N
+-(-1)^(3/4)
+0.707107-0.707107 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase]]//N
+Sqrt[-I-(-1)^(3/4)]
+1.13024-0.755199 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]//N
+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]
+1.26844-0.691876 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase]]]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase]]]]//N
+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]
+1.30058-0.650433 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]//N
+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]]
+1.3042-0.632738 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]]//N
+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]]]
+1.30267-0.626691 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]]]//N
+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]]]]
+1.30128-0.625034 I
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]]]]
+Sqrt[oneDimTestCase + Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase+ Sqrt[oneDimTestCase]]]]]]]]//N
+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]]]]]
+1.3006-0.624724 I
+ContinuedFraction[x,n]
+ContinuedFraction[x,2]
+GoldenRatio //N
+1.61803
+ContinuedFraction[GoldenRatio,5]
+{1,1,1,1,1}
+1+( 1/(1+1/1))//N
+1.5
+1+( 1/(1+1/(1+ (1/1))))//N
+1.66667
+FromContinuedFraction[{{-1}}]
+1/2 (-1-Sqrt[5])
+FromContinuedFraction[{1}]
+FromContinuedFraction[{1}]//N
+FromContinuedFraction[{1,1}]
+FromContinuedFraction[{1,1}]//N
+FromContinuedFraction[{1,1,1}]
+FromContinuedFraction[{1,1,1}]//N
+FromContinuedFraction[{1,1,1,1}]
+FromContinuedFraction[{1,1,1,1}]//N
+FromContinuedFraction[{1,1,1,1,1}]
+FromContinuedFraction[{1,1,1,1,1}]//N
+FromContinuedFraction[{1,1,1,1,1,1}]
+FromContinuedFraction[{1,1,1,1,1,1}]//N
+FromContinuedFraction[{1,1,1,1,1,1,1}]
+FromContinuedFraction[{1,1,1,1,1,1,1}]//N
+GoldenRatio //N
+
+1
+1.
+2
+2.
+3/2
+1.5
+5/3
+1.66667
+8/5
+1.6
+13/8
+1.625
+21/13
+1.61538
+1.61803
+Convergents[GoldenRatio,20]//N
+{1.,2.,1.5,1.66667,1.6,1.625,1.61538,1.61905,1.61765,1.61818,1.61798,1.61806,1.61803,1.61804,1.61803,1.61803,1.61803,1.61803,1.61803,1.61803}
+{1.`,2.`,1.5`,1.6666666666666667`,1.6`,1.625`,1.6153846153846154`,1.619047619047619`,1.6176470588235294`,1.6181818181818182`,1.6179775280898876`,1.6180555555555556`,1.6180257510729614`,1.6180371352785146`,1.618032786885246`,1.618034447821682`,1.6180338134001253`,1.618034055727554`,1.6180339631667064`,1.6180339985218033`}
+{1.,2.,1.5,1.66667,1.6,1.625,1.61538,1.61905,1.61765,1.61818,1.61798,1.61806,1.61803,1.61804,1.61803,1.61803,1.61803,1.61803,1.61803,1.61803}
+GoldenRatio//N
+1.61803
+ListPlot[Convergents[GoldenRatio,20],Joined->True,PlotRange->All]
+
+FromContinuedFraction[{I}]
+FromContinuedFraction[{I}]//N
+I
+0.+1. I
+FromContinuedFraction[{I,I}]
+FromContinuedFraction[{I,I}]//N
+0
+0.
+FromContinuedFraction[{I,I,I}]
+FromContinuedFraction[{I,I,I}]//N
+Divide::infy: Infinite expression I/0 encountered. >>
+ComplexInfinity
+Divide::infy: Infinite expression I/0 encountered. >>
+ComplexInfinity
+FromContinuedFraction[{I,I,I,I}]
+FromContinuedFraction[{I,I,I,I}]//N
+I
+0.+1. I
+FromContinuedFraction[{I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I}]//N
+0
+0.
+FromContinuedFraction[{I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I}]//N
+Divide::infy: Infinite expression -(1/0) encountered. >>
+ComplexInfinity
+Divide::infy: Infinite expression -(1/0) encountered. >>
+ComplexInfinity
+FromContinuedFraction[{I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I}]//N
+I
+0.+1. I
+FromContinuedFraction[{I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I}]//N
+0
+0.
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I}]//N
+Divide::infy: Infinite expression -(I/0) encountered. >>
+ComplexInfinity
+Divide::infy: Infinite expression -(I/0) encountered. >>
+ComplexInfinity
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I}]//N
+I
+0.+1. I
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I}]//N
+0
+0.
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I}]//N
+Divide::infy: Infinite expression 1/0 encountered. >>
+ComplexInfinity
+Divide::infy: Infinite expression 1/0 encountered. >>
+ComplexInfinity
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I}]//N
+I
+0.+1. I
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I,I}]//N
+0
+0.
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I,I,I}]//N
+Divide::infy: Infinite expression I/0 encountered. >>
+ComplexInfinity
+Divide::infy: Infinite expression I/0 encountered. >>
+ComplexInfinity
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I,I,I,I}]
+FromContinuedFraction[{I,I,I,I,I,I,I,I,I,I,I,I,I,I,I,I}]//N
+I
+0.+1. I
+FromContinuedFraction[{I,I,I}]
+Divide::infy: Infinite expression I/0 encountered. >>
+ComplexInfinity
+{Sqrt[1],
+Sqrt[1 + Sqrt[1]],
+Sqrt[1 + Sqrt[1+ Sqrt[1]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1]]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]]]}//N
+
+
+
+{1.,1.41421,1.55377,1.59805,1.61185,1.61612,1.61744,1.61785}
+{Sqrt[I],
+Sqrt[I + Sqrt[I]],
+Sqrt[I + Sqrt[I+ Sqrt[I]]],
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I]]]],
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I]]]]],
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]],
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]],
+Sqrt[I + Sqrt[I+ Sqrt[I+Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I+ Sqrt[I]]]]]]]]}//N
+
+
+
+{0.707107+0.707107 I,1.13024+0.755199 I,1.26844+0.691876 I,1.30058+0.650433 I,1.3042+0.632738 I,1.30267+0.626691 I,1.30128+0.625034 I,1.3006+0.624724 I}
+Convergents[GoldenRatio,20]//N
+{1.,2.,1.5,1.66667,1.6,1.625,1.61538,1.61905,1.61765,1.61818,1.61798,1.61806,1.61803,1.61804,1.61803,1.61803,1.61803,1.61803,1.61803,1.61803}
+ListPlot[{{1.`,1.4142135623730951`,1.5537739740300374`,1.5980531824786175`,1.6118477541252516`,1.616121206508117`,1.6174427985273905`,1.617851290609675`},{1.`,2.`,1.5`,1.6666666666666667`,1.6`,1.625`,1.6153846153846154`}},Joined->True
+,PlotRange->All,PlotMarkers -> Automatic]
+
+nested={1.`,1.4142135623730951`,1.5537739740300374`,1.5980531824786175`,1.6118477541252516`,1.616121206508117`,1.6174427985273905`}
+{1.,1.41421,1.55377,1.59805,1.61185,1.61612,1.61744}
+contuned ={1.`,2.`,1.5`,1.6666666666666667`,1.6`,1.625`,1.6153846153846154`}
+{1.,2.,1.5,1.66667,1.6,1.625,1.61538}
+contuned-nested
+{0.,0.585786,-0.053774,0.0686135,-0.0118478,0.00887879,-0.00205818}
+GoldenRatio-nested
+{0.618034,0.20382,0.06426,0.0199808,0.00618623,0.00191278,0.00059119}
+GoldenRatio-contuned
+{0.618034,-0.381966,0.118034,-0.0486327,0.018034,-0.00696601,0.00264937}
+ 
+Sqrt[I]//N
+0.707107+0.707107 I
+Sqrt[%]
+0.92388+0.382683 I
+Sqrt[I]
+(-1)^(1/4)
+((-1)^(1/4))^2
+I
+Sqrt[% + Sqrt[%]]
+Sqrt[I+(-1)^(1/4)]
+(Sqrt[(-1)^(1/8)+(-1)^(1/4)])^2
+(-1)^(1/8)+(-1)^(1/4)
+(-1)^(1/8)+(-1)^(1/4) //N
+
+1.63099+1.08979 I
+Sqrt[% + Sqrt[%+ Sqrt[%]]]
+1.8883+0.400202 I
+Sqrt[% + Sqrt[%+ Sqrt[%+Sqrt[%]]]]
+1.95884+0.138557 I
+Sqrt[% + Sqrt[%+ Sqrt[%+Sqrt[%+ Sqrt[%]]]]];
+Sqrt[% + Sqrt[%+ Sqrt[%+Sqrt[%+ Sqrt[%+ Sqrt[%]]]]]];
+Sqrt[% + Sqrt[%+ Sqrt[%+Sqrt[%+ Sqrt[%+ Sqrt[%+ Sqrt[%]]]]]]];
+Sqrt[% + Sqrt[%+ Sqrt[%+Sqrt[%+ Sqrt[%+ Sqrt[%+ Sqrt[%+ Sqrt[%]]]]]]]];
+Sqrt[% + Sqrt[%+ Sqrt[%+Sqrt[%+ Sqrt[%+ Sqrt[%+ Sqrt[%+ Sqrt[% + Sqrt[%]]]]]]]]];
+% //N
+1.99975+0.000582705 I
+
+(*Sqrt[1 + Sqrt[1+ Sqrt[1]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1]]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]],
+Sqrt[1 + Sqrt[1+ Sqrt[1+Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1+ Sqrt[1]]]]]]]]//N*)
+
+
+InverseFunction[Sqrt[(-1)^(1/8)+(-1)^(1/4)]]
+InverseFunction[Sqrt[(-1)^(1/8)+(-1)^(1/4)]]
+(*FullSimplify[Sqrt[Sqrt[(-1)^(1/8)+(-1)^(1/4)]+Sqrt[((-1)^(1/8)+(-1)^(1/4))^(1/4)+Sqrt[(-1)^(1/8)+(-1)^(1/4)]]]]*)
+Sqrt[Sqrt[(-1)^(1/8)+(-1)^(1/4)]+Sqrt[((-1)^(1/8)+(-1)^(1/4))^(1/4)+Sqrt[(-1)^(1/8)+(-1)^(1/4)]]]
+case[1]=Sqrt[2]
+Sqrt[2]
+case[1]=case[1]//N
+1.41421
+case[2]=Sqrt[case[1] + Sqrt[case[1]]]
+1.61351
+case[2]=case[2]//N
+1.61351
+case[3]=Sqrt[case[2] + Sqrt[case[2]+ Sqrt[case[2]]]]
+1.8198
+case[3]=case[3]//N
+1.8198
+case[4]=Sqrt[case[3] + Sqrt[case[3]+ Sqrt[case[3]+Sqrt[case[3]]]]]
+1.92799
+case[4]=case[4]//N
+1.92799
+case[5]=Sqrt[case[4] + Sqrt[case[4]+ Sqrt[case[4]+Sqrt[case[4]+ Sqrt[case[4]]]]]]
+1.97326
+case[5]=case[5]//N
+1.97326
+case[6]=Sqrt[case[5] + Sqrt[case[5]+ Sqrt[case[5]+Sqrt[case[5]+ Sqrt[case[5]+ Sqrt[case[5]]]]]]]
+1.99044
+case[6]=case[6]//N
+1.99044
+case[7]=Sqrt[case[6] + Sqrt[case[6]+ Sqrt[case[6]+Sqrt[case[6]+ Sqrt[case[6]+ Sqrt[case[6]+ Sqrt[case[6]]]]]]]]
+1.99666
+case[7]=case[7]//N
+1.99666
+case[8]=Sqrt[case[7] + Sqrt[case[7]+ Sqrt[case[7]+Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]]]]]]]]]
+1.99885
+case[8]=case[8]//N
+1.99885
+case[9]=Sqrt[case[8] + Sqrt[case[8]+ Sqrt[case[8]+Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8] + Sqrt[case[8]]]]]]]]]]
+1.99961
+case[9]=case[9]//N
+1.99961
+% //N
+1.99961
+case[8]
+1.99885
+dcasesetyy=Table[case[n],{n,1,9}]
+{1.41421,1.61351,1.8198,1.92799,1.97326,1.99044,1.99666,1.99885,1.99961}
+ListPlot[{Re[dcaseset],Im[dcaseset]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+dcaseset1=Table[case[n],{n,1,9}]
+{1.41421,1.61351,1.8198,1.92799,1.97326,1.99044,1.99666,1.99885,1.99961}
+ListPlot[{Re[dcaseset1],Im[dcaseset1]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+dcaseset2=Table[case[n],{n,1,9}]
+{1.41421,1.61351,1.8198,1.92799,1.97326,1.99044,1.99666,1.99885,1.99961}
+ListPlot[{Re[dcaseset2],Im[dcaseset2]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+ListPlot[{Re[dcaseset],Im[dcaseset],Re[dcaseset2],Re[dcaseset1],Im[dcaseset1],Im[dcaseset2]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot::lpn: {Re[dcaseset],Im[dcaseset],{1.41421,1.61351,1.8198,1.92799,1.97326,1.99044,1.99666,1.99885,1.99961},{1.41421,1.61351,<<5>>,1.99885,1.99961},{0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0}} is not a list of numbers or pairs of numbers. >>
+ListPlot[{Re[dcaseset],Im[dcaseset],{1.41421,1.61351,1.8198,1.92799,1.97326,1.99044,1.99666,1.99885,1.99961},{1.41421,1.61351,1.8198,1.92799,1.97326,1.99044,1.99666,1.99885,1.99961},{0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0}},Joined->True,PlotRange->All,PlotMarkers->Automatic]
+                                  
+this=thePathToTwo[-I]
+Print[this]
+{Null}
+{Null}
+thePathToTwo[theFourOptions_]:={
+
+case[1]=Sqrt[theFourOptions];
+case[1]=case[1]//N;
+case[2]=Sqrt[case[1] + Sqrt[case[1]]];
+case[2]=case[2]//N;
+case[3]=Sqrt[case[2] + Sqrt[case[2]+ Sqrt[case[2]]]];
+case[4]=Sqrt[case[3] + Sqrt[case[3]+ Sqrt[case[3]+Sqrt[case[3]]]]];
+case[5]=Sqrt[case[4] + Sqrt[case[4]+ Sqrt[case[4]+Sqrt[case[4]+ Sqrt[case[4]]]]]];
+case[6]=Sqrt[case[5] + Sqrt[case[5]+ Sqrt[case[5]+Sqrt[case[5]+ Sqrt[case[5]+ Sqrt[case[5]]]]]]];
+case[7]=Sqrt[case[6] + Sqrt[case[6]+ Sqrt[case[6]+Sqrt[case[6]+ Sqrt[case[6]+ Sqrt[case[6]+ Sqrt[case[6]]]]]]]];
+case[8]=Sqrt[case[7] + Sqrt[case[7]+ Sqrt[case[7]+Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]]]]]]]]];
+case[9]=Sqrt[case[8] + Sqrt[case[8]+ Sqrt[case[8]+Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8] + Sqrt[case[8]]]]]]]]]];
+Table[case[n],{n,1,9}];
+}
+
+
+case[2]=Sqrt[case[1] + Sqrt[case[1]]]
+1.34025-0.406561 I
+case[2]=case[2]//N
+1.34025-0.406561 I
+case[3]=Sqrt[case[2] + Sqrt[case[2]+ Sqrt[case[2]]]]
+1.72176-0.170886 I
+case[3]=case[3]//N
+1.72176-0.170886 I
+case[4]=Sqrt[case[3] + Sqrt[case[3]+ Sqrt[case[3]+Sqrt[case[3]]]]]
+1.89427-0.0620078 I
+case[4]=case[4]//N
+1.89427-0.0620078 I
+case[5]=Sqrt[case[4] + Sqrt[case[4]+ Sqrt[case[4]+Sqrt[case[4]+ Sqrt[case[4]]]]]]
+1.96188-0.0212927 I
+case[5]=case[5]//N
+1.96188-0.0212927 I
+case[6]=Sqrt[case[5] + Sqrt[case[5]+ Sqrt[case[5]+Sqrt[case[5]+ Sqrt[case[5]+ Sqrt[case[5]]]]]]]
+1.98663-0.0071704 I
+case[6]=case[6]//N
+1.98663-0.0071704 I
+case[7]=Sqrt[case[6] + Sqrt[case[6]+ Sqrt[case[6]+Sqrt[case[6]+ Sqrt[case[6]+ Sqrt[case[6]+ Sqrt[case[6]]]]]]]]
+1.99539-0.00239843 I
+case[7]=case[7]//N
+1.99539-0.00239843 I
+case[8]=Sqrt[case[7] + Sqrt[case[7]+ Sqrt[case[7]+Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]+ Sqrt[case[7]]]]]]]]]
+1.99842-0.000800408 I
+case[8]=case[8]//N
+1.99842-0.000800408 I
+case[9]=Sqrt[case[8] + Sqrt[case[8]+ Sqrt[case[8]+Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8]+ Sqrt[case[8] + Sqrt[case[8]]]]]]]]]]
+1.99947-0.000266907 I
+case[9]=case[9]//N
+1.99947-0.000266907 I
+% //N
+1.99947-0.000266907 I
+case[8]
+1.99842-0.000800408 I
+FromContinuedFraction[{{Quaternions[1,0,0,0]}}]
+FromContinuedFraction::root: Unable to determine the appropriate root for the periodic continued fraction. >>
+FromContinuedFraction[{{Quaternions[1,0,0,0]}}]
+FromContinuedFraction[{{1}}]
+1/2 (1+Sqrt[5])
+Quaternions[2,0,0,0]==2
+Quaternions[2,0,0,0]==2
+Simplify[FromContinuedFraction[{Quaternions[1,0,0,0]}]]
+Quaternions[1,0,0,0]
+Simplify[FromContinuedFraction[{Quaternion[1,0,0,0],Quaternion[1,0,0,0]}]]
+Power::infy: Infinite expression 1/0 encountered. >>
+\[Infinity]::indet: Indeterminate expression 0 ComplexInfinity encountered. >>
+Quaternion[1,0,0,0] Quaternion[1+\[Pi]^2/4,0,Indeterminate,Indeterminate]
+Simplify[FromContinuedFraction[{Quaternion[1,0,0,0],Quaternion[1,0,0,0],Quaternion[1,0,0,0]}]]
+Power::infy: Infinite expression 1/0 encountered. >>
+\[Infinity]::indet: Indeterminate expression 0 ComplexInfinity encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+\[Infinity]::indet: Indeterminate expression 0 ComplexInfinity encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+General::stop: Further output of Power::infy will be suppressed during this calculation. >>
+\[Infinity]::indet: Indeterminate expression 0 ComplexInfinity encountered. >>
+General::stop: Further output of \[Infinity]::indet will be suppressed during this calculation. >>
+Quaternion[1,0,0,0] (1+1/Quaternion[1+\[Pi]^2/4,0,Indeterminate,Indeterminate])
+Simplify[FromContinuedFraction[{Quaternions[1,1,0,0]}]]
+Quaternions[1,1,0,0]
+Simplify[FromContinuedFraction[{Quaternion[1,1,0,0],Quaternion[1,1,0,0]}]]
+Quaternion[3/2,1/2,0,0]
+Simplify[FromContinuedFraction[{Quaternion[1,1,0,0],Quaternion[1,1,0,0],Quaternion[1,1,0,0]}]]
+Quaternion[1/5,-(2/5),0,0] Quaternion[1,1,0,0] Quaternion[2,2,0,0]
+Simplify[FromContinuedFraction[{Quaternions[0,1,0,0]}]]
+Quaternions[0,1,0,0]
+Simplify[FromContinuedFraction[{Quaternion[0,1,0,0],Quaternion[0,1,0,0]}]]
+Quaternion[0,0,0,0]
+Simplify[FromContinuedFraction[{Quaternion[0,1,0,0],Quaternion[0,1,0,0],Quaternion[0,1,0,0]}]]
+Power::infy: Infinite expression 1/0 encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+General::stop: Further output of Power::infy will be suppressed during this calculation. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+General::stop: Further output of $RecursionLimit::reclim will be suppressed during this calculation. >>
+$IterationLimit::itlim: Iteration limit of 4096 exceeded. >>
+$IterationLimit::itlim: Iteration limit of 4096 exceeded. >>
+ComplexInfinity
+Simplify[FromContinuedFraction[{Quaternions[0,0,1,0]}]]
+Quaternions[0,0,1,0]
+Simplify[FromContinuedFraction[{Quaternion[0,0,1,0],Quaternion[0,0,1,0]}]]
+Quaternion[0,0,0,0]
+Simplify[FromContinuedFraction[{Quaternion[0,0,1,0],Quaternion[0,0,1,0],Quaternion[0,0,1,0]}]]
+Power::infy: Infinite expression 1/0 encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+General::stop: Further output of Power::infy will be suppressed during this calculation. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+General::stop: Further output of $RecursionLimit::reclim will be suppressed during this calculation. >>
+$IterationLimit::itlim: Iteration limit of 4096 exceeded. >>
+$IterationLimit::itlim: Iteration limit of 4096 exceeded. >>
+ComplexInfinity
+Simplify[FromContinuedFraction[{Quaternions[0,0,0,1]}]]
+Quaternions[0,0,0,1]
+Simplify[FromContinuedFraction[{Quaternion[0,0,0,1],Quaternion[0,0,0,1]}]]
+Quaternion[0,0,0,0]
+Simplify[FromContinuedFraction[{Quaternion[0,0,0,1],Quaternion[0,0,0,1],Quaternion[0,0,0,1]}]]
+Power::infy: Infinite expression 1/0 encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+Power::infy: Infinite expression 1/0 encountered. >>
+General::stop: Further output of Power::infy will be suppressed during this calculation. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+$RecursionLimit::reclim: Recursion depth of 256 exceeded. >>
+General::stop: Further output of $RecursionLimit::reclim will be suppressed during this calculation. >>
+$IterationLimit::itlim: Iteration limit of 4096 exceeded. >>
+$IterationLimit::itlim: Iteration limit of 4096 exceeded. >>
+ComplexInfinity
+
+Arg[ComplexInfinity]
+Arg::indet: Indeterminate expression Arg[ComplexInfinity] encountered. >>
+Interval[{-\[Pi],\[Pi]}]
+Simplify[FromContinuedFraction[{Quaternions[0,1,1,0]}]]
+Quaternions[0,1,1,0]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+Quaternion[0,1/2,1/2,0]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+Quaternion[-1,0,0,0] Quaternion[0,0,0,0] Quaternion[0,1,1,0]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+Simplify::infd: Expression (Quaternion[-1,0,0,0]+Quaternion[0,1,1,0] (Quaternion[0,1,1,0]+Quaternion[-1,0,0,0] Quaternion[0,1,1,0]))/(Quaternion[0,1,1,0]+Quaternion[-1,0,0,0] Quaternion[0,1,1,0]) simplified to ComplexInfinity. >>
+ComplexInfinity
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+(Quaternion[0,2,2,0] Quaternion[1,0,0,0]+Quaternion[0,-1,1,0] Quaternion[3,0,0,0])/(Quaternion[-3,0,0,0]+Quaternion[-2,0,0,0] Quaternion[-1,0,0,0])
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+(Quaternion[0,-(1/2),-(1/2),0] Quaternion[\[Pi]^2/4,0,Indeterminate,Indeterminate])/(Quaternion[-3,0,0,0]+Quaternion[-2,0,0,0] Quaternion[-1,0,0,0])
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+(Quaternion[-4,0,0,0] Quaternion[0,-2,-2,0]+Quaternion[0,-1,-1,0]+Quaternion[-3,0,0,0] Quaternion[0,1,1,0]+Quaternion[-1,0,0,0] Quaternion[0,4,4,0]) Quaternion[\[Pi]^2/4,0,Indeterminate,Indeterminate]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+(Quaternion[0,-(1/2),-(1/2),0] (Quaternion[-12,0,0,0] Quaternion[-1,0,0,0]+Quaternion[-8,0,0,0] Quaternion[-1,0,0,0]+Quaternion[1,0,0,0]+Quaternion[-5,0,0,0] Quaternion[4,0,0,0]))/(Quaternion[-4,0,0,0] Quaternion[-1,0,0,0]+Quaternion[\[Pi]/2,0,Indeterminate,Indeterminate])
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0],Quaternion[0,1,1,0]}]]
+(Quaternion[-1,0,0,0] Quaternion[0,-8,-8,0]+Quaternion[-10,0,0,0] Quaternion[0,-2,-2,0]+Quaternion[0,1,1,0]+Quaternion[-4,0,0,0] Quaternion[0,1,1,0]+Quaternion[-6,0,0,0] Quaternion[0,4,4,0])/(Quaternion[-12,0,0,0] Quaternion[-1,0,0,0]+Quaternion[-8,0,0,0] Quaternion[-1,0,0,0]+Quaternion[1,0,0,0]+Quaternion[-5,0,0,0] Quaternion[4,0,0,0])
+Simplify[%]
+(Quaternion[-1,0,0,0] Quaternion[0,-8,-8,0]+Quaternion[-10,0,0,0] Quaternion[0,-2,-2,0]+Quaternion[0,1,1,0]+Quaternion[-4,0,0,0] Quaternion[0,1,1,0]+Quaternion[-6,0,0,0] Quaternion[0,4,4,0])/(Quaternion[-12,0,0,0] Quaternion[-1,0,0,0]+Quaternion[-8,0,0,0] Quaternion[-1,0,0,0]+Quaternion[1,0,0,0]+Quaternion[-5,0,0,0] Quaternion[4,0,0,0])
+% //N
+
+(Quaternion[-1.,0.,0.,0.] Quaternion[0.,-8.,-8.,0.]+Quaternion[-10.,0.,0.,0.] Quaternion[0.,-2.,-2.,0.]+Quaternion[0.,1.,1.,0.]+Quaternion[-4.,0.,0.,0.] Quaternion[0.,1.,1.,0.]+Quaternion[-6.,0.,0.,0.] Quaternion[0.,4.,4.,0.])/(Quaternion[-12.,0.,0.,0.] Quaternion[-1.,0.,0.,0.]+Quaternion[-8.,0.,0.,0.] Quaternion[-1.,0.,0.,0.]+Quaternion[1.,0.,0.,0.]+Quaternion[-5.,0.,0.,0.] Quaternion[4.,0.,0.,0.])
+Simplify[FromContinuedFraction[{Quaternions[0,1,1,1]}]]
+Quaternions[0,1,1,1]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+Quaternion[0,2/3,2/3,2/3]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+Quaternion[-1,0,0,0] Quaternion[-(1/2),0,0,0] Quaternion[0,1,1,1]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+(Quaternion[-5,0,0,0]+Quaternion[-3,0,0,0] Quaternion[-2,0,0,0]) Quaternion[-1,0,0,0] Quaternion[0,-(1/3),-(1/3),-(1/3)]
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+-((Quaternion[0,2,2,2]+Quaternion[0,-3,-3,-3] Quaternion[2,0,0,0]+Quaternion[0,1,1,1] Quaternion[4,0,0,0])/(Quaternion[-5,0,0,0]+Quaternion[-3,0,0,0] Quaternion[-2,0,0,0]))
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+(Quaternion[0,-(1/3),-(1/3),-(1/3)] (Quaternion[-9,0,0,0] Quaternion[-2,0,0,0]+Quaternion[1,0,0,0]+Quaternion[-2,0,0,0] Quaternion[9,0,0,0]))/(Quaternion[-6,0,0,0]+Quaternion[-3,0,0,0] Quaternion[-2,0,0,0])
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+-(Quaternion[0,9,9,9] Quaternion[2,0,0,0]+Quaternion[0,1,1,1] Quaternion[5,0,0,0]+Quaternion[0,3,3,3] Quaternion[\[Pi]/2,0,Indeterminate,Indeterminate])/(Quaternion[-9,0,0,0] Quaternion[-2,0,0,0]+Quaternion[1,0,0,0]+Quaternion[-2,0,0,0] Quaternion[9,0,0,0])
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+(Quaternion[0,-(1/3),-(1/3),-(1/3)] (Quaternion[-10,0,0,0] Quaternion[9,0,0,0]+Quaternion[-44,0,0,0] Quaternion[\[Pi]/2,0,Indeterminate,Indeterminate]))/(Quaternion[-3,0,0,0] Quaternion[-2,0,0,0]+Quaternion[\[Pi]/2,0,Indeterminate,Indeterminate])
+Simplify[FromContinuedFraction[{Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1],Quaternion[0,1,1,1]}]]
+(Quaternion[-2,0,0,0] Quaternion[0,-27,-27,-27]+Quaternion[-20,0,0,0] Quaternion[0,-3,-3,-3]+Quaternion[0,1,1,1]+Quaternion[-8,0,0,0] Quaternion[0,1,1,1]+Quaternion[-12,0,0,0] Quaternion[0,9,9,9])/(Quaternion[-10,0,0,0] Quaternion[9,0,0,0]+Quaternion[-44,0,0,0] Quaternion[\[Pi]/2,0,Indeterminate,Indeterminate])
+
+Simplify[FromContinuedFraction[{Quaternions[1,1,1,1]}]]
+Quaternions[1,1,1,1]
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+Quaternion[5/4,3/4,3/4,3/4]
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+Quaternion[-(1/13),-(2/13),-(2/13),-(2/13)] Quaternion[0,2,2,2] Quaternion[1,1,1,1]
+FullSimplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+(Quaternion[-3,4,4,4]+Quaternion[-2,2,2,2] Quaternion[-1,2,2,2]) Quaternion[0,-(1/6),-(1/6),-(1/6)] Quaternion[1/4,-(1/4),-(1/4),-(1/4)]
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+(Quaternion[-7,1,1,1]+Quaternion[-8,0,0,0] Quaternion[-1,2,2,2]+Quaternion[-2,4,4,4] Quaternion[1,1,1,1])/(Quaternion[-3,4,4,4]+Quaternion[-2,2,2,2] Quaternion[-1,2,2,2])
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+((Quaternion[-13,-2,-2,-2]+Quaternion[-14,-2,-2,-2] Quaternion[-1,2,2,2]) Quaternion[1/4,-(1/4),-(1/4),-(1/4)])/(Quaternion[-3,6,6,6]+Quaternion[-2,2,2,2] Quaternion[-1,2,2,2])
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+(Quaternion[1,1,1,1] Quaternion[3,-6,-6,-6]+Quaternion[7,15,15,15]+Quaternion[1,-2,-2,-2] Quaternion[16,-16,-16,-16]+Quaternion[-1,2,2,2] Quaternion[32,0,0,0])/(Quaternion[13,2,2,2]+Quaternion[-1,2,2,2] Quaternion[14,2,2,2])
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+(Quaternion[1/4,-(1/4),-(1/4),-(1/4)] (Quaternion[-40,-40,-40,-40] Quaternion[-1,2,2,2]+Quaternion[-12,12,12,12] Quaternion[-1,2,2,2]+Quaternion[25,-24,-24,-24]+Quaternion[-1,2,2,2] Quaternion[64,0,0,0]))/(Quaternion[-16,4,4,4]+Quaternion[-16,0,0,0] Quaternion[-1,2,2,2])
+Simplify[FromContinuedFraction[{Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1],Quaternion[1,1,1,1]}]]
+(Quaternion[-80,0,0,0] Quaternion[-1,2,2,2]+Quaternion[-4,8,8,8] Quaternion[1,1,1,1]+Quaternion[-6,12,12,12] Quaternion[16,-16,-16,-16]+Quaternion[-1,2,2,2] Quaternion[64,64,64,64]+Quaternion[97,-15,-15,-15])/(Quaternion[-40,-40,-40,-40] Quaternion[-1,2,2,2]+Quaternion[-12,12,12,12] Quaternion[-1,2,2,2]+Quaternion[25,-24,-24,-24]+Quaternion[-1,2,2,2] Quaternion[64,0,0,0])
+ListPointPlot3D[{1,0,0},{1,0,0},{1,0,0}]
+
+ListPointPlot3D::nonopt: Options expected (instead of {1,0,0}) beyond position 1 in ListPointPlot3D[{1,0,0},{1,0,0},{1,0,0}]. An option must be a rule or a list of rules. >>
+ListPointPlot3D[{1,0,0},{1,0,0},{1,0,0}]
+ListPointPlot3D[{-1,-1,-1},{1,0,0},{-1,0,0}]
+ListPointPlot3D::nonopt: Options expected (instead of {-1,0,0}) beyond position 1 in ListPointPlot3D[{-1,-1,-1},{1,0,0},{-1,0,0}]. An option must be a rule or a list of rules. >>
+ListPointPlot3D[{-1,-1,-1},{1,0,0},{-1,0,0}]
+ListPointPlot3D[{{0,1,0},{0,1,0},{0,1,0},{0,-1,0},{0,-1,0},{0,-1,0}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPlot3D[{{1,0,0}},PlotStyle->PointSize[7]]
+ListPlot3D::gmat: {{1,0,0}} is not a rectangular array larger than 2 x 2. >>
+ListPlot3D[{{1,0,0}},PlotStyle->PointSize[7]]
+ListPointPlot3D[{{-1,-1,-1}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{-1,0,0},{0,1,0},{0,-1,0},{0,0,1},{0,0,-1}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{-1,0,0},{0,1,0},{0,-1,0},{0,0,1},{0,0,-1}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{1,0,0},{-1,0,0}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{0,1,0},{0,-1,0}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{0,0,1},{0,0,-1}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{{1,0,0},{-1,0,0}},{{0,1,0},{0,-1,0}},{{0,0,1},{0,0,-1}}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+
+
+
+superPositionNegAwayIJKaLL ={-1,0,0}
+superPositionPosTowardIJKaLL ={1,0,0}
+
+{-1,0,0}
+{1,0,0}
+ListPointPlot3D[{{superPositionNegAwayIJKaLL},{superPositionPosTowardIJKaLL},{{0,-1,0}}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+
+ListPointPlot3D[{{superPositionIJKaLLawayNeg},{superPositionIJKaLLtoardPos},{{-1,-1,-1}}},{PlotStyle->PointSize[.05],BoxRatios->{1,1,1},PlotRange->Full}]
+ListPointPlot3D::arrayerr: {{superPositionIJKaLLawayNeg},{superPositionIJKaLLtoardPos},{{-1,-1,-1}}} must be a valid array or a list of valid arrays. >>
+ListPointPlot3D[{{superPositionIJKaLLawayNeg},{superPositionIJKaLLtoardPos},{{-1,-1,-1}}},{PlotStyle->PointSize[0.05],BoxRatios->{1,1,1},PlotRange->Full}]
+thisTestCaseVectorEveluationOnePos =oneDimVectorCase[1]//N
+thisTestCaseVectorEveluationOneNeg =oneDimVectorCase[-1]//N
+thisTestCaseVectorEveluationIpos =oneDimVectorCase[I]//N
+thisTestCaseVectorEveluationIneg =oneDimVectorCase[-I]//N
+
+{1.,1.41421,1.55377,1.59805,1.61185,1.61612,1.61744,1.61835,1.61906,1.61964,1.62015,1.62059,1.62099,1.62135,1.62168,1.62198}
+{0.+1. I,0.45509+1.09868 I,0.58373+0.94109 I,0.553522+0.850092 I,0.506819+0.838655 I,0.489764+0.856183 I,0.49318+0.868022 I,0.491688+0.879135 I,0.488021+0.88801 I,0.483564+0.895023 I,0.478882+0.900643 I,0.474218+0.905222 I,0.469675+0.909008 I,0.465296+0.912178 I,0.461096+0.914862 I,0.457074+0.917152 I}
+{0.707107+0.707107 I,1.13024+0.755199 I,1.26844+0.691876 I,1.30058+0.650433 I,1.3042+0.632738 I,1.30267+0.626691 I,1.30128+0.625034 I,1.30058+0.623628 I,1.30016+0.622462 I,1.29989+0.621468 I,1.29971+0.620603 I,1.29958+0.619836 I,1.29949+0.619146 I,1.29942+0.618518 I,1.29937+0.617942 I,1.29934+0.617409 I}
+{0.707107-0.707107 I,1.13024-0.755199 I,1.26844-0.691876 I,1.30058-0.650433 I,1.3042-0.632738 I,1.30267-0.626691 I,1.30128-0.625034 I,1.30058-0.623628 I,1.30016-0.622462 I,1.29989-0.621468 I,1.29971-0.620603 I,1.29958-0.619836 I,1.29949-0.619146 I,1.29942-0.618518 I,1.29937-0.617942 I,1.29934-0.617409 I}
+ListPlot[{Re[thisTestCaseVectorEveluationOnePos],Im[thisTestCaseVectorEveluationOnePos]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot[{Re[thisTestCaseVectorEveluationOneNeg],Im[thisTestCaseVectorEveluationOneNeg]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot[{Re[thisTestCaseVectorEveluationIpos],Im[thisTestCaseVectorEveluationIpos]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot[{Re[thisTestCaseVectorEveluationIneg],Im[thisTestCaseVectorEveluationIneg]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+
+
+
+
+
+oneDimVectorCase[thisOneDimVectorCase_]:={
+Sqrt[thisOneDimVectorCase],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]],
+Sqrt[thisOneDimVectorCase + Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase+ Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]+Sqrt[thisOneDimVectorCase]]]]]]]
+
+
+
+}
+
+ListPlot[{Re[thisTestCaseVectorEveluation],Im[thisTestCaseVectorEveluation]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+thisTestCaseVectorEveluationOnePos =oneDimVectorCase[1]
+thisTestCaseVectorEveluationOneNeg =oneDimVectorCase[-1]
+thisTestCaseVectorEveluationIpos =oneDimVectorCase[I]
+thisTestCaseVectorEveluationIneg =oneDimVectorCase[-I]
+
+{1,Sqrt[2],Sqrt[1+Sqrt[2]],Sqrt[1+Sqrt[1+Sqrt[2]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[3]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[3]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[5]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[6]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[7]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+2 Sqrt[2]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[3]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[10]]]]]],Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[11]]]]]]}
+{I,Sqrt[-1+I],Sqrt[-1+Sqrt[-1+I]],Sqrt[-1+Sqrt[-1+Sqrt[-1+I]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+I]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+I]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+2 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+3 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+4 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+5 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+6 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+7 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+8 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+9 I]]]]]],Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+Sqrt[-1+10 I]]]]]]}
+{(-1)^(1/4),Sqrt[I+(-1)^(1/4)],Sqrt[I+Sqrt[I+(-1)^(1/4)]],Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+(-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+2 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+3 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+4 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+5 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+6 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+7 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+8 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+9 (-1)^(1/4)]]]]]],Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+Sqrt[I+10 (-1)^(1/4)]]]]]]}
+{-(-1)^(3/4),Sqrt[-I-(-1)^(3/4)],Sqrt[-I+Sqrt[-I-(-1)^(3/4)]],Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-(-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-2 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-3 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-4 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-5 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-6 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-7 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-8 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-9 (-1)^(3/4)]]]]]],Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I+Sqrt[-I-10 (-1)^(3/4)]]]]]]}
+thisTestCaseVectorEveluationOnePos =oneDimVectorCase[1]//N
+thisTestCaseVectorEveluationOneNeg =oneDimVectorCase[-1]//N
+thisTestCaseVectorEveluationIpos =oneDimVectorCase[I]//N
+thisTestCaseVectorEveluationIneg =oneDimVectorCase[-I]//N
+{1.,1.41421,1.55377,1.59805,1.61185,1.61612,1.61744,1.61835,1.61906,1.61964,1.62015,1.62059,1.62099,1.62135,1.62168,1.62198}
+{0.+1. I,0.45509+1.09868 I,0.58373+0.94109 I,0.553522+0.850092 I,0.506819+0.838655 I,0.489764+0.856183 I,0.49318+0.868022 I,0.491688+0.879135 I,0.488021+0.88801 I,0.483564+0.895023 I,0.478882+0.900643 I,0.474218+0.905222 I,0.469675+0.909008 I,0.465296+0.912178 I,0.461096+0.914862 I,0.457074+0.917152 I}
+{0.707107+0.707107 I,1.13024+0.755199 I,1.26844+0.691876 I,1.30058+0.650433 I,1.3042+0.632738 I,1.30267+0.626691 I,1.30128+0.625034 I,1.30058+0.623628 I,1.30016+0.622462 I,1.29989+0.621468 I,1.29971+0.620603 I,1.29958+0.619836 I,1.29949+0.619146 I,1.29942+0.618518 I,1.29937+0.617942 I,1.29934+0.617409 I}
+{0.707107-0.707107 I,1.13024-0.755199 I,1.26844-0.691876 I,1.30058-0.650433 I,1.3042-0.632738 I,1.30267-0.626691 I,1.30128-0.625034 I,1.30058-0.623628 I,1.30016-0.622462 I,1.29989-0.621468 I,1.29971-0.620603 I,1.29958-0.619836 I,1.29949-0.619146 I,1.29942-0.618518 I,1.29937-0.617942 I,1.29934-0.617409 I}
+MatrixForm[thisTestCaseVectorEveluationOnePos]//N
+MatrixForm[thisTestCaseVectorEveluationOneNeg]//N
+MatrixForm[thisTestCaseVectorEveluationIpos]//N
+MatrixForm[thisTestCaseVectorEveluationIneg]//N
+(1.
+1.41421
+1.55377
+1.59805
+1.61185
+1.61612
+1.61744
+1.61835
+1.61906
+1.61964
+1.62015
+1.62059
+1.62099
+1.62135
+1.62168
+1.62198
+
+)
+(0.+1. I
+0.45509+1.09868 I
+0.58373+0.94109 I
+0.553522+0.850092 I
+0.506819+0.838655 I
+0.489764+0.856183 I
+0.49318+0.868022 I
+0.491688+0.879135 I
+0.488021+0.88801 I
+0.483564+0.895023 I
+0.478882+0.900643 I
+0.474218+0.905222 I
+0.469675+0.909008 I
+0.465296+0.912178 I
+0.461096+0.914862 I
+0.457074+0.917152 I
+
+)
+(0.707107+0.707107 I
+1.13024+0.755199 I
+1.26844+0.691876 I
+1.30058+0.650433 I
+1.3042+0.632738 I
+1.30267+0.626691 I
+1.30128+0.625034 I
+1.30058+0.623628 I
+1.30016+0.622462 I
+1.29989+0.621468 I
+1.29971+0.620603 I
+1.29958+0.619836 I
+1.29949+0.619146 I
+1.29942+0.618518 I
+1.29937+0.617942 I
+1.29934+0.617409 I
+
+)
+(0.707107-0.707107 I
+1.13024-0.755199 I
+1.26844-0.691876 I
+1.30058-0.650433 I
+1.3042-0.632738 I
+1.30267-0.626691 I
+1.30128-0.625034 I
+1.30058-0.623628 I
+1.30016-0.622462 I
+1.29989-0.621468 I
+1.29971-0.620603 I
+1.29958-0.619836 I
+1.29949-0.619146 I
+1.29942-0.618518 I
+1.29937-0.617942 I
+1.29934-0.617409 I
+
+)
+1.621984185488328`
+1.62198
+0.45707443851525964`+0.917151686741904` 
+1.37423
+1.2993391351911743`+0.6174086435137033`
+1.91675
+1.2993391351911743`-0.6174086435137033` 
+0.68193
+ListPlot[{Re[thisTestCaseVectorEveluationOnePos],Im[thisTestCaseVectorEveluationOnePos]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot[{Re[thisTestCaseVectorEveluationOneNeg],Im[thisTestCaseVectorEveluationOneNeg]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot[{Re[thisTestCaseVectorEveluationIpos],Im[thisTestCaseVectorEveluationIpos]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+ListPlot[{Re[thisTestCaseVectorEveluationIneg],Im[thisTestCaseVectorEveluationIneg]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+
+
+
+
+
+ListPlot[{Re[thisTestCaseVectorEveluationOnePos],Im[thisTestCaseVectorEveluationOnePos],Re[thisTestCaseVectorEveluationOneNeg],Im[thisTestCaseVectorEveluationOneNeg],Re[thisTestCaseVectorEveluationIpos],Im[thisTestCaseVectorEveluationIpos],Re[thisTestCaseVectorEveluationIneg],Im[thisTestCaseVectorEveluationIneg]},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+
+
+Clear[a,b]
+a=Im[thisTestCaseVectorEveluationIpos]//N
+b=Im[thisTestCaseVectorEveluationIneg]//N
+{0.707107,0.755199,0.691876,0.650433,0.632738,0.626691,0.625034,0.623628,0.622462,0.621468,0.620603,0.619836,0.619146,0.618518,0.617942,0.617409}
+{-0.707107,-0.755199,-0.691876,-0.650433,-0.632738,-0.626691,-0.625034,-0.623628,-0.622462,-0.621468,-0.620603,-0.619836,-0.619146,-0.618518,-0.617942,-0.617409}
+ListPlot[{ a ,b},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+a^2
+{0.5,0.570326,0.478692,0.423063,0.400358,0.392741,0.390668,0.388912,0.387458,0.386223,0.385148,0.384196,0.383341,0.382564,0.381852,0.381193}
+c=Im[thisTestCaseVectorEveluationOnePos]//N
+d=Im[thisTestCaseVectorEveluationOneNeg]//N
+
+{0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.}
+{1.,1.09868,0.94109,0.850092,0.838655,0.856183,0.868022,0.879135,0.88801,0.895023,0.900643,0.905222,0.909008,0.912178,0.914862,0.917152}
+ListPlot[{ c ,d},Joined->True
+,PlotRange->All, PlotMarkers -> Automatic]
+
+thisTestCaseVectorEveluationOnePos[[2]]-thisTestCaseVectorEveluationOnePos[[1]]//N
+thisTestCaseVectorEveluationOnePos[[3]]-thisTestCaseVectorEveluationOnePos[[2]]//N
+thisTestCaseVectorEveluationOnePos[[4]]-thisTestCaseVectorEveluationOnePos[[3]]//N
+thisTestCaseVectorEveluationOnePos[[5]]-thisTestCaseVectorEveluationOnePos[[4]]//N
+thisTestCaseVectorEveluationOnePos[[6]]-thisTestCaseVectorEveluationOnePos[[5]]//N
+thisTestCaseVectorEveluationOnePos[[7]]-thisTestCaseVectorEveluationOnePos[[6]]//N
+thisTestCaseVectorEveluationOnePos[[8]]-thisTestCaseVectorEveluationOnePos[[7]]//N
+thisTestCaseVectorEveluationOnePos[[9]]-thisTestCaseVectorEveluationOnePos[[8]]//N
+thisTestCaseVectorEveluationOnePos[[10]]-thisTestCaseVectorEveluationOnePos[[9]]//N
+thisTestCaseVectorEveluationOnePos[[11]]-thisTestCaseVectorEveluationOnePos[[10]]//N
+thisTestCaseVectorEveluationOnePos[[12]]-thisTestCaseVectorEveluationOnePos[[11]]//N
+thisTestCaseVectorEveluationOnePos[[13]]-thisTestCaseVectorEveluationOnePos[[12]]//N
+thisTestCaseVectorEveluationOnePos[[14]]-thisTestCaseVectorEveluationOnePos[[13]]//N
+0.414214
+0.13956
+0.0442792
+0.0137946
+0.00427345
+0.00132159
+0.000907538
+0.000707475
+0.000586132
+0.000503567
+0.000443268
+0.000397053
+0.000360366
+ListPointPlot3D[{{Extract[thisTestCaseVectorEveluationOnePos,1],0,0},{Extract[thisTestCaseVectorEveluationOnePos,2],0,0},{Extract[thisTestCaseVectorEveluationOnePos,3],0,0},{Extract[thisTestCaseVectorEveluationOnePos,4],0,0},{Extract[thisTestCaseVectorEveluationOnePos,5],0,0},{Extract[thisTestCaseVectorEveluationOnePos,6],0,0}},{PlotStyle->PointSize[.01],BoxRatios->{1,1,1},PlotRange->Full}]
+
+Sqrt[Extract[thisTestCaseVectorEveluationOnePos,1]^2 + Extract[thisTestCaseVectorEveluationOnePos,2]^2]
+1.73205
+{{{Extract[thisTestCaseVectorEveluationOnePos,1],0,0},{Extract[thisTestCaseVectorEveluationOnePos,2],0,0},{Extract[thisTestCaseVectorEveluationOnePos,3],0,0},{Extract[thisTestCaseVectorEveluationOnePos,4],0,0},{Extract[thisTestCaseVectorEveluationOnePos,5],0,0},{Extract[thisTestCaseVectorEveluationOnePos,6],0,0}},
+
+{{
+
+1+0.20710678118654757`,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+
+}
+
+}
+{{{1.,0,0},{1.41421,0,0},{1.55377,0,0},{1.59805,0,0},{1.61185,0,0},{1.61612,0,0}},{{1.20711,0.585786,0},{1.48399,0.197368,0},{1.57591,0.0626203,0},{1.60495,0.0195085,0},{1.61398,0.00604357,0}}}
+ListPointPlot3D[{{{Extract[thisTestCaseVectorEveluationOnePos,1],0,0},{Extract[thisTestCaseVectorEveluationOnePos,2],0,0},{Extract[thisTestCaseVectorEveluationOnePos,3],0,0},{Extract[thisTestCaseVectorEveluationOnePos,4],0,0},{Extract[thisTestCaseVectorEveluationOnePos,5],0,0},{Extract[thisTestCaseVectorEveluationOnePos,6],0,0}},
+
+{{
+
+Extract[thisTestCaseVectorEveluationOnePos,1]+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+
+}
+
+},{PlotStyle->PointSize[.015],PlotRange->Full}]
+
+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])/2
+Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2]
+0.207107
+-0.414214
+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])/2
+Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2]
+0.207107
+-0.414214
+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2
+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2
+0.171573
+0.171573
+Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2]
+0.585786
+0.41421356237309515`^2
+0.171573
+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2
+0.0697802
+Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2
+1.48399
+Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2]
+0.197368
+Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2
+1.57591
+Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2]
+0.0626203
+Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2
+1.60495
+Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2]
+0.0195085
+Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2
+1.61398
+Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2]
+0.00604357
+
+Sqrt[
+
+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2
+
+
+
+]
+0.585786
+Extract[thisTestCaseVectorEveluationOnePos,1]+ 
+GoldenRatio - Sqrt[2]
+GoldenRatio - Sqrt[2]//N
+GoldenRatio
+GoldenRatio//N  
+-Sqrt[2]+GoldenRatio
+0.20382
+GoldenRatio
+1.61803
+
+
+0.5857864376269051`+0.20382042637679976`+.19736822693561987
+0.789607
+0.19736822693561987`
+0.197368
+0.20382042637679976`+0.19736822693561987`
+0.401189
+MatrixForm[{
+{
+{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0}
+
+},
+
+{
+{Extract[thisTestCaseVectorEveluationOnePos,1]+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+}
+}]
+({{-0.5,0,0},{0.5,0,0},{-0.707107,0,0},{0.707107,0,0},{-0.776887,0,0},{0.776887,0,0},{-0.799027,0,0},{0.799027,0,0},{-0.805924,0,0},{0.805924,0,0},{-0.808061,0,0},{0.808061,0,0}}
+{{1.20711,0.585786,0},{1.48399,0.197368,0},{1.57591,0.0626203,0},{1.60495,0.0195085,0},{1.61398,0.00604357,0}}
+
+)
+{
+{
+{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0}
+
+},
+
+{
+{Extract[thisTestCaseVectorEveluationOnePos,1]+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+}
+}
+{{{-0.5,0,0},{0.5,0,0},{-0.707107,0,0},{0.707107,0,0},{-0.776887,0,0},{0.776887,0,0},{-0.799027,0,0},{0.799027,0,0},{-0.805924,0,0},{0.805924,0,0},{-0.808061,0,0},{0.808061,0,0}},{{1.20711,0.585786,0},{1.48399,0.197368,0},{1.57591,0.0626203,0},{1.60495,0.0195085,0},{1.61398,0.00604357,0}}}
+ListPointPlot3D[{
+
+{
+{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0}
+},
+
+(*{
+{Extract[thisTestCaseVectorEveluationOnePos,3],0,0},{Extract[thisTestCaseVectorEveluationOnePos,4],0,0},{Extract[thisTestCaseVectorEveluationOnePos,5],0,0},{Extract[thisTestCaseVectorEveluationOnePos,6],0,0}
+},*)
+
+{
+{Extract[thisTestCaseVectorEveluationOnePos,1]+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(Extract[thisTestCaseVectorEveluationOnePos,1]-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+
+}
+
+},{PlotStyle->PointSize[.015],PlotRange->Full}]
+
+                     
+
+MatrixForm[{{
+{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0}
+},
+
+{
+(*{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},*)
+{-Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,7]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,7]/2,0,0}
+},
+
+{
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(-Extract[thisTestCaseVectorEveluationOnePos,1])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,6])^2+(-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0},{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,7])^2+(-Extract[thisTestCaseVectorEveluationOnePos,7])^2],0}
+}}]//N(*,
+
+{
+
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+
+}*)
+
+({{-0.5,0.,0.},{0.5,0.,0.}}
+{{-0.707107,0.,0.},{0.707107,0.,0.},{-0.776887,0.,0.},{0.776887,0.,0.},{-0.799027,0.,0.},{0.799027,0.,0.},{-0.805924,0.,0.},{0.805924,0.,0.},{-0.808061,0.,0.},{0.808061,0.,0.},{-0.808721,0.,0.},{0.808721,0.,0.}}
+{{0.,1.41421,0.},{0.,2.,0.},{0.,2.19737,0.},{0.,2.25999,0.},{0.,2.2795,0.},{0.,2.28554,0.},{0.,2.28741,0.}}
+
+)
+({{-(1/2),0,0},{1/2,0,0}}
+{{-(1/Sqrt[2]),0,0},{1/Sqrt[2],0,0},{-(1/2) Sqrt[1+Sqrt[2]],0,0},{Sqrt[1+Sqrt[2]]/2,0,0},{-(1/2) Sqrt[1+Sqrt[1+Sqrt[2]]],0,0},{1/2 Sqrt[1+Sqrt[1+Sqrt[2]]],0,0},{-(1/2) Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]],0,0},{1/2 Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]],0,0},{-(1/2) Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]],0,0},{1/2 Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]],0,0},{-(1/2) Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]],0,0},{1/2 Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]],0,0}}
+{{0,Sqrt[2],0},{0,2,0},{0,Sqrt[2+2 Sqrt[2]],0},{0,Sqrt[2+2 Sqrt[1+Sqrt[2]]],0},{0,Sqrt[2+2 Sqrt[1+Sqrt[1+Sqrt[2]]]],0},{0,Sqrt[2+2 Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]],0},{0,Sqrt[2+2 Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]],0}}
+
+)
+ListPointPlot3D[{
+{
+
+{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0}
+},
+
+{
+(*{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},*)
+{-Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,2]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,3]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,4]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,5]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,6]/2,0,0},
+{-Extract[thisTestCaseVectorEveluationOnePos,7]/2,0,0},{+Extract[thisTestCaseVectorEveluationOnePos,7]/2,0,0}
+},
+
+
+
+
+{
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(-Extract[thisTestCaseVectorEveluationOnePos,1])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(-Extract[thisTestCaseVectorEveluationOnePos,2])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,6])^2+(-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0},
+{0,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,7])^2+(-Extract[thisTestCaseVectorEveluationOnePos,7])^2],0}
+}(*,
+
+{
+
+
+{Extract[thisTestCaseVectorEveluationOnePos,2]+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,2])^2+(Extract[thisTestCaseVectorEveluationOnePos,2]-Extract[thisTestCaseVectorEveluationOnePos,3])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,3]+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,3])^2+(Extract[thisTestCaseVectorEveluationOnePos,3]-Extract[thisTestCaseVectorEveluationOnePos,4])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,4]+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,4])^2+(Extract[thisTestCaseVectorEveluationOnePos,4]-Extract[thisTestCaseVectorEveluationOnePos,5])^2],0},
+
+{Extract[thisTestCaseVectorEveluationOnePos,5]+(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])/2,Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,6]-Extract[thisTestCaseVectorEveluationOnePos,5])^2+(Extract[thisTestCaseVectorEveluationOnePos,5]-Extract[thisTestCaseVectorEveluationOnePos,6])^2],0}
+
+}*)
+
+
+},{PlotStyle->PointSize[.015],PlotRange->Full}]
+
+{Sqrt[2],2,Sqrt[2+2 Sqrt[2]],Sqrt[2+2 Sqrt[1+Sqrt[2]]],Sqrt[2+2 Sqrt[1+Sqrt[1+Sqrt[2]]]],Sqrt[2+2 Sqrt[1+Sqrt[1+Sqrt[1+Sqrt[2]]]]]}
+{Sqrt[Extract[thisTestCaseVectorEveluationOnePos,1]^2+Extract[thisTestCaseVectorEveluationOnePos,1]^2],Sqrt[Extract[thisTestCaseVectorEveluationOnePos,2]^2+Extract[thisTestCaseVectorEveluationOnePos,2]^2],
+Sqrt[Extract[thisTestCaseVectorEveluationOnePos,3]^2+Extract[thisTestCaseVectorEveluationOnePos,3]^2],
+Sqrt[Extract[thisTestCaseVectorEveluationOnePos,4]^2+Extract[thisTestCaseVectorEveluationOnePos,4]^2],
+Sqrt[Extract[thisTestCaseVectorEveluationOnePos,5]^2+Extract[thisTestCaseVectorEveluationOnePos,5]^2],
+Sqrt[Extract[thisTestCaseVectorEveluationOnePos,6]^2+Extract[thisTestCaseVectorEveluationOnePos,6]^2]
+
+}//N
+{1.41421,2.,2.19737,2.25999,2.2795,2.28554}
+{Extract[thisTestCaseVectorEveluationOnePos,1]/2,Sqrt[(-Extract[thisTestCaseVectorEveluationOnePos,1])^2+(-Extract[thisTestCaseVectorEveluationOnePos,1])^2],0}
+{0.5,1.41421,0}
+Sqrt[(Extract[thisTestCaseVectorEveluationOnePos,1]^2)+(Extract[thisTestCaseVectorEveluationOnePos,1]^2)]
+1.41421
+MatrixForm[{Extract[thisTestCaseVectorEveluationOnePos,1]^2,
+Extract[thisTestCaseVectorEveluationOnePos,2]^2,
+Extract[thisTestCaseVectorEveluationOnePos,3]^2,
+Extract[thisTestCaseVectorEveluationOnePos,4]^2,
+Extract[thisTestCaseVectorEveluationOnePos,5]^2,
+Extract[thisTestCaseVectorEveluationOnePos,6]^2}]
+
+MatrixForm[{Extract[thisTestCaseVectorEveluationOnePos,1]^2,
+Extract[thisTestCaseVectorEveluationOnePos,2]^2,
+Extract[thisTestCaseVectorEveluationOnePos,3]^2,
+Extract[thisTestCaseVectorEveluationOnePos,4]^2,
+Extract[thisTestCaseVectorEveluationOnePos,5]^2,
+Extract[thisTestCaseVectorEveluationOnePos,6]^2}]//N
+(1.
+2.
+2.41421
+2.55377
+2.59805
+2.61185
+
+)
+(1.
+2.
+2.41421
+2.55377
+2.59805
+2.61185
+
+)
+TrigToExp[Sin[x]]
+1/2 I E^(-I x)-1/2 I E^(I x)
+TrigToExp[Sin[Pi/2]]
+1
+1/2 I E^(-I Pi)
+-(I/2)
+-(1/2) I E^(-I Pi)
+I/2
+1/2 I E^(-I x)+1/2 I E^(-I x)
+I E^(-I x)
+ExpToTrig[1/2 I E^(-I x)+1/2 I E^(-I x)]
+I Cos[x]+Sin[x]
+ExpToTrig[1/2 I E^(-I Pi)+1/2 I E^(-I x)]
+-(I/2)+1/2 I Cos[x]+Sin[x]/2
+ExpToTrig[1/2 I E^(-I x)+1/2 I E^(-I Pi)]
+-(I/2)+1/2 I Cos[x]+Sin[x]/2
+ExpToTrig[1/2 I E^(-I Pi)+1/2 I E^(-I Pi)]
+-I
+5
+5
+ExpToTrig[1/2 I E^(-I (Pi/2))+1/2 I E^(-I  (Pi/2))]
+1
+GoldenRatio//N
+GoldenRatio *2//N
+1.61803
+3.23607
+ExpToTrig[1/2 I E^(-I (GoldenRatio/2))+1/2 I E^(-I  (GoldenRatio/2))]
+I Cos[GoldenRatio/2]+Sin[GoldenRatio/2]
+TrigToExp[1/2 I E^(-I (GoldenRatio/2))+1/2 I E^(-I  (GoldenRatio/2))]//N
+0.723609+0.69021 I
+TrigToExp[1/2 I E^(-I (GoldenRatio/2))+1/2 I E^(-I  (GoldenRatio/2))]
+I E^(-((I GoldenRatio)/2))
+Cross[{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0},{-Extract[thisTestCaseVectorEveluationOnePos,1]/2,0,0}]
+{0,0.,0.}
+Cross[{-Extract[thisTestCaseVectorEveluationOnePos,1],0,0},{-Extract[thisTestCaseVectorEveluationOnePos,1],0,0}]
+{0,0.,0.}
+Dot[{-Extract[thisTestCaseVectorEveluationOnePos,1],0,0},{-Extract[thisTestCaseVectorEveluationOnePos,1],0,0}]
+1.
+Cross[{Extract[thisTestCaseVectorEveluationOnePos,1],-Extract[thisTestCaseVectorEveluationOnePos,1]}]
+{1.,1.}
+Cross[{-GoldenRatio,-GoldenRatio}]//N
+{1.61803,-1.61803}
+Cross[{Extract[thisTestCaseVectorEveluationOnePos,1],Extract[thisTestCaseVectorEveluationOnePos,2]}]
+{-1.41421,1.}
+Cross[{Extract[thisTestCaseVectorEveluationOnePos,1],-Extract[thisTestCaseVectorEveluationOnePos,2]}]
+{1.41421,1.}
+Cross[{{-1.4142135623730951`,1.`},{1.4142135623730951`,1.`}}]
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length. >>
+Cross[{{-1.41421,1.},{1.41421,1.}}]
+Cross[{x,y}]
+{-y,x}
+Cross[{1}]
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length. >>
+Cross[{1}]

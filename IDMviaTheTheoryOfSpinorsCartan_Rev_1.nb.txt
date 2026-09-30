@@ -1,0 +1,15 @@
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] === Subscript[varX, varN]
+
+
+n=6778
+
+6778
+theCountOfThisUniverse= 5
+5
+Clear[theCountOfThisUniverse]
+Clear[n]
+clasicFundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPointx\[CapitalPhi] = Sum[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] * Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] ,{n,theCountOfThisUniverse}]
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n = 1\), \(theCountOfThisUniverse\)]
+\*SubsuperscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\), \(2\)]\)
+

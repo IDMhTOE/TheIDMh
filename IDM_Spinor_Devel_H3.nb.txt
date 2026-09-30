@@ -1,0 +1,1136 @@
+
+PlanckRadiationLaw[]
+PlanckRadiationLaw::argrx: PlanckRadiationLaw called with 0 arguments; 2 arguments are expected.
+PlanckRadiationLaw[]
+TrigToExp[RotationMatrix[180 Degree]]//MatrixForm
+
+
+(-1	0
+0	-1
+
+)
+TrigToExp[RotationMatrix[90 Degree]]//MatrixForm
+
+(0	-1
+1	0
+
+)
+TrigToExp[RotationMatrix[-90 Degree]]//MatrixForm
+
+(0	1
+-1	0
+
+)
+TrigToExp[RotationMatrix[90 Degree]] . TrigToExp[RotationMatrix[-90 Degree]]
+{{1,0},{0,1}}
+TrigToExp[RotationMatrix[-90 Degree]] . TrigToExp[RotationMatrix[90 Degree]]//MatrixForm
+(1	0
+0	1
+
+)
+TrigToExp[RotationMatrix[90 Degree]] . TrigToExp[RotationMatrix[90 Degree]]//MatrixForm
+(-1	0
+0	-1
+
+)
+TrigToExp[RotationMatrix[90 Degree]]  TrigToExp[RotationMatrix[90 Degree]]//MatrixForm
+(0	1
+1	0
+
+)
+
+TrigToExp[RotationMatrix[89Degree]]
+TrigToExp[RotationMatrix[178Degree]]
+TrigToExp[RotationMatrix[269Degree]]
+TrigToExp[RotationMatrix[359Degree]]
+
+TrigToExp[RotationMatrix[88Degree]]
+TrigToExp[RotationMatrix[178Degree]]
+TrigToExp[RotationMatrix[269Degree]]
+TrigToExp[RotationMatrix[359Degree]]
+
+RotationMatrix[88Degree]//N
+RotationMatrix[178Degree]//N
+RotationMatrix[269Degree]//N
+RotationMatrix[359Degree]//N
+
+RotationMatrix[90Degree]//N
+RotationMatrix[180Degree]//N
+RotationMatrix[270Degree]//N
+RotationMatrix[360Degree]//N
+{{1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree]),-(1/2) E^(-I \[Degree])-E^(I \[Degree])/2},{E^(-I \[Degree])/2+E^(I \[Degree])/2,1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree])}}
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+{{-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree]),E^(-I \[Degree])/2+E^(I \[Degree])/2},{-(1/2) E^(-I \[Degree])-E^(I \[Degree])/2,-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree])}}
+{{E^(-I \[Degree])/2+E^(I \[Degree])/2,1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree])},{-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree]),E^(-I \[Degree])/2+E^(I \[Degree])/2}}
+{{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])},{1/2 E^(-2 I \[Degree])+1/2 E^(2 I \[Degree]),1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree])}}
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+{{-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree]),E^(-I \[Degree])/2+E^(I \[Degree])/2},{-(1/2) E^(-I \[Degree])-E^(I \[Degree])/2,-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree])}}
+{{E^(-I \[Degree])/2+E^(I \[Degree])/2,1/2 I E^(-I \[Degree])-1/2 I E^(I \[Degree])},{-(1/2) I E^(-I \[Degree])+1/2 I E^(I \[Degree]),E^(-I \[Degree])/2+E^(I \[Degree])/2}}
+{{0.0348995,-0.999391},{0.999391,0.0348995}}
+{{-0.999391,-0.0348995},{0.0348995,-0.999391}}
+{{-0.0174524,0.999848},{-0.999848,-0.0174524}}
+{{0.999848,0.0174524},{-0.0174524,0.999848}}
+{{0.,-1.},{1.,0.}}
+{{-1.,0.},{0.,-1.}}
+{{0.,1.},{-1.,0.}}
+{{1.,0.},{0.,1.}}
+RotationMatrix[90Degree]//MatrixForm
+RotationMatrix[180Degree]//MatrixForm
+RotationMatrix[270Degree]//MatrixForm
+RotationMatrix[360Degree]//MatrixForm
+(0	-1
+1	0
+
+)
+(-1	0
+0	-1
+
+)
+(0	1
+-1	0
+
+)
+(1	0
+0	1
+
+)
+RotationMatrix[-90Degree]//MatrixForm
+RotationMatrix[-180Degree]//MatrixForm
+RotationMatrix[-270Degree]//MatrixForm
+RotationMatrix[-360Degree]//MatrixForm
+(0	1
+-1	0
+
+)
+(-1	0
+0	-1
+
+)
+(0	-1
+1	0
+
+)
+(1	0
+0	1
+
+)
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+E^0
+1
+I^0 //N
+1.
+
+{I,Conjugate[I]}{{-1,0},{0,-1}}
+{{-I,0},{0,I}}
+Dot[{I,Conjugate[I]}{{-1,0},{0,-1}}]
+Cross[{I,Conjugate[I]} ,{{-1,0},{0,-1}}]
+{{-I,0},{0,I}}
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{I,-I}\[Cross]{{-1,0},{0,-1}}
+Cross[{I,Conjugate[I]} ,{Conjugate[I],I}]
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{I,-I}\[Cross]{-I,I}
+Cross[{I,Conjugate[I]}]
+{I,I}
+Cross[{Conjugate[I],I}]
+{-I,-I}
+{{I},{Conjugate[I]}}{{-1,0},{0,-1}}
+Thread::tdlen: Objects of unequal length in {I} {-1,0} cannot be combined.
+Thread::tdlen: Objects of unequal length in {-I} {0,-1} cannot be combined.
+{{I} {-1,0},{-I} {0,-1}}
+RotationMatrix[30Degree]
+
+x1
+x1=1
+x2=2
+x2^2
+x2^2//N
+
+{{Sqrt[3]/2,-(1/2)},{1/2,Sqrt[3]/2}}
+x1
+1
+2
+4
+4.
+Clear[x1,x2,x2,epsolonP,epsolonH]
+x1^2+x2^2+x3^2==0
+x1^2+x2^2+x3^2==0
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x1==-epsolonH^2+epsolonP^2
+x2==I (epsolonH^2+epsolonP^2)
+x3 == -2  epsolonP^2 epsolonH^2
+x3==-2 epsolonH^2 epsolonP^2
+Clear[x1,x2,x2,epsolonP,epsolonH]
+
+epsolonP= I
+epsolonH= Conjugate[epsolonP]
+I
+-I
+
+
+x1^2+x2^2+x3^2==0
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+
+
+
+
+
+
+x1^2+x2^2+x3^2==0
+x1==0
+x2==-2 I
+x3==-2
+
+
+x1^2+x2^2+x3^2==0
+
+
+
+epsolonP= -2 I
+epsolonH= Conjugate[-2 I]
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+
+x1^2+x2^2+x3^2==0
+-2 I
+2 I
+x1==0
+x2==-8 I
+x3==-32
+x1^2+x2^2+x3^2==0
+
+
+
+epsolonP= -8 I
+epsolonH= Conjugate[-8 I]
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+x1^2+x2^2+x3^2==0
+-8 I
+8 I
+x1==0
+x2==-128 I
+x3==-8192
+
+
+Dot[I ,  Conjugate[I]] //N
+Cross[I ,  Conjugate[I]]//N
+(0. +1. I).(0. -1. I)
+(0. +1. I)\[Cross](0. -1. I)
+I   Conjugate[I]
+1
+Conjugate[I] I   
+1
+RotationMatrix
+RotationMatrix
+RotationMatrix
+RotationMatrix
+ReflectionMatrix[{-1}]
+{{-1}}
+ReflectionMatrix[{I}]
+{{-1}}
+{ {I},{I}. ReflectionMatrix[{I}]}
+{{I},{-I}}
+{-I}
+{-I}
+ReflectionMatrix[{I,-I}]
+{{0,1},{1,0}}
+ReflectionMatrix[{{I,-I},{I,-I}}]
+ReflectionMatrix::inpv: {{I,-I},{I,-I}} is not a vector.
+ReflectionMatrix[{{I,-I},{I,-I}}]
+ReflectionMatrix[{I,-I,I}]
+ReflectionMatrix[{I,-I,I,-I}]
+{{1/3,2/3,-(2/3)},{2/3,1/3,2/3},{-(2/3),2/3,1/3}}
+{{1/2,1/2,-(1/2),1/2},{1/2,1/2,1/2,-(1/2)},{-(1/2),1/2,1/2,1/2},{1/2,-(1/2),1/2,1/2}}
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I}]
+{{3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4},{1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4},{1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4},{1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4},{1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4}}
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}]
+{{7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8),1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8,-(1/8)},{-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8,1/8},{1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,-(1/8),1/8,7/8}}
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}]
+{{15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16),1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16,-(1/16)},{-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16,1/16},{1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,-(1/16),1/16,15/16}}
+{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}.ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I}]
+{-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I,-I,I}
+
+ReflectionMatrix[{-I}]
+ReflectionMatrix[{1}]
+ReflectionMatrix[{I}]
+
+ReflectionMatrix[{I,-I}]
+ReflectionMatrix[{I,-I,I,-I}]
+
+ReflectionMatrix[{{I,-I}. {I,-I}}]
+ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}}]
+FullSimplify[ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}}]]
+ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}}]
+FullSimplify[ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}}]]
+ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}. {I,-I}}]
+FullSimplify[ReflectionMatrix[{{I,-I} .{I,-I}. {I,-I}. {I,-I}. {I,-I}}]]
+
+ReflectionMatrix[{I,I,I}]
+ReflectionMatrix[{I,I,I,I}]
+ReflectionMatrix[{I,I,I,I,I}]
+ReflectionMatrix[{I,I,I,I,I,I}]
+
+ReflectionMatrix[{I,-I,I,-I,I,-I}]
+ReflectionMatrix[{I,-I,I,-I,I,-I,I,-I}]
+{{-1}}
+{{-1}}
+{{-1}}
+{{0,1},{1,0}}
+{{1/2,1/2,-(1/2),1/2},{1/2,1/2,1/2,-(1/2)},{-(1/2),1/2,1/2,1/2},{1/2,-(1/2),1/2,1/2}}
+{{-1}}
+{{1-(2 Conjugate[(-2).{I,-I}] (-2).{I,-I})/Abs[(-2).{I,-I}]^2}}
+{{-1}}
+{{1-(2 Conjugate[(-2).(-2)] (-2).(-2))/Abs[(-2).(-2)]^2}}
+{{-1}}
+{{1-(2 Conjugate[(-2).(-2).{I,-I}] (-2).(-2).{I,-I})/Abs[(-2).(-2).{I,-I}]^2}}
+{{-1}}
+{{1/3,-(2/3),-(2/3)},{-(2/3),1/3,-(2/3)},{-(2/3),-(2/3),1/3}}
+{{1/2,-(1/2),-(1/2),-(1/2)},{-(1/2),1/2,-(1/2),-(1/2)},{-(1/2),-(1/2),1/2,-(1/2)},{-(1/2),-(1/2),-(1/2),1/2}}
+{{3/5,-(2/5),-(2/5),-(2/5),-(2/5)},{-(2/5),3/5,-(2/5),-(2/5),-(2/5)},{-(2/5),-(2/5),3/5,-(2/5),-(2/5)},{-(2/5),-(2/5),-(2/5),3/5,-(2/5)},{-(2/5),-(2/5),-(2/5),-(2/5),3/5}}
+{{2/3,-(1/3),-(1/3),-(1/3),-(1/3),-(1/3)},{-(1/3),2/3,-(1/3),-(1/3),-(1/3),-(1/3)},{-(1/3),-(1/3),2/3,-(1/3),-(1/3),-(1/3)},{-(1/3),-(1/3),-(1/3),2/3,-(1/3),-(1/3)},{-(1/3),-(1/3),-(1/3),-(1/3),2/3,-(1/3)},{-(1/3),-(1/3),-(1/3),-(1/3),-(1/3),2/3}}
+{{2/3,1/3,-(1/3),1/3,-(1/3),1/3},{1/3,2/3,1/3,-(1/3),1/3,-(1/3)},{-(1/3),1/3,2/3,1/3,-(1/3),1/3},{1/3,-(1/3),1/3,2/3,1/3,-(1/3)},{-(1/3),1/3,-(1/3),1/3,2/3,1/3},{1/3,-(1/3),1/3,-(1/3),1/3,2/3}}
+{{3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4},{1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4),1/4},{1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4),1/4},{1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4,-(1/4)},{-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4,1/4},{1/4,-(1/4),1/4,-(1/4),1/4,-(1/4),1/4,3/4}}
+FullSimplify[2 Conjugate[(-2).(-2).{I,-I}] (-2).(-2).{I,-I}]
+2 Abs[(-2).(-2).{I,-I}]^2
+2 Abs[(-2).(-2).{I,-I}]^2 /Abs[(-2).(-2).{I,-I}]^2
+2
+FullSimplify[2 Abs[(-2).(-2).{I,-I}]^2] //N
+2. Abs[(-2.).(-2.).{0. +1. I,0. -1. I}]^2
+Abs[(-2).(-2).{I,-I}]^2
+Abs[(-2).(-2).{I,-I}]^2
+2.` Abs[(-2.`).(-2.`).{0.` +1.` I,0.` -1.` I}]^2\[AliasDelimiter]
+2. \[AliasDelimiter] Abs[(-2.).(-2.).{0. +1. I,0. -1. I}]^2
+ReflectionMatrix[{I,-I}]//MatrixForm
+ReflectionMatrix[{-I,I}]//MatrixForm
+ReflectionMatrix[{I,I}]//MatrixForm
+ReflectionMatrix[{-I,-I}]//MatrixForm
+(0	1
+1	0
+
+)
+(0	1
+1	0
+
+)
+(0	-1
+-1	0
+
+)
+(0	-1
+-1	0
+
+)
+
+Dot[{I,Conjugate[I]}, {I,Conjugate[I]}]
+Cross[{I,Conjugate[I]}, {I,Conjugate[I]}]
+Inner[{I,Conjugate[I]}, {I,Conjugate[I]}]
+Outer[{I,Conjugate[I]}, {I,Conjugate[I]}]
+
+
+
+-2
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{I,-I}\[Cross]{I,-I}
+Inner::argb: Inner called with 2 arguments; between 3 and 5 arguments are expected.
+Inner[{I,-I},{I,-I}]
+{{I,-I}[I],{I,-I}[-I]}
+Reverse[{{I,-I}[I],{I,-I}[-I]}]
+{{I,-I}[-I],{I,-I}[I]}
+Outer[{I,Conjugate[I]}, {I,Conjugate[I]}]
+
+{{I,-I}[I],{I,-I}[-I]}
+Outer[%]
+Outer::argmu: Outer called with 1 argument; 2 or more arguments are expected.
+Outer[{{I,-I}[I],{I,-I}[-I]}]
+ Dot[{I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}]
+FullSimplify[Dot[{I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}, {I,Conjugate[I]}]]//N
+(-2).(-2)
+(-2.).(-2.)
+(-2.`).(-2.`)
+(-2.).(-2.)
+Solve[{x1^2+x2^2+x3^2 ==0,x1 == \[Zeta]0^2 - \[Zeta]1^2,x2 == I(\[Zeta]0^2 + \[Zeta]1^2),x3 == -2\[Zeta]0^2\[Zeta]1^2},{\[Zeta]0,\[Zeta]1}]
+{}
+Solve[{x1^2+x2^2+x3^2 ==0,x1 == \[Zeta]0^2 - \[Zeta]1^2,x2 == I(\[Zeta]0^2 + \[Zeta]1^2),x3 == -2\[Zeta]0^2\[Zeta]1^2}]
+{{x1->-\[Zeta]1^2,x2->I \[Zeta]1^2,x3->0,\[Zeta]0->0},{x1->\[Zeta]0^2,x2->I \[Zeta]0^2,x3->0,\[Zeta]1->0},{x1->(-1+\[Zeta]0^4)/\[Zeta]0^2,x2->(I (1+\[Zeta]0^4))/\[Zeta]0^2,x3->-2,\[Zeta]1->-(1/\[Zeta]0)},{x1->(-1+\[Zeta]0^4)/\[Zeta]0^2,x2->(I (1+\[Zeta]0^4))/\[Zeta]0^2,x3->-2,\[Zeta]1->1/\[Zeta]0}}
+Reduce[{x1^2+x2^2+x3^2 ==0,x1 == \[Zeta]0^2 - \[Zeta]1^2,x2 == I(\[Zeta]0^2 + \[Zeta]1^2),x3 == -2\[Zeta]0^2\[Zeta]1^2},{\[Zeta]0,\[Zeta]1}]
+(x3==-2||x3==0)&&(x1==-Sqrt[-x2^2+2 x3]||x1==Sqrt[-x2^2+2 x3])&&(\[Zeta]0==-(Sqrt[x1-I x2]/Sqrt[2])||\[Zeta]0==Sqrt[x1-I x2]/Sqrt[2])&&(\[Zeta]1==-(Sqrt[-x1-I x2]/Sqrt[2])||\[Zeta]1==Sqrt[-x1-I x2]/Sqrt[2])
+Reduce[{x1^2+x2^2+x3^2 ==0,x1 == \[Zeta]0^2 - \[Zeta]1^2,x2 == I(\[Zeta]0^2 + \[Zeta]1^2),x3 == -2\[Zeta]0^2\[Zeta]1^2}]
+(\[Zeta]1==0&&x3==0&&x2==I \[Zeta]0^2&&x1==\[Zeta]0^2)||(\[Zeta]1!=0&&(\[Zeta]0==0||\[Zeta]0==-(1/\[Zeta]1)||\[Zeta]0==1/\[Zeta]1)&&x3==-2 \[Zeta]0^2 \[Zeta]1^2&&x2==I (\[Zeta]0^2+\[Zeta]1^2)&&x1==\[Zeta]0^2-\[Zeta]1^2)
+Reduce[{x1^2+x2^2 ==0,x1 == \[Zeta]0^2 - \[Zeta]1^2,x2 == I(\[Zeta]0^2 + \[Zeta]1^2)}]
+(\[Zeta]1==0&&x2==I \[Zeta]0^2&&x1==\[Zeta]0^2)||(\[Zeta]1!=0&&\[Zeta]0==0&&x2==I \[Zeta]1^2&&x1==-\[Zeta]1^2)
+Reduce[{x1^2==0,x1 == \[Zeta]0^2 - \[Zeta]1^2}]
+(\[Zeta]0==-\[Zeta]1||\[Zeta]0==\[Zeta]1)&&x1==0
+\[Zeta]0 =(1/2I)
+Reduce[{x1^2==0,x1 == \[Zeta]0^2 - \[Zeta]1^2}]
+Clear[\[Zeta]0]
+I/2
+(\[Zeta]1==-(I/2)||\[Zeta]1==I/2)&&x1==0
+\[Zeta]0 =(1/(2I))
+Reduce[{x1^2==0,x1 == \[Zeta]0^2 - \[Zeta]1^2}]
+Clear[\[Zeta]0]
+-(I/2)
+(\[Zeta]1==-(I/2)||\[Zeta]1==I/2)&&x1==0
+\[Zeta]0 =-I
+Reduce[{x1^2==0,x1 == \[Zeta]0^2 - \[Zeta]1^2}]
+Clear[\[Zeta]0]
+-I
+(\[Zeta]1==-I||\[Zeta]1==I)&&x1==0
+Spinor
+
+Using Cartans nomenclature \[Zeta]0, \[Zeta]1, x1, x2, x3
+Clear[\[Zeta]0,\[Zeta]1,x1, X2,x3]
+
+Single inserted value thus single assumption: \[Zeta]0 = I a Complex Entity that is not NULL
+\[Zeta]0 =I
+I
+Take Conjugate \[Zeta]0 as 'Hole' in or 'Shadow on the NULL Plane by existence of \[Zeta]0
+Genitive value reflecting lack of: \[Zeta]0 + Conjugate[\[Zeta]0] must sum to NULL 
+Core of symmetry 
+Mathematically a Reflection thus a Rotation.
+
+\[Zeta]1=Conjugate[\[Zeta]0] 
+\[Zeta]0 + \[Zeta]1
+-I
+0
+
+x1 defines the NULL Plane
+x1 = \[Zeta]0^2 - \[Zeta]1^2 
+\[Zeta]0^2
+\[Zeta]1^2
+x1
+0
+-1
+-1
+0
+x2 = I(\[Zeta]0^2 + \[Zeta]1^2)
+\[Zeta]0^2
+\[Zeta]1^2
+x2
+
+-2 I
+-1
+-1
+-2 I
+x3 = -2\[Zeta]0^2\[Zeta]1^2
+\[Zeta]0^2
+\[Zeta]1^2
+x3
+-2
+-1
+-1
+-2
+x1^2 + x2^2 + x3^2 
+x1
+x1^2
+x2
+x2^2
+x3
+x3^2
+0
+0
+0
+-2 I
+-4
+-2
+4
+Clear[\[Zeta]0,\[Zeta]1,x1, X2,x3]
+\[Zeta]0 =I
+I
+\[Zeta]1=Conjugate[I] 
+-I
+x1 = \[Zeta]0^2 - \[Zeta]1^2 
+\[Zeta]0^2
+\[Zeta]1^2
+x1
+\[Zeta]0
+\[Zeta]1
+0
+-1
+-1
+0
+I
+-I
+x2 = I(\[Zeta]0^2 + \[Zeta]1^2)
+\[Zeta]0^2
+\[Zeta]1^2
+x2
+\[Zeta]0
+\[Zeta]1
+-2 I
+-1
+-1
+-2 I
+I
+-I
+x3 = -2\[Zeta]0^2\[Zeta]1^2
+\[Zeta]0^2
+\[Zeta]1^2
+x3
+\[Zeta]0
+\[Zeta]1
+-2
+-1
+-1
+-2
+I
+-I
+With[{n=Abs[2],a=Arg[2]},Defer[n E^(I a)]]
+2 E^(I 0)
+2 E^(I 0)
+2
+With[{n=Abs[-2],a=Arg[-2]},Defer[n E^(I a)]]
+2 E^(I \[Pi])
+With[{n=Abs[1],a=Arg[1]},Defer[n E^(I a)]]
+1 E^(I 0)
+With[{n=Abs[-1],a=Arg[-1]},Defer[n E^(I a)]]
+1 E^(I \[Pi])
+ConvertToEx-1
+-1+ConvertToEx
+IntegerPart[I]
+I
+Conjugate[I]
+-I
+IntegerPart[-I]
+-I
+Round[-I]
+-I
+MinimalPolynomial[-I,x]
+1+x^2
+AlgebraicNumberNorm[-I]
+1
+Abs[I]
+1
+BaseForm[1,2]
+Subscript[1, 2]
+Sin[1/4 Pi]
+1/Sqrt[2]
+convert to exponential	I
+1 E^((I \[Pi])/2)
+convert to exponential	-I
+1 E^(1/2 I (-\[Pi]))
+x1^2 + x2^2 + x3^2 
+x1
+x1^2
+x2
+x2^2
+x3
+x3^2
+\[Zeta]0
+\[Zeta]1
+0
+0
+0
+-2 I
+-4
+-2
+4
+I
+-I
+\[Zeta]0
+\[Zeta]1
+I
+-I
+\[Zeta]0/\[Zeta]1
+\[Zeta]0
+\[Zeta]1
+-1
+I
+-I
+
+Plot of Spinor values so far.
+Graphics3D[{Gray,PointSize->.04,{Point[{0,0,0}]},
+{Red,PointSize->.08,Point[{1,0,0}],Point[{0,-2,0}]},
+{Pink,PointSize->.08,Point[{-1,0,0}]},
+{Brown,PointSize->.06,Point[{0,-2,0}]},
+{Pink,PointSize->.08,Point[{0,-2,-2}]},
+{LightBlue,PointSize->.06,Point[{0,-2,-2}]},
+{Gray,PointSize->.04,Point[{0,-2,-1}]},}]
+
+Show[%9,ViewPoint->{-\[Infinity],0,0}]
+Show::gcomb: Could not combine the graphics objects in Show[{{0,1},{1,0}},ViewPoint->{-\[Infinity],0,0}].
+Show[{{0,1},{1,0}},ViewPoint->{-\[Infinity],0,0}]
+Graphics3D[{Gray,PointSize->.04,{Point[{0,0,0}]},{Pink,PointSize->.08,Point[{1,0,0}],Point[{0,-2,0}]},{LightPink,PointSize->.08,Point[{-1,0,0}]},{Brown,PointSize->.06,Point[{0,-2,0}]}}]
+
+Graphics3D[{Gray,PointSize->.04,{Point[{0,0,0}]},{Pink,PointSize->.08,Point[{1,0,0}],Point[{0,-2,0}]},{LightPink,PointSize->.08,Point[{-1,0,0}]},{Brown,PointSize->.06,Point[{0,-2,0}]}}]
+
+Graphics3D[{Black,PointSize->.1,{Point[{0,0,0}]},{Purple,PointSize->.08,Point[{1,0,0}],Point[{-1,0,0}],Point[{0,-2,0}]},{Red,PointSize->.06,Point[{0,0,-2}]}}]
+
+Graphics3D[{Blue,PointSize->.1,{Point[{1,0,0}],Point[{-1,0,0}],Point[{0,1,0}],Point[{0,-1,0}],Point[{0,0,1}],Point[{0,0,-1}],{Red,PointSize->.06,Point[{0,0,0}]},{Blue,PointSize->.01,{Line[{{-1,0,0},{1,0,0}}],Line[{{0,-1,0},{0,1,0}}],Line[{{0,0,-1},{0,0,1}}]}
+}}}]
+
+
+Single inserted value thus single assumption: \[Zeta]0 = I a Complex Unity that is not NULL
+1st calculated value from single assumption in terms of I from x2 = -2I taking '-' to be the Conjugate of I --- fails as X^2  not = zero
+Clear[\[Zeta]0,\[Zeta]1,x1,x2,x3]
+\[Zeta]0 =Conjugate[I]
+-I
+\[Zeta]1=Conjugate[\[Zeta]0] 
+I
+x1 = \[Zeta]0^2 - \[Zeta]1^2 
+\[Zeta]0^2
+\[Zeta]1^2
+x1
+\[Zeta]0
+\[Zeta]1
+0
+-1
+-1
+0
+-I
+I
+x2 = I(\[Zeta]0^2 + \[Zeta]1^2)
+\[Zeta]0^2
+\[Zeta]1^2
+x2
+\[Zeta]0
+\[Zeta]1
+-2 I
+-1
+-1
+-2 I
+-I
+I
+x3 = -2\[Zeta]0^2\[Zeta]1^2
+\[Zeta]0^2
+\[Zeta]1^2
+x3
+\[Zeta]0
+\[Zeta]1
+-2
+-1
+-1
+-2
+-I
+I
+x1^2 + x2^2 + x3^2 
+x1
+x1^2
+x2
+x2^2
+x3
+x3^2
+\[Zeta]0
+\[Zeta]1
+0
+0
+0
+-2 I
+-4
+-2
+4
+-I
+I
+\[Zeta]0
+\[Zeta]1
+-I
+I
+\[Zeta]0/\[Zeta]1
+\[Zeta]0
+\[Zeta]1
+-1
+-I
+I
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+Array[a,{1,2,4,8}]
+{{{{a[1,1,1,1],a[1,1,1,2],a[1,1,1,3],a[1,1,1,4],a[1,1,1,5],a[1,1,1,6],a[1,1,1,7],a[1,1,1,8]},{a[1,1,2,1],a[1,1,2,2],a[1,1,2,3],a[1,1,2,4],a[1,1,2,5],a[1,1,2,6],a[1,1,2,7],a[1,1,2,8]},{a[1,1,3,1],a[1,1,3,2],a[1,1,3,3],a[1,1,3,4],a[1,1,3,5],a[1,1,3,6],a[1,1,3,7],a[1,1,3,8]},{a[1,1,4,1],a[1,1,4,2],a[1,1,4,3],a[1,1,4,4],a[1,1,4,5],a[1,1,4,6],a[1,1,4,7],a[1,1,4,8]}},{{a[1,2,1,1],a[1,2,1,2],a[1,2,1,3],a[1,2,1,4],a[1,2,1,5],a[1,2,1,6],a[1,2,1,7],a[1,2,1,8]},{a[1,2,2,1],a[1,2,2,2],a[1,2,2,3],a[1,2,2,4],a[1,2,2,5],a[1,2,2,6],a[1,2,2,7],a[1,2,2,8]},{a[1,2,3,1],a[1,2,3,2],a[1,2,3,3],a[1,2,3,4],a[1,2,3,5],a[1,2,3,6],a[1,2,3,7],a[1,2,3,8]},{a[1,2,4,1],a[1,2,4,2],a[1,2,4,3],a[1,2,4,4],a[1,2,4,5],a[1,2,4,6],a[1,2,4,7],a[1,2,4,8]}}}}
+Array[count,{1,2,4,8}]//MatrixForm
+((count[1,1,1,1]	count[1,1,1,2]	count[1,1,1,3]	count[1,1,1,4]	count[1,1,1,5]	count[1,1,1,6]	count[1,1,1,7]	count[1,1,1,8]
+count[1,1,2,1]	count[1,1,2,2]	count[1,1,2,3]	count[1,1,2,4]	count[1,1,2,5]	count[1,1,2,6]	count[1,1,2,7]	count[1,1,2,8]
+count[1,1,3,1]	count[1,1,3,2]	count[1,1,3,3]	count[1,1,3,4]	count[1,1,3,5]	count[1,1,3,6]	count[1,1,3,7]	count[1,1,3,8]
+count[1,1,4,1]	count[1,1,4,2]	count[1,1,4,3]	count[1,1,4,4]	count[1,1,4,5]	count[1,1,4,6]	count[1,1,4,7]	count[1,1,4,8]
+
+)	(count[1,2,1,1]	count[1,2,1,2]	count[1,2,1,3]	count[1,2,1,4]	count[1,2,1,5]	count[1,2,1,6]	count[1,2,1,7]	count[1,2,1,8]
+count[1,2,2,1]	count[1,2,2,2]	count[1,2,2,3]	count[1,2,2,4]	count[1,2,2,5]	count[1,2,2,6]	count[1,2,2,7]	count[1,2,2,8]
+count[1,2,3,1]	count[1,2,3,2]	count[1,2,3,3]	count[1,2,3,4]	count[1,2,3,5]	count[1,2,3,6]	count[1,2,3,7]	count[1,2,3,8]
+count[1,2,4,1]	count[1,2,4,2]	count[1,2,4,3]	count[1,2,4,4]	count[1,2,4,5]	count[1,2,4,6]	count[1,2,4,7]	count[1,2,4,8]
+
+))
+Transpose[ Array[count,{1,2,4,8}]]//MatrixForm
+((count[1,1,1,1]	count[1,1,1,2]	count[1,1,1,3]	count[1,1,1,4]	count[1,1,1,5]	count[1,1,1,6]	count[1,1,1,7]	count[1,1,1,8]
+count[1,1,2,1]	count[1,1,2,2]	count[1,1,2,3]	count[1,1,2,4]	count[1,1,2,5]	count[1,1,2,6]	count[1,1,2,7]	count[1,1,2,8]
+count[1,1,3,1]	count[1,1,3,2]	count[1,1,3,3]	count[1,1,3,4]	count[1,1,3,5]	count[1,1,3,6]	count[1,1,3,7]	count[1,1,3,8]
+count[1,1,4,1]	count[1,1,4,2]	count[1,1,4,3]	count[1,1,4,4]	count[1,1,4,5]	count[1,1,4,6]	count[1,1,4,7]	count[1,1,4,8]
+
+)
+(count[1,2,1,1]	count[1,2,1,2]	count[1,2,1,3]	count[1,2,1,4]	count[1,2,1,5]	count[1,2,1,6]	count[1,2,1,7]	count[1,2,1,8]
+count[1,2,2,1]	count[1,2,2,2]	count[1,2,2,3]	count[1,2,2,4]	count[1,2,2,5]	count[1,2,2,6]	count[1,2,2,7]	count[1,2,2,8]
+count[1,2,3,1]	count[1,2,3,2]	count[1,2,3,3]	count[1,2,3,4]	count[1,2,3,5]	count[1,2,3,6]	count[1,2,3,7]	count[1,2,3,8]
+count[1,2,4,1]	count[1,2,4,2]	count[1,2,4,3]	count[1,2,4,4]	count[1,2,4,5]	count[1,2,4,6]	count[1,2,4,7]	count[1,2,4,8]
+
+)
+
+)
+-
+{a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}}//MatrixForm
+(a
+{b,Congruent[b]}
+{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}
+
+)
+{a,{b,Congruent[b]},{{b,Congruent[b],{b,Congruent[b]},{b,Congruent[b]},{b,Congruent[b]}}}}//MatrixForm
+(a
+{b,Congruent[b]}
+{{b,Congruent[b],{b,Congruent[b]},{b,Congruent[b]},{b,Congruent[b]}}}
+
+)
+Transpose[ {a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}}]//MatrixForm
+Transpose::nmtx: The first two levels of {a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}} cannot be transposed.
+Transpose[{a,{b,Congruent[b]},{{c,Congruent[c],{d,Congruent[d]},{e,Congruent[e]},{f,Congruent[f]}}}}]
+Congruent[Null]
+Congruent[Null]
+Simplify[Congruent[Null]]
+Congruent[Null]
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Re[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Re[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Re[x1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Re[x2],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Re[-I],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Re[I],0}]}
+},PlotLabel->Real]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Arrow[{{0,0,0},{0,Im[\[Zeta]0],0}}]}(*{RGBColor[0.5,0,0],PointSize->.08,Arrow[{Im[\[Zeta]1],0}]}
+{RGBColor[0,1,0],PointSize->.08,Arrow[{Im[x1],0}]},
+{RGBColor[0.5,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]0]}]},
+{RGBColor[0.5,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,0],PointSize->.08,Arrow[{0,Im[\[Zeta]0]}]}
+*)
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},{RGBColor[0,0.5,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0,0,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0,1,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0.5,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,1,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[0.5,1,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.25,0.5,0.25],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0.5,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+
+
+
+
+
+
+
+
+
+{{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]}}
+{{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]}}
+{{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]},{I,Congruent[I]}}//MatrixForm
+(I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+I	Congruent[I]
+
+)
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+
+{Gray,PointSize->.10,Point[{0,0,1}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{0,Im[\[Zeta]0],1}]},{RGBColor[0,0.5,0],PointSize->.08,Point[{0,Im[\[Zeta]1],1}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{2,0,0}]},
+{RGBColor[0,0,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{3,0,0}]},
+{RGBColor[0,1,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0,0.5,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{4,0,0}]},
+{RGBColor[1,1,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{5,0,0}]},
+{RGBColor[0.5,1,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.25,0.5,0.25],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+Graphics3D[{Gray,PointSize->.10,{Point[{6,0,0}]},
+{RGBColor[1,0.5,0],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+Graphics3D[{Gray,PointSize->.10,{Point[{7,0,0}]},
+{RGBColor[1,0.5,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]},{RGBColor[0.5,0.25,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]}
+
+},PlotLabel->Complex]
+
+
+
+
+
+
+
+
+
+
+
+Spinor To Isotropic Vector (Time Vector)
+
+
+
+
+
+
+Vectors
+Vectors
+{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}
+{{I},{-I}}
+reflectionCount=5
+5
+theSomething[All]
+theSomething[All]
+theSomething[6]
+theSomething[6]
+theSomething[reflectionCount]
+theSomething[5]
+theSomething[7]
+theSomething[7]
+{{I}, {-I}}[5]
+{{I},{-I}}[5]
+[7]
+{{I},{-I}}.{{I},{-I}}
+Dot::dotsh: Tensors {{I},{-I}} and {{I},{-I}} have incompatible shapes.
+{{I},{-I}}.{{I},{-I}}
+Cross[{{I},{-I}},{{I},{-I}}]
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length.
+{{I},{-I}}\[Cross]{{I},{-I}}
+{{I},{-I}}^2
+{{-1},{-1}}
+Modulus[4]
+Modulus[4]
+fundimentalComplexStringDevA= {fundimentalComplexString[[n]] . fundimentalComplexString[[n+4]],Modulus->4, {n,1,256,4}}
+Part::pkspec1: The expression n cannot be used as a part specification.
+Part::pkspec1: The expression 4+n cannot be used as a part specification.
+{fundimentalComplexString[[n]].fundimentalComplexString[[4+n]],Modulus->4,{n,1,256,4}}
+Flatten[fundimentalComplexString[[5,2]]]
+
+Part::partd: Part specification fundimentalComplexString[[5,2]] is longer than depth of object.
+fundimentalComplexString[[5,2]]
+Flatten[fundimentalComplexString[[1,2]]].Flatten[fundimentalComplexString[[5,2]]]
+Part::partd: Part specification fundimentalComplexString[[1,2]] is longer than depth of object.
+Part::partd: Part specification fundimentalComplexString[[5,2]] is longer than depth of object.
+fundimentalComplexString[[1,2]].fundimentalComplexString[[5,2]]
+Flatten[fundimentalComplexString[[5,2]],1]//MatrixForm
+Part::partd: Part specification fundimentalComplexString[[5,2]] is longer than depth of object.
+fundimentalComplexString[[5,2]]
+((I)	(-I))//MatrixForm
+
+((I)	(-I))
+{{{I},{-I}}}//MatrixForm
+((I)	(-I))
+fundimentalComplexString[[1,2]]//MatrixForm
+Part::partd: Part specification fundimentalComplexString[[1,2]] is longer than depth of object.
+fundimentalComplexString[[1,2]]
+{{I},{-I}}//MatrixForm
+(I
+-I
+
+)
+({{I},{-I}})//MatrixForm
+((I)	(-I))
+fundimentalComplexString //MatrixForm
+fundimentalComplexString
+fundimentalComplexString
+fundimentalComplexString
+fundimentalComplexString =Table[Flatten[Drop[Reap[Parallelize[
+
+
+
+Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount =1;
+(*
+Pair Production Symertry: Required > assumtion: basies for symitry, the symery norm way to get from nothing {Null} to 'fundimentalComplexSomthingPair'; {Null}==={fundimentalComplexSomthingPair} if and only if pair are 'something' and the refkection of 'something'; requirment null === somethingpair; pair of what open: unityPair works; 
+
+
+
+*)
+fundimentalComplexSomthingPair={{I},{I}. ReflectionMatrix[{I}]};
+
+Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount =1;
+Sow[fundimentalComplexSomthingPair,"fundimentalComplexSomthing"];
+keyFundimentalComplexSomthing=2;
+(*-
+
+Taken modulo 1; classic Cartan spinor; zero lenghjt; propertery: chages direction on opservation;each cahnge a reflection; has two value: {-,+} 
+
+Zero lenght vector. has only direction {away,toward}, 2 states, properity: each observation will change parity: BREAKS PARITY on Observation. 
+
+Forces definition of an obsrvation as a Reflection or Rotation trough 180 degrees. 
+
+A Rotation through 180 degrees defines an observation it forms the BASIS for Observation. 
+
+Simplist case should be obsrvable, what does this, why no magnitic monipoles?
+
+--*)
+
+Sow[({I}^2)-({-I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[I(({I}^2)+({-I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2(I)(-I),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+keyspinorRealZeroLengthChangeVectorOneTwoThree=3;
+
+Sow[({-I}^2)-({I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-I(({-I}^2)+({I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2(-I)(I),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+
+
+
+]],1],1],
+{reflectionCount,1,512}]
+
+
+
+{{{1,1},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}},{{2,2},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}, \[CenterEllipsis]509\[CenterEllipsis] ,{{512,512},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}}
+large output	show less	show more	show all	set size limit...
+
+
+fundimentalComplexString=Table[Flatten[Drop[Reap[Parallelize[Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount=1;
+(*Pair Production Symertry:Required>assumtion:basies for symitry,the symery norm way to get from nothing {Null} to'fundimentalComplexSomthingPair';{Null}==={fundimentalComplexSomthingPair} if and only if pair are'something' and the refkection of'something';requirment null===somethingpair;pair of what open:unityPair works;*)fundimentalComplexSomthingPair={{I},{I}.ReflectionMatrix[{I}]};
+Sow[reflectionCount,"reflectionCount"];
+keyReflectionCount=1;
+Sow[fundimentalComplexSomthingPair,"fundimentalComplexSomthing"];
+keyFundimentalComplexSomthing=2;
+(*-Taken modulo 1;classic Cartan spinor;zero lenghjt;
+propertery:chages direction on opservation;
+each cahnge a reflection;has two value:{-,+} Zero lenght vector.has only direction {away,toward},2 states,properity:each observation will change parity:BREAKS PARITY on Observation.Forces definition of an obsrvation as a Reflection or Rotation trough 180 degrees.A Rotation through 180 degrees defines an observation it forms the BASIS for Observation.Simplist case should be obsrvable,what does this,why no magnitic monipoles?--*)Sow[({I}^2)-({-I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[I (({I}^2)+({-I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2 (I) (-I),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+keyspinorRealZeroLengthChangeVectorOneTwoThree=3;
+Sow[({-I}^2)-({I}^2),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-I (({-I}^2)+({I}^2)),"spinorRealZeroLengthChangeVectorOneTwoThree"];
+Sow[-2 (-I) (I),"spinorRealZeroLengthChangeVectorOneTwoThree"];]],1],1],{reflectionCount,1,512}]
+
+
+
+{{{1,1},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}},{{2,2},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}, \[CenterEllipsis]509\[CenterEllipsis] ,{{512,512},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}}
+large output	show less	show more	show all	set size limit...
+
+
+fundimentalComplexString
+{{{1,1},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}},{{2,2},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}, \[CenterEllipsis]509\[CenterEllipsis] ,{{512,512},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}}
+large output	show less	show more	show all	set size limit...
+
+
+fundimentalComplexString[[1,1]]
+fundimentalComplexString[[1,2,1,1]]
+fundimentalComplexString[[1,3]]
+fundimentalComplexString[[1,4]]
+{1,1}
+{I}
+{{0},{-2 I},-2,{0},{2 I},-2}
+Part::partw: Part 4 of {{1,1},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}} does not exist.
+{{{1,1},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}, \[CenterEllipsis]510\[CenterEllipsis] ,{{512,512},{{{I},{-I}}},{{0},{-2 I},-2,{0},{2 I},-2}}}[[1,4]]
+large output	show less	show more	show all	set size limit...
+
+
+{1,1,1}
+{1,1,1}
+Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{Im[x1],0,0}]},
+{RGBColor[0.5,0.5,0],PointSize->.08,Point[{0,Im[\[Zeta]1],0}]},
+{RGBColor[1,1,0],PointSize->.08,Point[{0,Im[\[Zeta]0],0}]},
+{RGBColor[0.5,0,0.5],PointSize->.08,Point[{0,0,Im[\[Zeta]1]}]},
+{RGBColor[1,0,1],PointSize->.08,Point[{0,0,Im[\[Zeta]0]}]}
+
+},PlotLabel->Complex]
+
+(*Graphics3D[{Gray,PointSize->.10,{Point[{0,0,0}]},
+{RGBColor[1,0,0],PointSize->.08,Point[{Im[\[Zeta]0],0,0}]},{RGBColor[0.5,0,0],PointSize->.08,Point[{Im[\[Zeta]1],0,0}]},
+
+{Gray,PointSize->.10,Point[{0,0,1}]},
+{RGBColor[0,1,0],PointSize->.08,Point[{0,Im[\[Zeta]0],1}]},{RGBColor[0,0.5,0],PointSize->.08,Point[{0,Im[\[Zeta]1],1}]}
+
+},PlotLabel\[Rule]Complex]
+*)
+{{I},{-I}},{{0},{-2 I},-2,{0},{2 I},-2}
+ReflectionMatrix[{I,-I}]
+ReflectionMatrix[{I,-I}]//MatrixForm
+{{0,1},{1,0}}
+(0	1
+1	0
+
+)
+{{I},{-I}}//MatrixForm
+(I
+-I
+
+)
+{{{I},{-I}},{{I},{-I}}}//MatrixForm
+((I)	(-I)
+(I)	(-I)
+
+)
+{I,-I,I}//MatrixForm
+(I
+-I
+I
+
+)
+Sum[I,-I,I]
+Sum::vloc: The variable -I cannot be localized so that it can be assigned to numerical values.
+Underscript[\[Sum], -I]Underscript[\[Sum], I]I
+keySpinorRealZeroLengthChangeVector
+keySpinorRealZeroLengthChangeVector
+(*Protect[fundimentalComplexSpinor]*)
+For[reflectionCount=1,reflectionCount<=256,reflectionCount++,theSomething[reflectionCount]={
+ {I},
+{I}. ReflectionMatrix[{I}]
+}[reflectionCount]]
+theSomething[reflectionCount]={
+ {I},
+{I}. ReflectionMatrix[{I}]
+}[reflectionCount]
+{{I},{-I}}[257]
+{{I},{-I}}
+{{I},{-I}}
+{
+ {I},
+{I}. Conjugate[{I}]
+}
+{{I},1}
+ReflectionMatrix[{{I},{-I}}]
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+ReflectionMatrix[{{I},{-I}}]
+ReflectionMatrix[{
+ {I},
+({I}. ReflectionMatrix[{I}])
+}]
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+ReflectionMatrix[{{I},{-I}}]
+{
+ {
+ {I},
+{I}. ReflectionMatrix[{I}]
+},
+{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}. ReflectionMatrix[{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}]
+}
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+{{{I},{-I}},{{I},{-I}}.ReflectionMatrix[{{I},{-I}}]}
+phase is reflection phase change 2 reflections(?) one reflection phase change(?) Both(?)
+ ReflectionMatrix[{
+ {I},
+{I}. ReflectionMatrix[{I}]
+}]
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+ReflectionMatrix[{{I},{-I}}]
+{
+{ {I},{I}. ReflectionMatrix[{I}]},
+{ {I},{I}. ReflectionMatrix[{I}]}. ReflectionMatrix[{ {I},{I}. ReflectionMatrix[{I}]}]
+}
+ReflectionMatrix::inpv: {{I},{-I}} is not a vector.
+{{{I},{-I}},{{I},{-I}}.ReflectionMatrix[{{I},{-I}}]}
+{{{ {I},{I}. ReflectionMatrix[{I}]},{ {I},{I}. ReflectionMatrix[{I}]}},{{ {I},{I}. ReflectionMatrix[{I}]},{ {I},{I}. ReflectionMatrix[{I}]}}}
+{{{{I},{-I}},{{I},{-I}}},{{{I},{-I}},{{I},{-I}}}}

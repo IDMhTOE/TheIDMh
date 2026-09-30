@@ -1,0 +1,80 @@
+The Fundimental Element
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 1] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 2] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 3] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 4] =I
+Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 5] =I
+(* ... Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, 5] =I *)
+I
+I
+I
+I
+I
+TheFundimental Observable
+I + Conjugate[I]
+
+0
+
+The Fundimental Form
+Clasic (Cartan) Form
+clasicFundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] * Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] ,{n,theReflectionCountOfThisUniverse}] 
+
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n\), \(theReflectionCountOfThisUniverse\)]
+\*SubsuperscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\), \(2\)]\)
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n = 1\), \(theReflectionCountOfThisUniverse\)]
+\*SubsuperscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\), \(2\)]\)
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n = 1\), \(theReflectionCountOfThisUniverse\)]
+\*SubsuperscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\), \(2\)]\)
+IDM Form
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n] * Conjugate[Subscript[pointsInNdimensionalEuclideanSpaceNumbersX1Xn, n]] ,{n,theReflectionCountOfThisUniverse}]
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n\), \(theReflectionCountOfThisUniverse\)]\(Conjugate[
+\*SubscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\)]]\ 
+\*SubscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\)]\)\)
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n = 1\), \(theReflectionCountOfThisUniverse\)]\(Conjugate[
+\*SubscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\)]]\ 
+\*SubscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\)]\)\)
+\!\(
+\*UnderoverscriptBox[\(\[Sum]\), \(n = 1\), \(theReflectionCountOfThisUniverse\)]\(Conjugate[
+\*SubscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\)]]\ 
+\*SubscriptBox[\(pointsInNdimensionalEuclideanSpaceNumbersX1Xn\), \(n\)]\)\)
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[I * Conjugate[I] ,{n,2}]
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[I * Conjugate[I] ,{n,2}] //N
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Conjugate[I] * I ,{n,2}]
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Conjugate[I] * I ,{n,2}] //N
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[I * I ,{n,2}]
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[I * I ,{n,2}] //N
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Conjugate[I] * Conjugate[I] ,{n,2}]
+iDMfundamentalFormScalerSquareLenthOfVectorXfromORIGINtoPoint\[CapitalPhi] = Sum[Conjugate[I] * Conjugate[I] ,{n,2}] //N
+2
+2.
+2
+2.
+-2
+-2.
+-2
+-2.
+I/2
+I/2
+Sqrt[I]
+Sqrt[I]//N
+(-1)^(1/4)
+0.707107+0.707107 I
+Sqrt[2]//N
+1.41421
+0.7071067811865476` * 2
+1.41421
+(-1)^(1/4) + (-1)^(1/4)
+(-1)^(1/4) + (-1)^(1/4)//N
+2 (-1)^(1/4)
+1.41421+1.41421 I
+(I/2)^2
+-(1/4)
+(Conjugate[I]) - (I)
+(Conjugate[I]) + (I)
+-2 I
+0

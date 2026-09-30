@@ -1,0 +1,46 @@
+sendThisTweet[thisTwit_,trollChartOne_,trollChartTwo_,trollChartThree_,trollChartFour_] :={
+ServiceExecute["Twitter","Tweet",{"Message"->thisTwit,"Image"->{trollChartOne,trollChartTwo,trollChartThree,trollChartFour}}]
+}
+
+In[8]:= {ServiceConnect["Twitter","New"],ServiceExecute["Twitter","LastTweet"]}
+During evaluation of In[8]:= ServiceExecute::nolink: The service ServiceObject[Twitter
+Dynamic
+
+] is not authenticated. Try using ServiceConnect.
+Out[8]= {ServiceObject[Twitter
+Dynamic
+
+],ServiceExecute[Twitter,LastTweet]}
+In[7]:= ServiceConnect["Twitter","LastTweet"]
+Out[7]= ServiceConnect[Twitter,LastTweet]
+ServiceExecute["Twitter","New"]
+ServiceExecute["Twitter","LastTweet"]
+During evaluation of In[4]:= ServiceExecute::nolink: The service ServiceObject[Twitter
+Dynamic
+
+] is not authenticated. Try using ServiceConnect.
+Out[4]= ServiceExecute[Twitter,New]
+Out[5]= ServiceConnect[Twitter,LastTweet]
+In[9]:= Cell["Properties"]
+Cell[]
+In[10]:= 1.5 * 1
+
+Out[10]= 1.5
+IDM In Twits
+Studied (vs read) N. FUREY's two 2022 Papers and Theses, find here https://www.furey.space/ 
+
+Furey gets 'standard model' from a Division Algieba: Deeper in go deeper find in own mind space.
+
+The work of Malcolm H. MacGregor is also deep in own mind space. MacGregor quantized particle lifetimes and masses with the Alpha Constant. https://www.amazon.com/Power-Alpha-Elementary-Generation-quantized/dp/9812569618
+
+Something can be learned by connecting Furey and MacGregor work via the 'particles' from the Division Algieba and the quantized lifetimes and masses from MacGregor. To start with the Alpha Constant should be hidden in Furey's work.
+
+Connections can also be to MacGregor's work in chapter five up: The Particle-Hole Pair Mathology. Viewed in Spinor context can map back to Furey.
+
+MacGregor notes mass of spinning particle 1.5 times mass of non-spinning particle. Assumption: If spinning a Hole would have a Mass of 1/2 +/-, both in effect for net of zero, needs validation. 1/2 always interesting.
+
+One pass look found "ON EIGHT KINDS OF SPINORS"
+Andrzej Trautman: https://inspirehep.net/files/bf6fb44df637044a770069f057430be8 Only scanned, looks like can be mapped to both Furey and MacGregor.
+
+
+A Twitter thread that will bring one only contempt diregian and vitriol. This will come form both thoses that know the topic and those that don't. 

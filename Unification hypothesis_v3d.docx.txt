@@ -1,0 +1,246 @@
+﻿Incremental Dimensional Model
+Developer Stew Gibson
+Development start 1950
+Copyright 2014-2015
+Attempting to derive an unification hypothesis from 1st principles and elevate same to a theory via mathematical modeling
+I have a formulated a hypothesis based on
+Defining one
+Requited for a quantum model
+Multi-decade project
+Surprising number of `for one
+Throwing things away until nothing left to throw away
+One ‘Entity’
+Spinor
+Pure Complex ‘Entity’
+‘Entity’ === {I, Conjugant [I])
+‘Entity’ === Unity === Superposition [{{I, Conjugant [I]),{NULL}}
+{I, Conjugant [I]) === NULL
+
+Count
+Measure of Phase
+Every Count or Phase Orthonormal all others
+Count === number of rotations of the Spinor
+1st rotation n=1
+Reflection of -I
+Every reflection is a rotation
+-I is the ‘hole in’ or ‘shadow on’ the NULL of I
+Mapping to Macgregor’s Zeons 
+Existence requires pair production
+{I} and {Conjugant [I]}
+Assuming Column vector
+{{I},{Conjugant [I]}}
+Row vector if assume wrong
+{I. Conjugant [I]}
+Try both
+Spinor may be Column vector to Row vector paradigm
+Gets rotation as reflection
+Any reflection a rotation
+Trying to do the math
+Not worry about the metaphysics
+Per MacGregor’s ‘The Power of Alpha’
+Using the Mathology from Chapter 5
+Expressed in matrix rotation form
+Mapped to the spinor paradigm
+Quantized against reflection count
+Rotating stable
+Stable as rotating
+Rotating due to pair production
+Production generates a rotation as it is a reflection
+Reduces to point as count goes up
+Taking count as number of reflections
+From arbitrary point
+From 1 for simplicity
+The Conjugant [I] part 
+Is MacGergor Zeron
+Or will generate the Zeron after n counts
+Spinor probably MacGergor’s Zeron precursor
+Expect recursive spinor higherarchey 
+Is the De Broglie Wave portion
+No existence prosperity
+No space prosperity
+Denotes lack of NULL
+Exist in superposition with {I}
+Can choose look from either perspective
+Paper recently that shows  wave-particle dichotomy case of Heisenberg Uncertainly
+http://arxiv.org/abs/1403.4687
+http://www.quantumlah.org/highlight/141220_wave_particle.php
+https://www.google.com/search?q=wave-particle+dichotomy+case+of+Heisenberg+Uncertainly&ie=utf-8&oe=utf-8#q=wave+particle+duality+heisenberg%27s+uncertainty+principle
+This the geometry that makes it so
+
+Exist at inflection point
+Of NULL/Existence
+{{I[Count]} , { Conjugant [I [Count] ]}} === {NULL} : > True for all Count <= Count+1
+Why 0! = 1 works?
+
+Calling Plankette
+Got to call something
+Basis that should generate Planks Constant
+Expect intermediate steps
+The Plankette is The Fundamental Spinor
+ One Base
+The ‘separation’  between I and –I 
+The Basis with value of 1 and/or ½ valued at 1st reflection
+Assuming superposition of both
+Dealing with a reflection
+An entity and a perfect mirror
+Options
+Base at any count n is the distance between I and –I
+Current assumption
+NULL plane at ½ or 1 depending on reference re NULL Plane
+Each Count(n) = 1 or 2
+In Count(n) n becomes a Phase number
+No two Count(n) have same Phase
+Base at any count n is the N =  sum n of distance between I and –I
+NULL plane at ½ or 1 depending on reference
+Makes Count(1) = 1 or 2 
+Phase
+Count === Phase
+Max Number of Phases = Current Phase Count +1
+
+One ‘force’ ‘angular momentum’
+The Fundamental ‘force’ 
+Derives from The Fundamental Spinor 
+Vector Orthonormal to Spinor axis
+Justification 
+nth Spinor Orthonormal to all n-1 Spinor vectors 
+N === count Reflections
+Since 1st existence
+Between two values n-m < n
+Only ‘One’ Electron Premise
+Only one electron
+It gets observed many times
+Recurring mathematically described ‘object of existence’
+Analogous to an ASCI ‘Z’ <bit-pattern>
+Wherever the <bit-pattern> on ‘sees’ a ‘Z’
+ One pattern
+Multiple ‘Z’s
+At some level Plato was right
+Time has Mass
+More accurately it has angular momentum
+Time vector === Plankette Spinor angular momentum
+Only vector set that is orthogonal to all other vector sets
+Vector set: the combined vectors from a dimensional Phase set
+Vector sets defined in powers of two in the complex plane
+1,2,4,8,16,32...
+Count, {I, Conjugant [I]}, Quaternion, Octonion, Sedenions,...
+Each Vector Set defines a Complex Plane Dimensional entity 
+Some asinine assumptions
+That reflect observed data as constraints
+Universal ‘Now’
+
+Steady State Model: no big bang per cosmological models
+
+Standard Model reduces to subset of a larger picture
+
+Complex Plane Dog; Space Time the Tail
+Complex Plane projects 4D space time
+Electrometric
+Maxwell equation started in quaternion form
+https://www.google.com/search?q=maxwell+equation+quaternion+formula&start=110&ei=ZdMYVeG5MM-1ogTR-oLIBg 
+Should be a guild in making choices re math options
+
+
+Complex Plane projects 8D space time
+Quarks
+https://www.google.com/search?q=Quarks+octnoins+&ie=utf-8&oe=utf-8
+Should be a guild in making choices re math options
+
+Sedenions and up
+Everything above the 16-dimensional sedenions has zero divisors
+https://www.google.com/search?rls=org.mozilla:en-US:official&q=Everything+above+the+16-dimensional+sedonions+has+zero+divisors&sei=sG21VPjfK8_hoASwu4DwCQ&biw=960&bih=478&dpr=2&cad=cbv&sei=Pw4sVfvZKZCSoQTBkoGICg#rls=org.mozilla:en-US:official&q=Everything+above+the+16-dimensional+sedenions+has+zero+divisors 
+Where one ‘loses’ times arrow?
+Bets off
+Expect interesting
+http://blogs.scientificamerican.com/roots-of-unity/2015/04/13/lambert-love-hate-geometry/
+Number theory 
+Providing framework for assumptions
+Implies 
+Will get one to one correspondence between Complex plain and projection through Octonions 
+
+Above ‘16’ Sedenions 
+All dividers go to zero giving singularies
+No unique projection of any complex space above Sedenions
+Through Octonions is unique representation in Real space time for each possible Octonions
+Constants’ aren’t
+Ratios among Basis
+Basis irrational numbers
+Ratios between Basis Constant
+The ‘Constants’ the Ratios
+Ratios may apply to Now only
+Exist at inflection point or at current end count of n
+Of NULL=Existence
+{{I[Count]} , { Conjugant [I [Count] ]}} === {NULL} : > True for all Count <= Count+1
+
+Others more esoteric
+That what is needed to build hypothesis is known
+Just a question of putting the pieces together
+Has proved true up to a point
+Some key pieces thus progress has come from work done in the last decade some in the last couple of years
+Alpha Quantized particle lifetimes/masses 2007
+Amplituhedron Positive Grassmannian  2012
+Key areas and works used in developing the hypothesis over the years include 
+Euler's works: Euler’s  identity e^(i Pi )=-1
+Much goes back to the early mathematicians and physics
+Actually a give
+The Theory of Spinors by Elie Cartan
+Quaternions 
+Rotations, Quaternions, and Double Groups by Simon L. Altmann
+Octonions 
+On Quaternions and Octonions: Their geometry Arithmetic and Symmetry by John H. Conway & Derek A. Smith
+Sedenions
+With sedenions find one is in the mathematical outfield
+Complex number theory area math few seem to be deep into
+Complex number theory and environment is a critical focus
+ Quantum Mechanics Base
+Core area, multiple text
+Most validated theory ever
+Visual Quantum Mechanics and Advanced Visual Quantum Mechanics by Bernd Thaller current reference choice
+As set of Mathematica notebooks associated with the text
+Has notebook files that demo basics
+Thaller has developed paradigm for visualizing the complex plane via color
+Both useful jumping off places for own development
+The Power of Alpha: Electron Elementary Particle Generation with Alpha-Quantized Lifetimes and Masses by Malcolm H, MacGregor
+Establishes the relationship between particle lifetime/mass and the Alpha constant
+Chapter 5 up is of particular importance in one’s assumptions 
+At some level in the paradigm of Stephen Wolfram’s A New Kind Of Science
+Note Wolfram is also the ‘inventor’ of Mathematica
+Amplituhedron Positive Grassmannian papers
+Predicts scattering angles based on n-dimensional volumes
+Need deeper dive on leading singularities
+Lagging singularities may be relevant
+Think need  boarder concept of Grassmannian symmetry (Negative Grassmannian?)
+Currently over one’s head in dealing with the Grassmannian math & on-shell diagrams
+Fixable as/when required
+Obviously this is a condensed reference set
+Elevating hypothecs to a theory via mathematical modeling
+As working at 1st Principe basis with quantum model: assumptions 
+Math integer
+As counting from ‘1’ math should be simple vs. working backwards from multiple differential equations in n-dimensions with no definable model to map against
+While simple expect it to be highly recursive and highly non-linier in growth 
+Symmetry is one’s savor
+Current goal
+Define the core ‘Spinor’ (calling Planckette) 
+This against constraints imposed by assumptions
+ Let it iterate and see if maps to any observed ‘Reality’
+Deceptively simple binary results: it maps or it does not
+Math paradigms required
+For a fresh grad student simple math
+Not fresh grad student 
+Trying to maintain a vector while treading water
+Mathematica helps but don’t claim to be a mathematician 
+Cayley Algebras
+Tensor Analysis
+Matrix Algebras
+Complex number theory through Sedenions and beyond
+Multiple math ‘branches’ need to be reconciled to common approach
+One math paradigm that spans from Spinors to Grassmannian
+At front end of the Planckette Spinor work.
+The active project
+Don’t have house odds of being correct
+Don’t care: beats a Religion, at least trying
+No point in asking trivial questions
+Target audience is oneself
+Been playing with since (very) early childhood
+Goal is a better question in a new paradigm
+If right don’t care who else has name on the Nobel along with mine
+Help welcome 

@@ -1,0 +1,13 @@
+﻿Two out of three
+Pi/2 = fundimental length
+3 = fundimental volume
+3 sqares of sides of length Pi/2
+Count
+1
+2
+3
+Power
+1^2
+2^2
+3^2
+

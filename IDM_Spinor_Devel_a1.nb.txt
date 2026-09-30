@@ -1,0 +1,180 @@
+TrigToExp[RotationMatrix[180 Degree]]//MatrixForm
+
+
+(-1	0
+0	-1
+
+)
+
+TrigToExp[RotationMatrix[89Degree]]
+TrigToExp[RotationMatrix[178Degree]]
+TrigToExp[RotationMatrix[269Degree]]
+TrigToExp[RotationMatrix[359Degree]]
+
+RotationMatrix[88Degree]
+RotationMatrix[178Degree]
+RotationMatrix[269Degree]
+RotationMatrix[359Degree]
+
+RotationMatrix[88Degree]//N
+RotationMatrix[178Degree]//N
+RotationMatrix[269Degree]//N
+RotationMatrix[359Degree]//N
+
+RotationMatrix[90Degree]//N
+RotationMatrix[180Degree]//N
+RotationMatrix[270Degree]//N
+RotationMatrix[360Degree]//N
+RotationMatrix[90Degree]//MatrixForm
+RotationMatrix[180Degree]//MatrixForm
+RotationMatrix[270Degree]//MatrixForm
+RotationMatrix[360Degree]//MatrixForm
+(0	-1
+1	0
+
+)
+(-1	0
+0	-1
+
+)
+(0	1
+-1	0
+
+)
+(1	0
+0	1
+
+)
+RotationMatrix[-90Degree]//MatrixForm
+RotationMatrix[-180Degree]//MatrixForm
+RotationMatrix[-270Degree]//MatrixForm
+RotationMatrix[-360Degree]//MatrixForm
+(0	1
+-1	0
+
+)
+(-1	0
+0	-1
+
+)
+(0	-1
+1	0
+
+)
+(1	0
+0	1
+
+)
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+{{-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree]),-(1/2) I E^(-2 I \[Degree])+1/2 I E^(2 I \[Degree])},{1/2 I E^(-2 I \[Degree])-1/2 I E^(2 I \[Degree]),-(1/2) E^(-2 I \[Degree])-1/2 E^(2 I \[Degree])}}
+E^0
+1
+I^0 //N
+1.
+
+{I,Conjugate[I]}{{-1,0},{0,-1}}
+{{-I,0},{0,I}}
+Dot[{I,Conjugate[I]}{{-1,0},{0,-1}}]
+Cross[{I,Conjugate[I]} ,{{-1,0},{0,-1}}]
+{{-I,0},{0,I}}
+Cross::nonn1: The arguments are expected to be vectors of equal length, and the number of arguments is expected to be 1 less than their length. >>
+{I,-I}\[Cross]{{-1,0},{0,-1}}
+{{I},{Conjugate[I]}}{{-1,0},{0,-1}}
+Thread::tdlen: Objects of unequal length in {I} {-1,0} cannot be combined. >>
+Thread::tdlen: Objects of unequal length in {-I} {0,-1} cannot be combined. >>
+{{I} {-1,0},{-I} {0,-1}}
+RotationMatrix[30Degree]
+
+x1
+x1=1
+x2=2
+x2^2
+x2^2//N
+
+{{Sqrt[3]/2,-(1/2)},{1/2,Sqrt[3]/2}}
+x1
+1
+2
+4
+4.
+Clear[x1,x2,x2,epsolonPepsolonH,epsolonH]
+x1^2+x2^2+x3^2==0
+x1^2+x2^2+x3^2==0
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x1==-epsolonH^2+epsolonP^2
+x2==I (epsolonH^2+epsolonP^2)
+x3 == -2  epsolonP^2 epsolonH^2
+x3==-2 epsolonH^2 epsolonP^2
+Clear[x1,x2,x2,epsolonP,epsolonH]
+
+epsolonP= I
+epsolonH= Conjugate[I]
+I
+-I
+
+
+x1^2+x2^2+x3^2==0
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+
+
+
+
+
+
+x1^2+x2^2+x3^2==0
+x1==0
+x2==-2 I
+x3==-2
+
+
+x1^2+x2^2+x3^2==0
+
+
+
+epsolonP= -2 I
+epsolonH= Conjugate[-2 I]
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+
+x1^2+x2^2+x3^2==0
+-2 I
+2 I
+x1==0
+x2==-8 I
+x3==-32
+x1^2+x2^2+x3^2==0
+
+
+
+epsolonP= -8 I
+epsolonH= Conjugate[-8 I]
+
+x1 ==epsolonP^2 - epsolonH^2
+x2 ==I(epsolonP^2 + epsolonH^2)
+
+x3 == -2  epsolonP^2 epsolonH^2
+x1^2+x2^2+x3^2==0
+-8 I
+8 I
+x1==0
+x2==-128 I
+x3==-8192
+
+
+Dot[I ,  Conjugate[I]] //N
+Cross[I ,  Conjugate[I]]//N
+(0. +1. I).(0. -1. I)
+(0. +1. I)\[Cross](0. -1. I)
+I   Conjugate[I]
+1
+Conjugate[I] I   
+1

@@ -1,0 +1,24 @@
+﻿Chapter 1
+Every quadratic form can be reduced to a sum of squares by a linear transformation of the variables.
+Sylvester’s Lay Of Inertia
+In the real domain, the number of positive squares and negative squares are independent of the method of reduction.
+The determinant of the transformation which defines a rotation or reversal equals +1 or -1.
+Any reflection is a reversal
+Any rotation is the product of an even number ≤n of reflections; any reversal is the product of an odd number ≤n of reflections.
+In complex Euclidean space, and in real Euclidean space with positive definite fundamental form, the set of rotations (real in the latter case) forms a continuous group.
+Two space-like vectors can always be connected by a continuous series of space-like unit vectors.
+The rotations resulting from two space-like (or two time-like) vectors can be connected to the identity rotation by a continuous series of rotations.
+For any rotation (or reversal) the Jacobian of x’[1]..., with respect to x[1]... is non-zero
+By saying that rotations form a group we assert the following to properties of rotations:
+The product of any two rotations is a rotation.
+To each rotation there corresponds an inverse rotation.
+In the real pseudo-Euclidean space the group of rotations consists of two disjoint sets:
+The first consist of the groups of proper rotations, which result from an even number of space-like reflections and an ever number of time-like reflections.
+The second consist of the set of improper rotations, which result from an odd number of space-like reflections and an odd number of time-like reflections.
+This second set is not a group.
+Proper reversals 
+Result from an odd number of space-like reflections and an even number of time-like reflections.
+Characterized by the property that the Jacobian of x’[n-h+1] with respect to x [n-h+1] is positive.
+Invariance of the direction of time
+In space whose fundamental form can be reduced to the sum of n-1 positive squares and one negative square, all proper rotations and all proper reversals can be obtained from at most n space reflections.
+

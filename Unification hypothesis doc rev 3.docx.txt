@@ -1,0 +1,90 @@
+﻿Incremental Dimensional Model
+Developer Stew Gibson
+Development start 1950
+Copyright 2014-2015
+Attempting to derive an unification hypothesis from 1st principles and elevate same to a theory via mathematical modeling
+I have a formulated a hypothesis based on
+Defining one
+Requited for a quantum model
+Multi-decade project
+Surprising number of definitions for one
+Throwing things away until nothing left to throw away
+Some asinine assumptions
+That reflect observed data as constraints
+Examples
+Universal ‘Now’
+Steady State Model: no big bang per cosmological models
+Standard Model reduces to subset of a larger picture
+Others more esoteric
+That what is needed to build hypothesis is known
+Just a question of putting the pieces together
+Has proved true up to a point
+Some key pieces thus progress has come from work done in the last decade some in the last couple of years
+Alpha Quantized particle lifetimes/masses 2007
+Amplituhedron Positive Grassmannian  2012
+Key areas and works used in developing the hypothesis over the years include 
+Euler's works: Euler’s  identity e^(i Pi )=-1
+Much goes back to the early mathematicians and physics
+Actually a give
+The Theory of Spinors by Elie Cartan
+Quaternions 
+Rotations, Quaternions, and Double Groups by Simon L. Altmann
+Octonions 
+On Quaternions and Octonions: Their geometry Arithmetic and Symmetry by John H. Conway & Derek A. Smith
+Sedenions
+With sedenions find one is in the mathematical outfield
+Complex number theory area math few seem to be deep into
+Complex number theory and environment is a critical focus
+ Quantum Mechanics Base
+Core area, multiple text
+Most validated theory ever
+Visual Quantum Mechanics and Advanced Visual Quantum Mechanics by Bernd Thaller current reference choice
+As set of Mathematica notebooks associated with the text
+Has notebook files that demo basics
+Thaller has developed paradigm for visualizing the complex plane via color
+Both useful jumping off places for own development
+The Power of Alpha: Electron Elementary Particle Generation with Alpha-Quantized Lifetimes and Masses by Malcolm H, MacGregor
+Establishes the relationship between particle lifetime/mass and the Alpha constant
+Chapter 5 up is of particular importance in one’s assumptions 
+At some level in the paradigm of Stephen Wolfram’s A New Kind Of Science
+Note Wolfram is also the ‘inventor’ of Mathematica
+Amplituhedron Positive Grassmannian papers
+Predicts scattering angles based on n-dimensional volumes
+Need deeper dive on leading singularities
+Lagging singularities may be relevant
+Think need  boarder concept of Grassmannian symmetry (Negative Grassmannian?)
+Currently over one’s head in dealing with the Grassmannian math & on-shell diagrams
+Fixable as/when required
+Obviously this is a condensed reference set
+Elevating hypothecs to a theory via mathematical modeling
+As working at 1st Principe basis with quantum model: assumptions 
+Math integer
+As counting from ‘1’ math should be simple vs. working backwards from multiple differential equations in n-dimensions with no definable model to map against
+While simple expect it to be highly recursive and highly non-linier in growth 
+Symmetry is one’s savor
+Current goal
+Define the core ‘Spinor’ (calling Planckette) 
+This against constraints imposed by assumptions
+ Let it iterate and see if maps to any observed ‘Reality’
+Deceptively simple binary results: it maps or it does not
+Math paradigms required
+For a fresh grad student simple math
+Not fresh grad student 
+Trying to maintain a vector while treading water
+Mathematica helps but don’t claim to be a mathematician 
+Cayley Algebras
+Tensor Analysis
+Matrix Algebras
+Complex number theory through Sedenions and beyond
+Multiple math ‘branches’ need to be reconciled to common approach
+One math paradigm that spans from Spinors to Grassmannian
+At front end of the Planckette Spinor work.
+The active project
+Don’t have house odds of being correct
+Don’t care: beats a Religion, at least trying
+No point in asking trivial questions
+Target audience is oneself
+Been playing with since (very) early childhood
+Goal is a better question in a new paradigm
+If right don’t care who else has name on the Nobel along with mine
+Help welcome 

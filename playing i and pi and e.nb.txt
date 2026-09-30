@@ -1,0 +1,66 @@
+Sqrt[I]!
+((-1)^(1/4))!
+Sqrt[I]
+Sqrt[I]//N
+(-1)^(1/4)
+0.707107+0.707107 I
+
+
+I
+I
+
+
+	I
+I                I
+	I
+TreePlot[{1->4,1->6,1->8,2->6,3->8,4->5,7->8}]
+
+TreePlot[{I->I}]
+TreePlot[{I->-I}]
+TreePlot[{-I->-I}]
+TreePlot[{-I->I}]
+
+
+
+
+TreePlot[{1->1}]
+TreePlot[{1->-1}]
+TreePlot[{-1->-1}]
+TreePlot[{-1->1}]
+
+
+
+
+
+(* Emperical reason and place to put the IDM (QM) negitive vector the Away Vector the One Vector *)
+E^ (I Pi)
+-E^ (I Pi)
+
+
+-1
+1
+
+
+
+2/Pi
+2/Pi //N
+Pi/2
+Pi/2 //N
+
+2/\[Pi]
+0.63662
+\[Pi]/2
+1.5708
+I/Pi
+I/Pi //N
+Pi/I
+Pi/I //N
+
+I/\[Pi]
+0.+0.31831 I
+-I \[Pi]
+0.-3.14159 I
+0.6366197723675814/2
+0.31831
+1.5707963267948966 * 2
+3.14159
