@@ -1,0 +1,23 @@
+Plankette =I
+
+I
+ASpin = Plankette + Plankette
+ as a vector in one dimition _ a pure spin _ toque is the product vector
+Spin is directonless within the spins frame of reference
+Can only get direction when viewed from higher frame of reference with additional degree of fredom
+Plankette + Plankette
+Rotation is binary; the Plankette is either in rotation or not in rotation
+If not rotating has the value of I (?) and is undetectable. This is The Quatum and in effect The Universe. All else being multipul observations of the same Plankette.
+If Rotating has the value of 2I and can be detacted based on its resultend torque. The torque will be the vector product of the two Planettes. Either can be called the real with the other  being the reflection. Model must be agaist a one dimitional point. Rotation can occor on the point. (can the rotation be across multilpule accesss, if so would be up to n -> rotation angles - this implies ... need to think about).
+
+
+
+        
+Plankette + Plankette
+Plankette + Plankette//N
+Sqrt[Plankette + Plankette]
+Sqrt[Plankette + Plankette]//N
+2 I
+0.+2. I
+1+I
+1.+1. I
