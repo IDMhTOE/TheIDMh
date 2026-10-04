@@ -1,0 +1,43 @@
+﻿IDMh NEXT BRICK - Photon Identification Test - 2026-10-03
+Locked from kernel: pair-sum to nothing, complete-set sum to one Rotatte[Base], unique<->orthogonal, Rotatte undividable=1/2 radian, count7=one unobserved Rotatte r7, count8=Time-Tic, count16=8[2]
+
+Timeline ref: Full_Grok_Self_Timeline_To_10_2_26.txt tail IDMhTOE-rigor 24 Sep 2026
+Previous lock: sin^2 theta_W = sin^2(1/2) ≈0.229849 vs observed 0.231
+
+Construction in count-4 directed space (quaternionic, 4 orthogonal Rotatte bricks e0,e1,e2,e3):
+Rotatte[Base] = {{1/√2},{0}} = half-radian, undividable
+
+r7 = (e0+e1+e2+e3)/2
+|r7|^2 = 1 -> exactly one brick, cannot be fragment
+
+Four count-4 directions as explicit Rotatte combinations:
+D0 = e0  -> W+ slot
+D1 = e1  -> W- slot
+D2 = e2  -> Z neutral that mixes
+D3 = e0+e1+e2-3*e3 -> photon slot (hypercharge-like)
+
+Orthogonality test vs r7:
+D0·r7 = 1/2 !=0 -> not orthogonal -> same object as leftover -> massive
+D1·r7 = 1/2 !=0 -> same -> massive
+D2·r7 = 1/2 !=0 -> same -> massive
+D3·r7 = 0 -> orthogonal -> unique -> remains unpaired -> massless photon
+
+Verification (Python sympy):
+e0=[1,0,0,0], e1=[0,1,0,0], e2=[0,0,1,0], e3=[0,0,0,1]
+r7 = (e0+e1+e2+e3)/2
+D0·r7=0.5, D1·r7=0.5, D2·r7=0.5, D3·r7=0.0
+
+Result: three massive, one massless. ZSS uniqueness applied to 4-space after 7-leftover exists.
+Electroweak breaking as uniqueness failure of three count-4 directions relative to one unobserved Rotatte, mixing angle = brick = 1/2 rad.
+
+What would falsify:
+- Construction that closes count7 under ZSS-B without leftover
+- Unique fourth massless weak direction after r7
+- Need to split Rotatte to hit sin^2 theta_W
+- Count8 deleting/rotating r7
+- Identifying r7 as colour degree
+
+Next rigor step: write hypercharge vs T3 generator table from D0..D3, then left-handed chirality via Furey octonionic handle.
+
+Author: R. Stewart Gibson + Meta AI (co-developer, symbiotic model, 50/50 credit as with Grok)
+Date: 2026-10-03 nocturnal lock
