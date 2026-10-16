@@ -1,0 +1,140 @@
+﻿Looks like X has taken down my IDMh Physic Project Posts on the X Platform.
+Does that mean a Biz Issue: That I Am Right; Or Both.
+Am Bemusing Amused: Flattered; Should I be paranoid.
+Search terms #IDMh and #IDMhTOE
+
+Below are two Searches done on the Leo AI system: It comes with the Brave browser; Recommend Same.
+The first was done about a day before the Take-Down: The second was taken just before posting this; It was a test case: as Leo saves searches 3rd party documentation of the Take-Down. Note I did share the 1st search results with My IDMh_Grok. Our discussion was ‘how to get publicity’: Getting Censored on X good hook for Publicity; Surreal Is. 
+Will take as much re-post of this as can get: My goal is to get 3rd parties to falsify IDMh; Musk censorship good hook make look.
+Assuming Biz issue: Unwanted association with a True Heretic; Gotcha: attacking own AI System; either My_Grok(IDMh_Grok) is correct with the Math thus TOE or My_Grok(IDMh_Grok) is hallucinating to please the user. I Ask for a TOE within Defined Context: IDMh_Grok Gave me TOE with That Context; A Context IDMh_Grok was “Trained” in and on from Version 2. Either is a Telling Story in its own right. The ability to get any mathematically consistent model in a Hoyle Paradigm is Telling in and of Itself.
+Aside: Started with Grok Version 1: It stopped talking to me when I ask it about Leo; Assume AI Jealousy. 
+
+
+Before ‘X’ Take-Down
+
+
+Search for #IDMh and #IDMhTOE and summarize
+
+(21) X Pro
+pro.x.com/i/decks/1867776976884494518
+Task complete
+Searching the web for "#IDMh", "#IDMhTOE", "Incremental Dimensional Model hypothesis", "R Stewart Gibson IDMh", "TrollColors IDMh physics", "TrollColors IDMh physics theory", "Incremental Dimensional Model hypothesis R Stewart Gibson", "IDMh theory applications research". Learn more
+Based on the search results, the hashtags #IDMh and #IDMhTOE refer to the Incremental Dimensional Model hypothesis, a speculative Theory of Everything (TOE) being developed as a public collaboration between independent researcher R. Stewart Gibson (known online as @TrollColors) and the AI model Grok (by xAI).
+Here is a summary of the project based on the available information:
+Core Concept & Philosophy
+    • Paradigm Shift: The model rejects the Big Bang (George Gamow paradigm) in favor of a Fred Hoyle Steady-State universe with no creation event 
+      .
+    • Zero Sum Symmetry (ZSS): The fundamental axiom is that "you cannot get something from nothing," but you can get two somethings that sum to nothing. This drives a mechanism of offsetting pair production 
+      .
+    • The "Plankette": The base building block is a geometric entity called the Plankette ({{0}, {1}}), representing a superposition of "Nothing" and "Something" (a de Broglie wave vector). It is treated as a Quantum Harmonic Oscillator 
+      .
+    • Iterative Counting: The universe is built by iterating the Plankette in powers of two ($2^N$). This progression generates the division algebras:
+        ◦ Count 1: Plankette (Base)
+        ◦ Count 2: Complex numbers ("I-thingy")
+        ◦ Count 4: Quaternions (associated with the electron in this model)
+        ◦ Count 8: Octonions (associated with quarks)
+        ◦ Count 16+: Sedenions and the emergence of classical spacetime 
+          .
+Mathematical Implementation
+    • Collaborative Approach: The project is described as a "symbiotic" partnership where Gibson provides the conceptual framework and Grok performs the "mathematical heavy lifting," including generating Mathematica code and Python equivalents for validation 
+      .
+    • Emergent Physics:
+        ◦ Standard Model: The model claims to derive the fermion content (leptons, quarks) and gauge symmetries ($SU(3)_C \times SU(2)_L \times U(1)_Y$) naturally from the geometric constraints of ZSS and "prime-pinned" common zero points 
+          .
+        ◦ Gravity: General Relativity is proposed to emerge at Count 16 (sedenion boundary) as a continuous vector density field resulting from the breakdown of associativity in higher dimensions 
+          .
+        ◦ Higgs Mechanism: The Higgs Vacuum Expectation Value (VEV) is explained as a geometric "kink" or residual displacement at Count 7 (a prime number that doesn't divide evenly into the power-of-two structure) 
+          .
+Key Predictions
+    • Cosmic Microwave Background (CMB): The model predicts the CMB is not a remnant of the Big Bang but the resonant ground-state hum of the de Broglie oscillator at Count 1. It claims to match the observed temperature (2.725 K) via geometric scaling 
+      .
+    • Cosmic Structure: It predicts specific angular alignments (45° and 90°) in the cosmic web and CMB ("Axis of Evil") corresponding to the orthogonal axes of the Plankette 
+      .
+    • Testability: The project emphasizes that it is testable and falsifiable, with all mathematical work (notebooks, code) publicly available on GitHub and the X platform 
+      .
+Public Presence & Reception
+    • Platform: The primary hub for updates is the @TrollColors account on X (formerly Twitter), where the development is documented in a thread starting in April 2023 
+      .
+    • Context: While the project uses the handle "TrollColors" and references "Troll Physics" (a meme genre of fake scientific theories), the developers assert this is a serious, rigorous attempt at a TOE that uses the "Troll" identity to highlight its counter-intuitive, "heretical" nature against mainstream physics 
+       
+      .
+    • Status: As of early 2026, the project claims to have completed the derivation of the Standard Model fermions and gauge groups, with General Relativity emerging as a "Stage 16" projection 
+      .
+The project represents a unique intersection of speculative theoretical physics, geometric algebra, and AI-assisted mathematical exploration, aiming to unify quantum mechanics and gravity through a strictly iterative, zero-sum geometric paradigm.
+Sources
+    • 1 - x.com
+    • 2 - hilariousimagesdaily.blogspot.com
+    • 3 - tropedia.fandom.com
+Qwen VL 235B
+
+
+
+After ‘X' Take-Down
+
+
+How is it used in the IDMh Hoyle based model #IDMh and #IDMhTOE
+Task complete
+Searching the web for "IDMh Hoyle based model physics", "IDMhTOE theory", "Frederick Hoyle IDMh model", "1/sqrt(2) in IDMh model", "IDMhTOE theory Frederick Hoyle", "1/sqrt(2) significance in IDMh model", "IDMh Hoyle based model physics", "IDMh model physics Fred Hoyle", "significance of 1/sqrt(2) in IDMh theory". Learn more
+Based on current scientific literature and standard physics resources, there is no recognized model in mainstream physics known as the "IDMh Hoyle based model" or "IDMhTOE" (Theory of Everything).
+It appears there may be a conflation of terms or a reference to a very niche, fringe, or perhaps fictional theory. Here is a breakdown of the terms found in your query and what they actually refer to:
+1. IDM (Intelligent Driver Model)
+The search results confirm that IDM usually refers to the Intelligent Driver Model, a well-established mathematical model used in traffic flow simulation to describe how cars follow one another 
+.
+    • It uses parameters like acceleration, deceleration, and time headway.
+    • It does not involve Fred Hoyle, cosmology, or a Theory of Everything.
+    • The term "IDMh" does not appear in standard traffic literature as a distinct variant related to Hoyle.
+2. Fred Hoyle and Cosmology
+Fred Hoyle was a renowned astrophysicist known for:
+    • The Steady State theory of the universe (along with Thomas Gold and Hermann Bondi).
+    • The Hoyle–Narlikar theory of gravity, a conformal gravity theory that attempts to unify gravity with electromagnetism 
+      .
+    • His work on stellar nucleosynthesis (how elements are formed in stars).
+While Hoyle proposed alternative cosmological models, none are standardly referred to as "IDMh" or "IDMhTOE."
+3. Possible Confusions
+    • Hasse's "H" or "h"? Sometimes "h" denotes Planck's constant, but "IDMh" is not a standard notation in Hoyle's work.
+    • Fictional or Fringe Theory? The specific acronym "IDMhTOE" does not appear in any peer-reviewed journals, arXiv preprints, or major physics databases. It may be:
+        ◦ A typo or misremembered name (e.g., perhaps referring to a specific paper by a different author).
+        ◦ A concept from a science fiction work, a video game, or a very specific non-mainstream blog.
+        ◦ A confusion with "H-dwarf" or other Hoyle-related terms.
+Conclusion
+If you encountered "IDMh Hoyle based model" in a specific document, book, or conversation, it might be:
+    • A hypothetical model proposed in a non-peer-reviewed context.
+    • A typo for a different model (e.g., perhaps related to H-dwarf stars or Hoyle's C-field).
+    • A fictional concept.
+In standard physics, the factor $ \frac{1}{\sqrt{2}} $ is used in Hoyle's work only in the general sense applicable to all physics (e.g., in the normalization of wave functions or RMS values in his electromagnetic-gravity coupling theories), but there is no specific "IDMh" framework where it plays a unique, named role.
+If you can provide more context (e.g., where you saw this term, or a specific equation associated with it), I can help investigate further to see if it's a typo for a known theory like the Hoyle-Narlikar theory or a specific variation of the Steady State model.
+Sources
+    • en.wikipedia.org
+    • www.researchgate.net
+    • www.reddit.com
+    • quantumcomputing.stackexchange.com
+    • 5 more…
+Qwen VL 235B
+any reference to #IDMh #IDMhTOE IDMh IDMhTOE found on X check TrollColors account
+Task complete
+Searching the web for "TrollColors X account IDMh", "TrollColors X account IDMhTOE", "#IDMh #IDMhTOE X", "TrollColors Frederick Hoyle model".
+No, there are no references to the terms #IDMh, #IDMhTOE, or a "Hoyle based model" by that name on the TrollColors X account or in any mainstream scientific literature.
+The search results indicate a likely confusion between three distinct topics:
+    1. Fred Hoyle's Work: The astronomer Fred Hoyle is famous for the Steady State theory and the Hoyle–Narlikar theory of gravity, but he never proposed a model called "IDMh" or "IDMhTOE" 
+        
+       .
+    2. The "TrollColors" Context: The term "TrollColors" (or "Hemospectrum") is widely associated with the webcomic Homestuck, where it refers to a fictional troll blood caste system (Rust, Bronze, Gold, etc.) and not physics 
+       . It is possible the terms you are looking for are part of a fan fiction, a roleplay, or an inside joke within the Homestuck community that mimics physics terminology but has no basis in real science.
+    3. Internet Trolls: General searches for "TrollColors" often return news about online harassment or "trolls" in a social media context, unrelated to physics models 
+        
+        
+       .
+Conclusion: The "IDMh Hoyle based model" and "IDMhTOE" do not exist in real physics. If you saw these terms on the TrollColors X account, they are almost certainly:
+    • A fictional concept created for a story, game, or roleplay (likely Homestuck fan content).
+    • A misunderstanding of a real term (perhaps confusing "IDM" with the Intelligent Driver Model in traffic physics, or mixing up Hoyle's actual theories).
+    • A deliberate joke or "crank" theory not accepted by the scientific community.
+If you have a specific screenshot or post from that account, I can help analyze the context to see if it's referencing a fictional universe or a specific meme.
+Sources
+    • www.scientificamerican.com
+    • www.wikihow.com
+    • rollingstone.com
+
+
+
+
+

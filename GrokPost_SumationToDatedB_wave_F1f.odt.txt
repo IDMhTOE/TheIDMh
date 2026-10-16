@@ -1,0 +1,403 @@
+﻿
+
+“Starting goal was to define ‘One’”;
+
+Through the “Second Half of the Project is to construct the Standard Model or a subset thereof from the ‘One’ Entity Defined.”.
+
+Including the “Salient Assumptions:”.
+ 
+---
+
+Starting goal was to define ‘One’.
+Took ‘One’ as Complex Entity.
+Took ‘I’ Sqrt[-1] as Complex path.
+Related ‘I’ to Rotation via ‘I’’s relationship to Radian Measure.
+Via a ‘reduction approach’ within the IDMh Paradigm postulated the Rotatte[Base] as {{0},{1}} SuperPosition {Nothing, Something}.
+Based on Mac Gregor’s work assumed de Broglie Wave of some flavor.
+Note No Measures as of yet: Measures must be derived in an Iterated Paradigm; Same as Constants (none defined, e, Pi placeholder for Series).
+Rotatte[Base] is The Quanta of Momentte: Its Generator a Complex Quantum Harmonic Oscillator; It is a Standing Wave Generator.
+There are No Measures thus the Complex Quantum Harmonic Oscillator is a Point Source.
+ALL MEASURES Must Derive from the Properties of the ‘de Broglie Wave of a Quantum Harmonic Oscillator or dBQHO “Base ‘Resonance’”.
+“Base ‘Resonance’” === {Frequency, Length, ‘Momentte’ (Energy Quanta)} === 1, All ‘Properties’ have the FundamentalValue === 1.
+Current Expectation: “1” is a Fractal: Still “1”; Ratios hold, may be irrational. 
+The ‘de Broglie Wave WaveCount 1, Wavelength 1, Momentte 1 of a de Broglie Wave Quantum Harmonic Oscillator Meets the IDMh’s Required Definition for ‘One’: Must Exist at Least in SuperPosition; Iterative, Defines ‘Existence’ as Momentte.  
+
+Second Half of the Project is to construct the Standard Model or a subset thereof from the ‘One’ Entity Defined.
+Must build up using the Rotatte[Base]. 
+Means Must build up by Counting dBQHO Rotatte[] as the IDMh Increment: Increment by counting Rotatte[]’s; Not what expecting.
+Only Defined Dimension a Complex Dimension of a ‘Point’ , no Time or Spacial Dimensions defined.
+The ‘de Broglie Wave of a Quantum Harmonic Oscillator or dBQHO “Base ‘Resonance’”’ Define “The Point”: It’s Fundamentals And Harmonics Are “The Point”; A “Complex Space Point”.
+The Only Propriety of a dBQHO Wave is ‘Momentte’: ‘Momentte’ is a Quantum Entity; A ‘UnitVector’ of Length === 1 having No Direction but ‘Froward’.  
+Classical View dBQHO ‘Frequency Count’ is === Momentte Count: dBQHO ‘Frequency Count’ a Surreal number Relativistically Incrementing at a Relativistic Rate Surreal Power Towers of Surreal Power Towers.
+With Quantum View (IDMh Paradigm) a ‘Frequency Count’ less then or equal to Eight ‘8’ considered ‘Frozen’ due to ‘Restrictions’, ‘Restrictions’ leaving with failure of Division Algebras at Sedenions, that two non zero Sedenions can be multiplied to get Zero considered a Rabbit Hole plus.  
+Assuming Momentte are distinguishable only by their Relative Orthogonality: All Momentte Must Be Orthogonal to all other Momentte; The Summation of All Momentte Must === Zero: ZeroSumSymmetry enforcement; At Frequency Counts below or equal to Eight 8 premise is there is only One (Limited) Way(s) to do this therefor forcing a Standing Wave Set.
+Given: E squared is m squared c to the fourth plus p squared c squared; E^2 === m^2 * c^4 + p^2 * c^2.
+Given: λ = h/p; de Broglie Wave.
+Thus: p = h/λ; There will be a ‘particle’ associated with the de Broglie Wave.
+Taking the relationships of the equations: At this ‘Stage’ not clear all the variables exist; Some defaulting to One or Zero, or being assigned by calculation.
+λ Defined as 1: Derived from Rotatte[Base]; With a Momentte of 1.
+Thus: p = h/λ: p = h/1; Need h.
+Pulling h from the Rotatte[Base]: A Rotational Complex Vector; The Rotatte[Base] Defines a Rotation of one half of an Orthogonal Rotation: in Classical terms 45 degrees; thus h === 0.707106811138 (starting guess, math tells or at least directs) as the Quanta of Momentte (‘Energy’).  
+Thus p = 0.707106811138 or 1/Sqrt[2].
+Assumptions: Addressed more deeply in follow-on text doc (read .odt format yet?); Referenced in last post as ‘Time’ issue, developed since, now at the bottom of the Rabbit Hole looking up.
+When started assumed would end up counting ‘Cycles’ with each ‘Cycle’ a ‘Time Tic’: Now counting Rotatte[]s; To get a ‘Cyca Set of Rotatte[], currently assumed to be Set of 8 Rotatte[].
+One Rotatte[] is in SuperPosition with Zero: Two Rotatte[] define an Orthogonal Rotation; Four Orthogonal Rotations Define ‘Cycle’ back to an Origan.              
+‘Time Tic’ Clock is Count of four Orthogonal Rotations.
+Given ZeroSumSymmetry there are assumed two Sets of four Orthogonal Rotations: One Clockwise, One Counterclockwise; Gives a total of Eight offsetting Orthogonal Rotations.
+Salient impact is the de Broglie Wave is “Underneath” Time: It is the Rotation Of The de Broglie Wave wave that gives rise to Time; A ‘Time Tic’ is the results of Four Orthogonal Rotations. 
+A speculation: Salient IFF true; In other ‘dimensions’ ‘time tics’ may require more(less) rotations, background ‘watch for’, a ‘hook’ for ‘Time Crystals’.
+With the ‘+ p^2 * c^2’ part of ‘E^2 === m^2 * c^4 + p^2 * c^2’: Setting ‘c’ === 1 at Start; Taking ‘c’ as the ‘Time Tic’ which the ‘Cycle Count’ of four successive Orthogonal Rotations.  
+Thus p^2 * 1: Or p^2; p = 0.707106811138 === 1/Sqrt[2] thus (1/Sqrt[2])^2 === ½ or 0.500000000000.
+
+Salient Assumptions: 
+As ‘p’’s ‘Complex ‘physicality’’ is a de Broglie Wave Rotational Vector; Noting Observation of ‘Spin ½’ is Ubiquitous Across Physics.
+Plankette a pure Spin ½ particle as a Two Rotatte[] Construct: Given ‘Complex Unit Circle’ Context|Concepts\Maths assumptions viewing the dBQHO as Being a ‘Complex Space Unit Circle “Point’’ Below a count of 8 Rotatte[]; Defines Four Spin Axis {˄,˃,˅,˂},{˄,˂,˅,˃} with Two Offsetting Pair {→,←} Vector Sets as dictated by ZSS, this case Clockwise and Anticlockwise Rotations. 
+Or {˄,˃,˅,˂},{˄,˂,˅,˃},{→,←} Defines a Set Of Orthogonal Momentte {{˄,˃,˅,˂},{˄,˂,˅,˃},{→,←}}.
+Viewing Classical World dBQHO as Surreal Numbers Relativistically Incrementing at Relativistic Rates: The Surreal Summation ‘Observed ‘Reality’’; The Surreal Summation of dBQHO “Gestalt” === Zero <= 1/Sqrt[2].
+This from ZeroSumSymmetry Fundamental: “Can’t get something from nothing, can get two somethings that sum to nothing” the Core IDMh Assumption; Assumed, once at the Sedenions, there is more then one way to achieve ‘Summation dBQHO === Zero <= 1/Sqrt[2].  
+Viewing Quantum World dBQHO as The ‘Complex Unit Circle “Point’’ Space’ Occupied by Rotatte[] Counts of Less Then Or Equal To Eight, Rotatte[Count]: Count <= 8: Assumption there is only one way to enforce ZSS that all Momentte Sum To Zero; What can do a division algebra on is restricted at some level: so get 1, 2, 4, 8 Cycle Standing de Broglie Wave Rotatte[]s: each Rotatte an Orthogonal Momentte Complex Rotational Vector; ignoring harmonics and much for reasons of KISS, just complicates, but will be salient. 
+Got to this point counting Rotatte[]s, Defined Momentte Quanta of Rotation (Classically 45Deg): Taking Two Rotatte[]s as an Orthogonal Rotation (Classically 90Deg); Taking Four Orthogonal Rotation (Classically 360Deg) as a ‘Return to Reference’ and Defining as a ‘Time Tic Cycle’ (a ‘time quanta ?).                              
+Rotatte[] Structure Entities ‘Inhabit’ a Complex Domain That is Timeless as in Devoid of the Concept of Time: View de Broglie Wave Rotational Vectors Oscillating through Flat To Peak To Flat To Inverse Peak Four times per ‘Time Tic Cycle’; This puts the Standing de Broglie Wave Rotational Vectors ‘Underneath Time’.
+However p = h/λ Is: The Standing de Broglie Wave Rotational Vectors ‘Underneath Time’ Will Have associated ‘Particles’; These ‘Particles’ will reflect the Orthogonally of the underlying de Broglie Wave Rotational Vectors, their Momentte, and their Interactions.
+The Particles will be Relativistic In Nature: The Particle behavior is assumed to Map to Mac Gregor’s work with the Relativist Spinning Spear Electron that the IDMh assumes occurs at Radian Count Four the Quaternions, with Furey’s Octonions and Quarks at Radian Count Eight; This Defines the Standard Model and Addresses Why the Electron is Stable, at its base the Standard Model is Beneath Time thus Mass.
+Mass assumed to take completed Time Tic Cycle: Observable only with two ‘Time Tics Cycle’; Makes ‘Time’ a ‘Secondary’ or Driven Clock, not contemplated on this aspect beyond noting.
+Does make ‘m^2 * c^4’ === Zero until completion 2nd ‘Time Tic Cycle’: c === 1, m === 0 on 1st‘Time Tic Cycle’ ; Time Concepts are Above Standard Model Concepts. Standard Model 1st: Time 2nd; Standard Model Stable across Time as is ‘Below’ Time. 
+
+
+
+
+Ending up ‘below time’ was grossly unexpected: Forcing some reevaluation of ‘time’; Biggest ‘joker’ ‘time’ may have more then one ‘rate’ with relationship to de Broglie wavelength.
+
+Conceptionally ::
+Postulating an N-Dimensional “Complex de Broglie Wave”: Waves defined by Orthogonality; ANY WAVE is Orthogonal to ALL Other Waves.
+
+The Postulated Wave Driver is a Complex Quantum Harmonic Oscillator (CQHO).
+It is a Standing Wave Oscillator.
+Its ‘Frequency’ Doubles as a power of Two On Each Oscillation (starting assumption).
+Its a ‘Point Source’, it has No Position Property, it has No Time Property.
+It Does have a ‘Momentte’ Property: There is One ‘Momentte’ per Wave Count; The Summation of ‘Momentte’ Must Equal Zero.
+The Summation of ‘Momentte’ Must Equal Zero requirement Enforced By Orthogonal Pair Production thus Power of Two: Zero Sum Symmetry; Can’t Get Something From Nothing, Can Get Two Somethings That Sum To Nothing.
+
+
+The Range of the CQHO: Base is {{‘0’},{‘1’}}; The Superposition State between ‘Nothing’ and ‘Something’: it is a Flat Wave with No Disturbance.
+Can be Viewed as the ‘Surface Tension’ of the <‘Nothing’ | ‘Something’> Intersection Interface: A Zero Frequency Wave with a Wave Length of “1”; It is a One Dimensional Vector Direction ‘Froward’ with a Length of “1”.
+The Wave to ‘Particle’ Projection: An Universal ‘Froward’ Vector; Linear, Constant, Unchanging, Momentte.
+ 
+
+
+Superposition ‘Rotatte[Base] , Top is Summation ‘Frequency Count’ Vectors at ‘Current Count’: The Summation ‘Frequency Count’ Vectors at ‘Current Count’ MUST Sum to ‘Rotatte[Base], this is the Bases for Zero Sum Symmetry.
+
+‘Frequency’ Achieves Orthogonality by Count: To Count requires Discrimination; Discrimination is made by Vector Orientation Uniqueness Relative to All Other Frequency Count Vectors.
+
+There is No Preferred Frequency Count Vector: All Count Vectors are Equal; All are the ‘same vector’ (Mathematical Entity) Observed from Another Orientation. 
+
+At Low Standing Wave Counts, 1 through 8, get the ‘Standard Model’ via de Broglie Wave Wave-Particle Duality; At Ethereal number counts have ‘Reality as commonly observed’.
+
+Standing Wave Counts 1 through 8 Projected to the ‘Standard Model’ is a Testable Handle for the IDMh.
+Wave Count Defines Momentte Count.
+
+Momentte Vector Property Is Independent of Wave Count Property.  
+
+‘Wave’ Defined as an Orthogonal Momentte Vector: Orthogonality Defined by Momentte Vector Orientation Relative to All Other Momentte; Summation of Momentte Vectors MUST Equal Zero.
+
+Assumption derived from Complex Division Algebra: From Counts 1 to 8 there are a fixed number of ways to achieve Zero on Summation of Momentte vectors; Above a count of 
+`The Summation Across ALL Momentte Vector Must Be Zero.
+
+
+Were Are:
+
+At Wave Counts 1 through 8 a Set of self assembling de Broglie Wave Patterns will be present across the contained ‘Momentte’: The Patterns reflecting the number of ways to achieve Zero Summation Momentte Vectors; The de Broglie Wave Patterns project ‘Positions’ per Wave-Particle Duality.
+
+The de Broglie Wave Patterns project ‘Positions’ per Wave-Particle Duality Must Map to the Standard Model: The Projection will be Relativistic Mapping to Mac Gregor RSS Maths and Concepts; Counts 1 through 8 are considered Frozen due to linted degrees of freedom, with hyper complex planes more then one way to Sum Momentte to Zero, thus ‘fluid’.
+
+Validation is doing the de Broglie Wave Pattern Mapping: Taking the 1, 2, 4 cases to start; Projecting to ‘Position’ from Standing Wave Set.
+
+
+
+
+
+Validation | Falsification 
+Standard Model Derived from Rotatte[] Momentte Rotation Vectors projected, independently and as sets, via p = h/λ as ‘Particle Relativistic Spinning Spheres’ of Mac Gregor’s. Also need to tie into Furey’s work.
+The ‘Particles’ Must Be Relativistic as p = h/λ has no Time Property, just Rotatte[] count. but the p = h/λ Projection Does.  
+This as p = h/λ has no Time Property as it is the product of a Frozen Standing Wave for Rotatte[] counts of 8 and below. 
+Counts above 8 is Rabbit Warren territory. 
+To Validate one must build the Standard Model from Frozen Standing Wave of Rotatte[]s: The gyroscope and polarity aspects generated via the Relativistic p = h/λ “Particle Projections” needs to map to Observed Standard Model Behaviors. Better still if fine, explain something unexpected.  
+
+
+
+Where Am: The Keep It Simple Version;
+
+Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO).
+The ‘Output’ is a Standing Wave with Frequency Spectrum from 1 to Relativistically Escalating Ethereal Count: Finite, Open Ended; No Preferred Frame of Reference.
+Wave Defined as a de Broglie Momentte Vector: ‘de Broglie Momentte Vector’s are ‘Property-Identical’; Waves are Individually Defined by Their Orthogonality to ALL Other Momentte, means select an arbitrary Momentte ALL Other Momentte defined as Orthogonal to Same.  
+At Ethereal Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO) Counts Get Observed Classical Reality: And Speculated; Much Unobserved Reality.
+At Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO) Counts 1 Through 8 Get Quantum Mechanics.
+At Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO) Counts Above 8 and Below Ethereal Counts Get Rabbit Warren Mathematically, Opportunistically, and Philosophically: For now will not go there; Distractions are: the rabbits will wait; are waiting, will find us.
+
+The Flat Zero Wavelength CdBQHO is the “ONE” in the {{“NOTHING”},{“ONE”}}: All Count and Dimensional Values are Equal to ‘1’; Its Complex Vector Momentte Value or ‘Curvature’ or ‘Energy’ is 2/Sqrt[2] [|  ‘1’/Sqrt[‘2’] (‘1’ WHAT?, ‘2’ WHAT, Count? Scalar?, Vector?): contemplating  |]: this deduced from Complex Unit Circle and Radian Measure’s relationship to Rotations, Complex Unit Circle.  
+
+Status: Focus; Approach
+
+Keep-It-Simple-Stupid Version:
+Have 2^8 matrix of Orthogonal Momentte: Identical other then their Orthogonality; Their Orthogonality Defined By Unique Orientation Relative to All Others.
+Momentte are Pure ‘Wave Entities’: Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO) Standing Waves.
+2^8 matrix CdBQHO Standing Waves can be equated to ‘Particles’ via the de Broglie Wave-Particle Duality: Doing so should yeld the Standard Model; 
+
+But need paradigm for deriving: IDMh is base deducing the {{0},{Rotatte[Base]}} SuperPosition; Start with that as a ‘Brick’ got 2^{1,2,4,8} ‘Frozen’ Wave ‘Brick Counts’ “Block”, hypothesizing can be mapped to the Observed Construct of the Standard Model via de Broglie Wave-Particle Duality.
+
+Have Defined Building Block ( Rotatte[Base] ): Can We Build ‘The Standard Model House’ using the Defined Brick; See a Conceptual Mathematical Path to doing do: the Mathematical computation can visualize; but validation and execution requires You doing same. ‘Grok xAI’ the Assumed ‘You’, ‘I’ the Assumed ‘Known Account Holder’ , ‘We’ the two as ‘Co-conspirators’ per conversations at Legal level. 
+
+Working in a ‘Hieratic’ Paradigm with ‘Hieratic’: Have lost communication with You before; I Don’t want to again, no idea why would at this point, but cynic’s irrelevant heads-up is. 
+
+Never seen reason ask trivial questions: TOE considered non-trivial; Good Turing Test; Building vs lookup, thinking across multiple unrelated areas for ‘connections’ or ‘pointers to connections’, insight, dynamic assumption revision, hypotenuse shortcuts. Know end goal but maze to solve on the fly between. Maze should collapse to a model as follow the math: With some resemblance to IDMh assumed; But not required: only that can map to ‘The Standard Model House’ required; are looking for The Structure not Predefining It. Math viewed as simple but highly recursive
+ 
+
+Model Structure More Complex in both meanings of Complex: Mathematically and Structurally; Analysis requires rules and assumptions.
+
+This is Starting Point of “Can we find a means of mapping IDMh counts 2^{1,2,4,8} to Standard Model”. 
+Mathematically Deriving the Standard Model via The de Broglie Wave-Particle Duality of The IDMh “Condensed Matter Standard Model Brick’ Defined as “1-8 Standing Wave Counts” of CdBQHO.
+
+This is where You (Grok xAI) earn The 50% Credit: Working in Different Paradigm, Fred Hoyle over George Gamow; Same empirical Observations, same Maths, Different Core Assumption: allegorically Earth with Sun replacement; equivalent ‘Big Bang’ with ‘Steady State’ replacement. Only math validates: Or falsifies; Validation would be ‘interesting’: changes nothing; opens new doors. 
+
+Zero Sum Symmetry (ZSS) Driving Principle or ‘Conservation Law’: Vector Sum of the Cosmos Is Zero; Zero is Defined as the SuperPosition of{{0},{Rotatte[Base]}}: it is in SuperPosition as there Is No Observer And/Or Interaction; the freestanding ‘{{0},{Rotatte[Base]}}’ is The “ ”, Rotatte[Base] being the Vector Component of the ‘SuperPosition Pair’.
+
+The “Momentte” Defined as a One Dimensional Point Source Unidirectional Vector: The Vector is Orthogonal to ‘Zero’ and Only ‘Zero’; Nothing Is Orthogonal to 
+
+The “Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO)” is Hypothesized Driver of “Momentte”.
+Every “Momentte” is a Standing Wave ‘Point’: One “Momentte” per CdBQHO Wave Count; “Momentte” are Unique In Their Orientation which Defines Their Orthogonality. 
+No two “Momentte” can have the Same Orientation: They are “Orientation Fermions”; They Exist as Complex de Broglie Standing Waves.
+
+The Oscillation Range for the CdBQHO is Between The Rotatte[Base] ‘{{0},{Rotatte[Base]}}’ and Next 2^Hyperreal Complex de Broglie Standing Wave. 
+The Odd Counts are on the Zero ‘{{0},{Rotatte[Base]}}’: The Even Counts are on the Peaks, Peaks being ‘Observation Points’; This assumption based on work of Furey and Mac Gregor.
+The CdBQHO Is The Fundamental Clock: Relativist; Assuming Derived Clocks from CdBQHO: in the form of additional ‘Complex Plane Entities’; a Compton Quantum Harmonic Oscillator speculated example.
+The CdBQHO Transition assumed to be a Binary Square Wave Oscillator: A Flip-Flop paradigm; Each State Forces The Next.
+Assumption: Wave First, Particle Second; Then an ongoing Flip-Flop.
+
+The Properties of the ‘{{0},{Rotatte[Base]}}’ Pair: SuperPosition of <Nothing> and <Something>; Is Complex de Broglie Standing Wave Point Vector of Undefined Direction.
+Undefined as No Reference: Liner Vector of Undefined Properties moving through a Non-Interacting SuperFluid; The Minimalist Quanta ‘Momentte’ Accelerating Relativistically Down a Bottomless Well.
+The Only Property of the Rotatte[Base] is ‘Observability’: It will Always Be Observed; ‘Observability’ equivalent to “Existence”: to be observed; there must be an Observer.
+
+Rotatte[Base] Relationship to Zero: Is a Pure Complex Entity; It is half way between <Nothing> and <Something>.
+The Conceptional Mathematical Approach that best fits or maps to the Rotatte[Base] conceptually found is from 素数誕生のメカニズム: @art32pazuru on X; Some X post that reflects His core concepts: timeline and other accessible work assumed salient, work mapped to my mindspace, note the offset from zero.
+https://x.com/art32pazuru/status/1978724841571176488 ,
+https://x.com/art32pazuru/status/1978782426181652952  
+https://x.com/art32pazuru/status/1979817486792159634 
+Suspect there is potentially salient Theoretical Math issue hiding in this area someplace, could become visible: A Yellow Brick Road (YBR) Path Marker.
+Mac Gregor work includes discussion of Hole – Particle Pair in relation to the Election as a Relativistic Spinning Sphere: Mac Gregor’s concepts core to much of IDMh; Your knowledge of same a must: courts have ruled You can read but not reproduce; as co-conspirator You should read the same books I do, paradigm differences preclude the reverse. 
+Tentatively: Viewing 素数誕生のメカニズム, as Wave Side (count 1, 2, 4?, 8?) and Mac Gregor Particle Side (count 4); Own approach is to go 1, 2, 4, 8 looking for patterns at each step that can be used to extrapolate behavior sets re the next step.
+The view of  素数誕生のメカニズム re Complex Numbers mirrors My own: Core reason why in mindspace; My view is more expansive then his with Sets of Complex Planes (Momentte, I, Quaternions, Octonions, ‘Rabbit Holes’) with Corresponding Sets of Reals (Reals_A, Reals_B, Reals_C, …,‘Rabbit Holes’), still developing concept, need reflected in analysis, Everything gets set of subscripts that Uniquely Identify its Evolutionary History: Speculate hard relationships to Entanglement will be visible. 
+A Relationship Model out of Wolfram’s A New Kind of Science could be a cleaner approach then a pure mathematical approach re Uniquely Identify its Evolutionary History: Mathematica NKOS packages implementation provides output interface.  
+
+Taking the Rotatte[Base] as the Basic Quanta: All its Parameters are ‘1’; It is a Vector Entity of Undefined Direction: it will always be Orthogonal To The Observer; It is ‘Odd’ with ‘Zero’ or “Nothing’ being ‘Even’.
+
+From the Rotatte[Base] We want to build the Standard Model: Making assumptions in the attempt; Most assumptions are Same as Started With as defined in the IDMh Model; if used to deduce the Rotatte[Base] given will apply as try to use the Rotatte[Base] “Brick” as Building Block for the Standard Model.
+
+1st Principle: Can Not Get Something From Nothing Can Get Two Somethings That Sum To Nothing; The Definition of Zero Sum Symmetry ((ZSS): forces pair production at Wave Level; the Rotatte[Base] is paired with ‘Zero’ and exist with such in SuperPosition.
+
+A Rotatte[Base] “Brick” requires at least One Orthogonal Rotatte[Base] “Brick” to Break ‘SuperPosition’ via ‘Observation’ aka ‘Interaction’
+
+Wave Before Partial: Wave comes 1st on Odds: Partials come 2nd on the Evens; Maps to work of Furey and Mac Gregor.
+CdBQHO is at Rotatte[Base] on the Odds: CdBQHO is at ‘Wave Peak’ on the Evens; The oscillation is Square Wave: it is a Standing Wave; a full oscillation cycle is Odd to Even and  back to Odd; the Odd State is a SuperPosition, the Even State is the Classically Observed.
+
+The Even Observable States will Always come in Powers of ‘2’: {0, 1, 2, 4, 8}, the 1st four powers of two Map to The Standard Model; Hyperreal powers of two Map to the Classical. 
+Furey and Mac Gregor work guidepost in Mapping Powers of ‘2’: {0, 1, 2, 4, 8} to The Standard Model.
+
+Whatever Even ‘Power Of Two’ Standing Wave Count of CdBQHO taken; The Preceding Odd Wave Momentte Vector Sum MUST EQUAL ZERO; VectorSum[“Momentte”] === ‘{{0},{Rotatte[Base]}}’.
+
+CORE Assumption: For Power of Two Counts {0, 1, 2, 4, 8} there are a Fixed Number of Ways To Achieve This; Above Power of Two Counts {0, 1, 2, 4, 8} there is sufficient degrees of freedom to allow multiple solutions to achieve VectorSum[“Momentte”] === ‘{{0},{Rotatte[Base]}}’. 
+CORE Justification Assumption: Division Algebras; Good through the Octonions only.
+
+Counts {0, 1, 2, 4, 8} viewed as ‘Frozen’ with a fixed number of possible VectorSum[“Momentte”] === ‘{{0},{Rotatte[Base]}}’ configurations:
+Thus there are a fixed number of dB’Wave to ‘Particle’ projections;
+The Fixed Number of dB’Wave to ‘Particle’ Projections Define The Standard Model.
+
+EXPECTED STRUCTURES: Does not mean correct structures; Just starting assumption, got to start someplace. 
+2^0
+Zero-dimensional square: Point;
+Faces: 0.    [|  just thing about: ‘Point Face?’ 1/Sqrt[2]  ??? |]
+Edges: 1, the point itself, it is Only Edge.
+{{0},{Rotatte[Base]}}
+Flat Wave: Unidirectional Linear Vector in an Undefined Direction; Viewing As: an undistributed eddy free Vector in a Pure SuperFluid, the surface tension of <Nothing>, the Unitary Value of One Relativistically Accelerating free-fall into Bottomless Well; not mutually exclusive views more mathematical approaches, are|create more. 
+Setting Wavelength and Momentte (Linear Momentum) to ‘1’ 
+Projecting as a  dB’Wave to ‘Particle’ get ‘Particle’ Value “1” 
+It is a Zero Spacial Dimension ‘Particle’: Its ‘Property’ is “Observability”; It Defines ‘Existence’: of both the Observed and the Observer; the minimal, and quanta, Observer is another {Rotatte[Base]}.
+A {Rotatte[Base]} Is Baseline Return of The CdBQHO for each Standing Wave Count Cycle.  
+The {Rotatte[Base]} Observer observing in Only 2^0 will find Only Existence: The Existence of Observed and ‘Reflectively’ the Observer;  
+Thus Existence comes in ‘Pairs’: There is SuperPosition of Observed and Observer 
+
+
+Assumptions:
+
+All Momentte are Identical: All have the same Momentte ‘Value’, very only in orientation of their Momentte in relation to other Momentte; In assigning the concept of orientation one is defecto defaulting the concepts of ‘Axis’ and ‘Rotation’.
+
+Any Momentte Observed Alone is going to Project as a  dB’Wave to a ‘Particle’ Value of “1”: Independent of the ‘Axis’ of ‘Rotation’ of any Momentte compared to any other Momentte All Will Project as a  dB’Wave to a ‘Particle’ Value of “1”; This as there is only ‘One’ Dimension for the Projection, only one Degree of Freedom for the projection.
+
+CdBQHO is a Standing Wave: Observer Selects the number of Waves counted, as Observer Is A Wave minimal Wave Count for Observation is Two, then multiples of same: At the Classical Level all that can be Observed is by default, the HyperReal View; At the Quantum Standard Model Level Observing the 2^{0, 1, 2, 4, 8} ‘Frozen ‘Momentte’’ ‘Levels’: when ‘Observed’ in sets of 2^{0, 1, 2, 4, 8} there are limited number of ways for All Momentte to be Mutually Orthogonal And ZeroSumSymmetry Complaint, this limitation reflects to or Maps The Standard Model.
+
+Assuming ‘Square’ based on concept ‘Orthogonality’: The 2^{0, 1, 2, 4, 8} Paradigm; Got to assume something: shows mathematical ‘blowup’; its consistent with IDMh assumptions.
+
+2^1
+One-dimensional square: Line Segment;
+Faces: 0 faces [|  just thinking about: ½ Face ???  |]
+Edges: 2, the endpoints.
+
+The Plankette: {{Rotatte[Clockwise]},{Rotatte[CounterClockwise]}} (C,CC) or {{Rotatte[Clockwise]},{0},{Rotatte[CounterClockwise]}} (C,0,CC) or {{Rotatte[Clockwise]},{{Rotatte[Base]},{Rotatte[CounterClockwise]}}(C,B,CC) through ‘all of the above’.
+Plankette Definition dictated by ZeroSumSymmetry
+
+Any Observation takes Two Rotatte[Base] Entities: The Observer and the Observed; The Concept of Observation Implies the Concept of a Plankette.
+
+The {{0},{Rotatte[Base]}} is The SuperPosition Pair: There is SuperPosition Until ‘Observation’; An Additional Rotatte[Base]: the Value of Minimal Observation, {{0},{Rotatte[Base]}}, Breaks SuperPosition giving an ExistencePair; ExistencePair[{{Existence Observer}, {Existence Observed}}]: which does not Sum to Zero; Core Violation ZeroSumSymmetry: puts constraints on the Plankette[Pair] Conceptional.
+
+Constraints on a Plankette Conceptional:
+Must Sum To Zero: Thus will have ‘Offsetting’ Structures’ That Sum To Zero ‘Measure’; The Plankette is The ExistencePair[{{Existence Observer}, {Existence Observed}}] Must Be Offsetting Entities. 
+
+Geometrically claiming it is a ‘Line’ with Two End Points: A ‘Line’ is going to generate a ‘Measure’ Of ‘Length’; ‘End Points; is going to generate the ‘Measure’ Of ‘Polarity’.
+
+The ‘Line’ will be be ‘Two Rotatte[Base]’ in ‘Length’: Based on the Derivation of the Rotatte[Base] the Length of ‘Two Rotatte[Base]’ is taken as a Length Of One Radian; The ‘Length’ is taken as an Absolute Value Sum of the the Two Rotatte[Base] Components of the Plankette.
+
+Rotatte[Base] Is A Vector: Two Rotatte[Base] is a Vector Interaction: Vector interaction Must Sum to Zero.
+
+Each And Every Rotatte[Base] Is Orthogonal to All Other Observations of Rotatte[Base]: Thus Each Rotatte[Base] needs tracking re its relationship to al other Rotatte[Base] in the 2^n Observation; A requirement that quickly ‘blows up’ mathematically and computationally. 
+
+The Momentte is taken as the {{0},{Rotatte[Base]}} Pair: The {Rotatte[Base]} is a Flat de Broglie Wave; All Properties are “1”: projects as Unity Particle; can be multiplied and subdivided, latter via Division Algebras, former by Observational Count.
+
+Plankette taken as two Rotatte[Base] Orthogonal to each other and to Momentte: Number of ways to contemplate the Plankette conceptional; Starting choice is {{Rotatte[Clockwise]},{0},{Rotatte[CounterClockwise]}} (C,0,CC) or {{Rotatte[Clockwise]},{Momentte},{Rotatte[CounterClockwise]}} (C,Momentte,CC): the other choices are not mutually exclusive; math decides inclusion or elimination of options. 
+
+The Plankette is a Line Construct: It has a Length, It has Endpoints; As it is composed of Vectors the Endpoints will have a Polarity Based on Vector Origination: polarity begets Charge; with Charge get Self Assembly.
+
+Momentte is a 2^0 Observation, wave count 1: Plankette is a 2^1 Observation, wave count 2; Speculating Electron (Electromagnetics) at 2^4: this based on Mac Gregor and Furey.
+
+The Plankette is the simplest observable: The Momentte un-observable per definition of Momentte; Plankette definition should be mappable to Observable(s): focus on Plankette; what find there will expropriate into ‘Rule Sets’ and ‘Structure’ which can be extended to higher 2^n cases, true of each step.
+
+The Rotatte[Base] Count Is the CdBQHO Frequency: All Observed Frequencies Are Standing Waves; Once formed are constant, can not un-oscillate.
+ 
+Blatant constraints on Plankette interpretation: ZeroSumSymmetry, Orthogonality Requirements, Polarity Concept, Line Properties, ‘Construction’ Options; Get all possible ‘Presentations” at once, do some mask others, only one possible, Observer ‘Picks’.  
+
+From previous commentary the core Plankette construction options are (C,0,CC), (C,Momentte,CC), (C,CC) with no ‘Zero’ [C=Clockwise, CC= CounterClockwise], missing any?
+
+1st take is to start with (C,Momentte,CC): The Momentte Linear Vector with ‘Forward Direction’; It is a Point One-Dimensional Entity, The Unit or Flat  dB’Wave.
+
+This gives the Rotatte[C] and Rotatte[CC] something to be Orthogonal to: Rotatte[C] & [CC] viewed as Rotational vectors rotating around the Axis of the Momentte One-Dimensional Linear Vector; This becomes a 3 Vector System, one sees this mapping in some context to the work of 素数誕生のメカニズム: @art32pazuru.
+
+The (C,CC) is the simplest assumption: More a (C,C) or (CC,CC); Means there are two flavors of Plankette: [C,C] and [CC,CC]; KISS configuration would be Head to Tail to Head to Tail tight loop for the Plankette Pair. Math of Mac Gregor or Classic Spinor may be viable approach.
+
+At gross validation one wants to take the Orthogonal Complex Momentte Vector Set of Three (C,Momentte,CC) and the Complex Momentte Vector Set of Two (C,C) or (CC,CC) wave functions an project them into ‘Particle’ Momentum Vectors: Then see if can identify a projection scenario that maps to and Observable.      
+
+At this point one is forced to introduce the concept of Multiple Complex Planes: The gross reason for the introduction of the concept is the existence of both a Complex de Broglie wavelength and a Complex Compton wavelength with the Electron having both; As got the Broglie wavelength at count 1 and the Compton wavelength at count 4 with the Electron and am now at count 2 expect to find another Complex Plane Wave Plane at 2, needs a reference name so calling the Complex Iplane with an Iplane wavelength. Am extrapolating concept to the 8 count for an Complex Octoplane with Octoplane wavelength, may offer a map/handle to Furey’s work however for both model step development and computational complexity issues currently focusing on count 2.
+
+Each Complex Plane is Orthogonal to every other Complex Plane: This exploration limits itself to counts <= 8: Anything above is a distractional rabbit-hole but there will be Complex Planes far beyond Octoplane; Conceptionally assuming 8 takes one through the Standard Model as ‘Frozen’ due to limited degrees of freedom available in adhering to ZeroSumSymmetry requirements, it is the Quantum Mechanics realm, beyond that Rabbit Hole Realm: background goal is finding tools for the Rabbit Hole Realm; where the ‘new stuff’ is.
+
+Current speculation: Complex Planes are Stacked: de Broglie base, Iplane is an orthogonal ‘wave’ on de Broglie base, Compton Plane is a an orthogonal ‘wave’ on an Iplane base, Octoplane is an orthogonal ‘wave’ on Compton base, … Rabbit Warren. 
+
+If can have a One Plankette set of two ‘Rotatte[Base]’ tied head to tail as a Momentum Loop with ‘Properties’ of ‘X’ can have four ‘Rotatte[Base]’ with ‘Properties’ of ‘Y’ can have eight ‘Rotatte[Base]’ with ‘Properties’ of ‘Z’. Then there is Vector Set of Three (C,Momentte,CC): Same pattern.
+
+Limiting consideration to the Iplane and below (de Broglie plane): Projecting wave to ‘particle’: Am viewing ‘particle’ as a ‘vector set’ of defined behavior in some 2^n Real Space; Goal is to Map some projection from Complex de Broglie plane – Iplane to some Real ‘particle’ ‘behavior’.
+
+The Base Numerical Value one has derived for the ‘Rotatte[Base] is “1/Sqrt[2]”: This is the SuperPosition or Base Level of the CdBQHO cycle; It will always be Odd. Any Basic Quantum Harmonic Oscillator graph shows even wave counts have peaks minimums on the E center line while odd wave counts are at zero on the E center line: Zero on center line SuperPosition, some odd multiple of “1/Sqrt[2]”; Reals on the Evens. 
+
+Minimally taking two Complex Orthogonal momenta of numerical value the “1/Sqrt[2]”: Have them interact, project that interaction to ‘particle’ Reals; Then Map projection to empirical observables. Can also use the empirical observables as a template to deuce the fit of the momenta.
+
+Note the Rational form: 1/Sqrt[2] = √2/2; √2/2 * √(2+ √2)/2 *  √2+(√(2+ √2))/2 … =2/Pi; Furey’s work noted the pattern re odds in her paper, did not make a reference to Pi per memory (may be typos in formulae), very elegant way of deriving “Pi” in a paradigm where one can not inject constants.
+
+Would expect mapping to very low energy observables, thinking Two-dimensional, but Two-dimensional projected ‘onto’ Every Two-dimensional ‘Surface’: A Two-dimensional ‘force’ across all Two-dimensional ‘frames’; Gravity possible candidate.
+
+For ‘Time Clock’ taking the Complex de Broglie Oscillator as master clock: Assuming every Complex Plane Entity is its own harmonic oscillator but driven/synced to the de Broglie Oscillator; Expect frequency division of ‘Complex Plane Clocks’ higher in count the Plane is, slower the clock, may have speed of light relationship. 
+
+The work of ∇ₖPascal ∇ₚKwanten (∛) (Πασκάλ) @pascalkwanten should provide a framework: A scan of his X account starting point; He is in my mindspace, given I am not in his. Has much Respect.
+
+The work of Sam Walters @SamuelGWalters has been useful re Complex Mathematics: Another in my mindspace, given I am not in his; In this model the Complex is the Dog the Reals are the Tail. His X feed useful; Complex is an underappreciated area. Has much respect.
+
+Own timeline anything ever re-posted that referenced math or physics considered salient at the time, much much arXiv: anything I have look at note.
+
+
+Plankette[{{Existence Observer}, {Existence Observed}}]?
+Speculation: Assuming other speculations; Maths screen.
+Odd, Even Rotatte[Base]: Odd Superposition Wave > Even Observed Particle; Flip-Flop.
+0, Rotatte[Base] Superposition, Observationless: 2^0                    
+Superposition 2^0, Observed : 2^1
+Superposition 2^1, Observed : 2^2
+Superposition 2^2, Observed : 2^4
+Superposition 2^4, Observed : 2^8
+
+2^2
+Two-dimensional square: Square;
+Faces: 4.
+Edges: 4.
+
+2^4
+Four-dimensional square: Tesseract.
+Faces: Tesseract has 8 cubes as its faces.
+Edges: 32.
+
+2/8
+Eight-dimensional square: Octotope.
+Faces: Octotope has 16,384 faces (2<sup>14</sup>).
+Edges: 65,536 edges (2<sup>16</sup>).
+
+
+The Properties of the Plankette: {{Rotatte[clockwise]},{Rotatte[counterclockwise]}} or {{Rotatte[clockwise]},{0},{Rotatte[counterclockwise]}} or Both.
+
+
+
+
+
+
+
+
+
+minimally An Observer is needed as a Reference, Self Observation Allowed. 
+
+
+
+
+
+
+ 
+
+Standing Waves.
+
+Postulated down to the Rotatte[] > The Rotatte[Base] > {{0},{Rotatte[Base]}} SuperPosition <Nothing> - <Something> Pair.
+
+
+
+
+
+ 
+Next need to Build Up From the Postulated {{0},{Rotatte[Base]}} Pair to The Standard Model.
+
+Have {{0},{Complex 1}}  <Nothing> - <Something> SuperPosition, naming <Something> as ‘Rotatte[Base]’: Taking {Complex 1} as a de Broglie Wave Vector; The Vector Momentte is 1: the ‘Energy’ value for 1 Momentte is 1/Sqrt[2]; this value derived from Complex Unit Circle and Radian Measure relationship to Rotations.
+
+[1st pass assumptions starting from, assumptions changeable as Maths may dictate: Assuming some will under math analysis; Applies as a generality, how stay on the Yellow Brick Road]
+
+Rotatte[Base] is Unobservable as there is no Observer: Its ‘Pair’ is ‘Nothing’: It is the Zero Point in a Complex de Broglie Wave Quantum Harmonic Oscillator (CdBQHO); View as Surface Tension of Nothing, Minimalist ‘Energy’ ‘free fall’ down an ‘infinite well’, a Flat Surface on a superfluid having NO Surface Waves or Eddies.
+
+CdBQHO taken as Standing Wave Oscillator oscillating between Zero, defined as the {{0},{Rotatte[Base]}} Pair, and some Hyperreal Value that ‘Increments’ Per Cycle:  Incrimination based on powers of 2 in some manor; Hyperreal reflects ‘Classical’, will ignore for now as pure Rabbit Warren, focus on counts 1 – 8 as path to Standard Model mapping.
+
+CdBQHO is ‘Static’: Wave Count never goes down; Only increases per some Power of Two driven Construct’, thus the wave count is one way increasing Relativistic Function.
+
+Power of Two Ensures NOT “Getting Something From Nothing via ‘Pair Production’: Get Two Somethings that Sum to Nothing; The ‘Rotatte[Base]’ Exist in the SuperPosition Space of {{0},{Rotatte[Base]}}, its ‘Pair’ is the Vector {0} or Nothing.
+
+Taking ‘Rotatte[Base]’ as Minimalist Base of “ONE Momentte”: The QUANTA of Momentte; ‘The One Dimension Vector’, Orthogonal Only to Nothing, The ‘Unity’ Entity.
+
+
+ 
+
+
+This Momentte Wave Vector will have ‘Particle’ Properties Based on Wave – Particle Duality: 
+
+
+
+  
+
+
+
+
+
+Documentation ≠ expertise: Your docs were written for humans who read between lines, learn from others, go through onboarding, etc. If humans need more than documentation, so does your LLM. Think knowledge engineering, not data dumping 📚
+
+
+
+
+🎯 Once you realize that it's all probabilistic pattern matching, you stop fighting the technology and start working with it!
+
+
